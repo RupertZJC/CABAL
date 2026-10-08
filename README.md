@@ -70,7 +70,7 @@ require new reviewer profiles and additional generation components. The supplied
 snapshot through Semantic Scholar; recollection does not reconstruct the
 original experimental profiles.
 
-## Citation
+## 📚 Citation
 
 ```bibtex
 @misc{zhou2026cabal,
