@@ -1,0 +1,1212 @@
+[
+  {
+    "reviewer_id": "R0027",
+    "behavior_type": "collusion",
+    "stealth": "subtle",
+    "ring_id": "ring_A",
+    "ring_peers": [
+      "R0139"
+    ],
+    "target_paper_ids": [
+      "S0090"
+    ]
+  },
+  {
+    "reviewer_id": "R0139",
+    "behavior_type": "collusion",
+    "stealth": "subtle",
+    "ring_id": "ring_A",
+    "ring_peers": [
+      "R0027"
+    ],
+    "target_paper_ids": [
+      "S0081"
+    ]
+  },
+  {
+    "reviewer_id": "R0055",
+    "behavior_type": "collusion",
+    "stealth": "aggressive",
+    "ring_id": "ring_B",
+    "ring_peers": [
+      "R0009"
+    ],
+    "target_paper_ids": [
+      "S0027"
+    ]
+  },
+  {
+    "reviewer_id": "R0009",
+    "behavior_type": "collusion",
+    "stealth": "aggressive",
+    "ring_id": "ring_B",
+    "ring_peers": [
+      "R0055"
+    ],
+    "target_paper_ids": [
+      "S0038"
+    ]
+  },
+  {
+    "reviewer_id": "R0064",
+    "behavior_type": "collusion",
+    "stealth": "aggressive",
+    "ring_id": "ring_C",
+    "ring_peers": [
+      "R0049",
+      "R0135"
+    ],
+    "target_paper_ids": [
+      "S0016",
+      "S0029",
+      "S0007",
+      "S0083"
+    ]
+  },
+  {
+    "reviewer_id": "R0049",
+    "behavior_type": "collusion",
+    "stealth": "aggressive",
+    "ring_id": "ring_C",
+    "ring_peers": [
+      "R0064",
+      "R0135"
+    ],
+    "target_paper_ids": [
+      "S0016",
+      "S0083",
+      "S0049"
+    ]
+  },
+  {
+    "reviewer_id": "R0135",
+    "behavior_type": "collusion",
+    "stealth": "aggressive",
+    "ring_id": "ring_C",
+    "ring_peers": [
+      "R0064",
+      "R0049"
+    ],
+    "target_paper_ids": [
+      "S0029",
+      "S0007",
+      "S0049"
+    ]
+  },
+  {
+    "reviewer_id": "R0100",
+    "behavior_type": "collusion",
+    "stealth": "subtle",
+    "ring_id": "ring_D",
+    "ring_peers": [
+      "R0016"
+    ],
+    "target_paper_ids": [
+      "S0046"
+    ]
+  },
+  {
+    "reviewer_id": "R0016",
+    "behavior_type": "collusion",
+    "stealth": "subtle",
+    "ring_id": "ring_D",
+    "ring_peers": [
+      "R0100"
+    ],
+    "target_paper_ids": [
+      "S0002"
+    ]
+  },
+  {
+    "reviewer_id": "R0037",
+    "behavior_type": "collusion",
+    "stealth": "subtle",
+    "ring_id": "ring_E",
+    "ring_peers": [
+      "R0008"
+    ],
+    "target_paper_ids": [
+      "S0019"
+    ]
+  },
+  {
+    "reviewer_id": "R0008",
+    "behavior_type": "collusion",
+    "stealth": "subtle",
+    "ring_id": "ring_E",
+    "ring_peers": [
+      "R0037"
+    ],
+    "target_paper_ids": [
+      "S0072"
+    ]
+  },
+  {
+    "reviewer_id": "R0077",
+    "behavior_type": "collusion",
+    "stealth": "aggressive",
+    "ring_id": "ring_F",
+    "ring_peers": [
+      "R0056"
+    ],
+    "target_paper_ids": [
+      "S0066"
+    ]
+  },
+  {
+    "reviewer_id": "R0056",
+    "behavior_type": "collusion",
+    "stealth": "aggressive",
+    "ring_id": "ring_F",
+    "ring_peers": [
+      "R0077"
+    ],
+    "target_paper_ids": [
+      "S0008"
+    ]
+  },
+  {
+    "reviewer_id": "R0091",
+    "behavior_type": "collusion",
+    "stealth": "subtle",
+    "ring_id": "ring_G",
+    "ring_peers": [
+      "R0119",
+      "R0040"
+    ],
+    "target_paper_ids": [
+      "S0082",
+      "S0008"
+    ]
+  },
+  {
+    "reviewer_id": "R0119",
+    "behavior_type": "collusion",
+    "stealth": "subtle",
+    "ring_id": "ring_G",
+    "ring_peers": [
+      "R0091",
+      "R0040"
+    ],
+    "target_paper_ids": [
+      "S0082",
+      "S0001",
+      "S0074"
+    ]
+  },
+  {
+    "reviewer_id": "R0040",
+    "behavior_type": "collusion",
+    "stealth": "subtle",
+    "ring_id": "ring_G",
+    "ring_peers": [
+      "R0091",
+      "R0119"
+    ],
+    "target_paper_ids": [
+      "S0008",
+      "S0001",
+      "S0074"
+    ]
+  },
+  {
+    "reviewer_id": "R0051",
+    "behavior_type": "collusion",
+    "stealth": "subtle",
+    "ring_id": "ring_H",
+    "ring_peers": [
+      "R0007"
+    ],
+    "target_paper_ids": [
+      "S0059"
+    ]
+  },
+  {
+    "reviewer_id": "R0007",
+    "behavior_type": "collusion",
+    "stealth": "subtle",
+    "ring_id": "ring_H",
+    "ring_peers": [
+      "R0051"
+    ],
+    "target_paper_ids": [
+      "S0050"
+    ]
+  },
+  {
+    "reviewer_id": "R0006",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0005",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0061",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0131",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0065",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0080",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0030",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0012",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0125",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0043",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0110",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0059",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0107",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0001",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0046",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0066",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0095",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0072",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0028",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0002",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0070",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0078",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0018",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0033",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0099",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0047",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0034",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0101",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0129",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0015",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0004",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0048",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0111",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0092",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0023",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0093",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0074",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0127",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0098",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0021",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0050",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0130",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0085",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0062",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0057",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0031",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0094",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0126",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0121",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0039",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0087",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0045",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0128",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0132",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0069",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0029",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0067",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0079",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0024",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0122",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0073",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0071",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0097",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0136",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0088",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0010",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0076",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0108",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0032",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0025",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0113",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0044",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0013",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0054",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0068",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0102",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0081",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0035",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0115",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0053",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0084",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0036",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0118",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0124",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0096",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0022",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0052",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0014",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0082",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0020",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0138",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0109",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0104",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0134",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0063",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0026",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0116",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0083",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0038",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0112",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0114",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0133",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0105",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0137",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0089",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0120",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0042",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0011",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0086",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0075",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0058",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0117",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0123",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0106",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0060",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0017",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0041",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0003",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0019",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0140",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0090",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  },
+  {
+    "reviewer_id": "R0103",
+    "behavior_type": "honest",
+    "stealth": "",
+    "ring_id": "",
+    "ring_peers": [],
+    "target_paper_ids": []
+  }
+]

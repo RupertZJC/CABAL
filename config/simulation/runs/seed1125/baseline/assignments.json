@@ -1,0 +1,3118 @@
+{
+  "metrics": {
+    "total_assignments": 300,
+    "papers_covered": 100,
+    "global_avg_affinity": 0.4804,
+    "global_min_affinity": 0.0,
+    "avg_affinity_by_quality": {
+      "strong_accept": 0.5596,
+      "accept": 0.5375,
+      "borderline": 0.5063,
+      "reject": 0.3851
+    },
+    "per_paper": {
+      "S0023": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4849,
+        "min_affinity": 0.4243,
+        "max_affinity": 0.5867,
+        "quality": "strong_accept"
+      },
+      "S0098": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5813,
+        "min_affinity": 0.5329,
+        "max_affinity": 0.6137,
+        "quality": "strong_accept"
+      },
+      "S0047": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5977,
+        "min_affinity": 0.5577,
+        "max_affinity": 0.6253,
+        "quality": "strong_accept"
+      },
+      "S0083": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5912,
+        "min_affinity": 0.5414,
+        "max_affinity": 0.6569,
+        "quality": "strong_accept"
+      },
+      "S0049": {
+        "n_assigned": 3,
+        "avg_affinity": 0.543,
+        "min_affinity": 0.5005,
+        "max_affinity": 0.5787,
+        "quality": "strong_accept"
+      },
+      "S0096": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5288,
+        "min_affinity": 0.519,
+        "max_affinity": 0.5414,
+        "quality": "accept"
+      },
+      "S0077": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4277,
+        "min_affinity": 0.4166,
+        "max_affinity": 0.4468,
+        "quality": "accept"
+      },
+      "S0024": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5329,
+        "min_affinity": 0.4594,
+        "max_affinity": 0.578,
+        "quality": "accept"
+      },
+      "S0082": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5919,
+        "min_affinity": 0.5736,
+        "max_affinity": 0.6235,
+        "quality": "accept"
+      },
+      "S0043": {
+        "n_assigned": 3,
+        "avg_affinity": 0.3931,
+        "min_affinity": 0.3398,
+        "max_affinity": 0.4242,
+        "quality": "accept"
+      },
+      "S0029": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5251,
+        "min_affinity": 0.3803,
+        "max_affinity": 0.6073,
+        "quality": "accept"
+      },
+      "S0060": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5426,
+        "min_affinity": 0.4956,
+        "max_affinity": 0.5817,
+        "quality": "accept"
+      },
+      "S0040": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5663,
+        "min_affinity": 0.5394,
+        "max_affinity": 0.6173,
+        "quality": "accept"
+      },
+      "S0020": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5698,
+        "min_affinity": 0.551,
+        "max_affinity": 0.5919,
+        "quality": "accept"
+      },
+      "S0062": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5822,
+        "min_affinity": 0.5379,
+        "max_affinity": 0.6584,
+        "quality": "accept"
+      },
+      "S0039": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4556,
+        "min_affinity": 0.4424,
+        "max_affinity": 0.4818,
+        "quality": "accept"
+      },
+      "S0018": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5842,
+        "min_affinity": 0.5737,
+        "max_affinity": 0.6051,
+        "quality": "accept"
+      },
+      "S0003": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4632,
+        "min_affinity": 0.4533,
+        "max_affinity": 0.4746,
+        "quality": "accept"
+      },
+      "S0070": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5597,
+        "min_affinity": 0.5322,
+        "max_affinity": 0.5894,
+        "quality": "accept"
+      },
+      "S0097": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5732,
+        "min_affinity": 0.5354,
+        "max_affinity": 0.6393,
+        "quality": "accept"
+      },
+      "S0057": {
+        "n_assigned": 3,
+        "avg_affinity": 0.6096,
+        "min_affinity": 0.5301,
+        "max_affinity": 0.6541,
+        "quality": "accept"
+      },
+      "S0058": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5948,
+        "min_affinity": 0.586,
+        "max_affinity": 0.608,
+        "quality": "accept"
+      },
+      "S0019": {
+        "n_assigned": 3,
+        "avg_affinity": 0.6593,
+        "min_affinity": 0.6457,
+        "max_affinity": 0.6796,
+        "quality": "accept"
+      },
+      "S0044": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5595,
+        "min_affinity": 0.5388,
+        "max_affinity": 0.5719,
+        "quality": "accept"
+      },
+      "S0030": {
+        "n_assigned": 3,
+        "avg_affinity": 0.557,
+        "min_affinity": 0.5149,
+        "max_affinity": 0.5787,
+        "quality": "accept"
+      },
+      "S0045": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4615,
+        "min_affinity": 0.4234,
+        "max_affinity": 0.5322,
+        "quality": "accept"
+      },
+      "S0091": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5227,
+        "min_affinity": 0.5134,
+        "max_affinity": 0.539,
+        "quality": "accept"
+      },
+      "S0027": {
+        "n_assigned": 3,
+        "avg_affinity": 0.6095,
+        "min_affinity": 0.5387,
+        "max_affinity": 0.6484,
+        "quality": "accept"
+      },
+      "S0059": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5014,
+        "min_affinity": 0.4252,
+        "max_affinity": 0.5805,
+        "quality": "accept"
+      },
+      "S0054": {
+        "n_assigned": 3,
+        "avg_affinity": 0.466,
+        "min_affinity": 0.4498,
+        "max_affinity": 0.4811,
+        "quality": "accept"
+      },
+      "S0071": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4737,
+        "min_affinity": 0.4611,
+        "max_affinity": 0.4944,
+        "quality": "borderline"
+      },
+      "S0068": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5734,
+        "min_affinity": 0.4941,
+        "max_affinity": 0.615,
+        "quality": "borderline"
+      },
+      "S0042": {
+        "n_assigned": 3,
+        "avg_affinity": 0.48,
+        "min_affinity": 0.4425,
+        "max_affinity": 0.5288,
+        "quality": "borderline"
+      },
+      "S0085": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5702,
+        "min_affinity": 0.4981,
+        "max_affinity": 0.6227,
+        "quality": "borderline"
+      },
+      "S0041": {
+        "n_assigned": 3,
+        "avg_affinity": 0.462,
+        "min_affinity": 0.3617,
+        "max_affinity": 0.5144,
+        "quality": "borderline"
+      },
+      "S0011": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4713,
+        "min_affinity": 0.4444,
+        "max_affinity": 0.4981,
+        "quality": "borderline"
+      },
+      "S0090": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5363,
+        "min_affinity": 0.4973,
+        "max_affinity": 0.5572,
+        "quality": "borderline"
+      },
+      "S0012": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4536,
+        "min_affinity": 0.4235,
+        "max_affinity": 0.4897,
+        "quality": "borderline"
+      },
+      "S0052": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4559,
+        "min_affinity": 0.4031,
+        "max_affinity": 0.5545,
+        "quality": "borderline"
+      },
+      "S0016": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4646,
+        "min_affinity": 0.3267,
+        "max_affinity": 0.6041,
+        "quality": "borderline"
+      },
+      "S0084": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4574,
+        "min_affinity": 0.4033,
+        "max_affinity": 0.5064,
+        "quality": "borderline"
+      },
+      "S0005": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5355,
+        "min_affinity": 0.5247,
+        "max_affinity": 0.555,
+        "quality": "borderline"
+      },
+      "S0087": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5069,
+        "min_affinity": 0.4342,
+        "max_affinity": 0.5434,
+        "quality": "borderline"
+      },
+      "S0015": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5637,
+        "min_affinity": 0.4994,
+        "max_affinity": 0.645,
+        "quality": "borderline"
+      },
+      "S0092": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5357,
+        "min_affinity": 0.3808,
+        "max_affinity": 0.6216,
+        "quality": "borderline"
+      },
+      "S0028": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5229,
+        "min_affinity": 0.4997,
+        "max_affinity": 0.5388,
+        "quality": "borderline"
+      },
+      "S0007": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5629,
+        "min_affinity": 0.4924,
+        "max_affinity": 0.605,
+        "quality": "borderline"
+      },
+      "S0076": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4604,
+        "min_affinity": 0.336,
+        "max_affinity": 0.5732,
+        "quality": "borderline"
+      },
+      "S0080": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4306,
+        "min_affinity": 0.342,
+        "max_affinity": 0.5066,
+        "quality": "borderline"
+      },
+      "S0089": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4308,
+        "min_affinity": 0.3627,
+        "max_affinity": 0.4653,
+        "quality": "borderline"
+      },
+      "S0066": {
+        "n_assigned": 3,
+        "avg_affinity": 0.666,
+        "min_affinity": 0.6434,
+        "max_affinity": 0.6776,
+        "quality": "borderline"
+      },
+      "S0048": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5012,
+        "min_affinity": 0.4256,
+        "max_affinity": 0.5928,
+        "quality": "borderline"
+      },
+      "S0035": {
+        "n_assigned": 3,
+        "avg_affinity": 0.609,
+        "min_affinity": 0.5571,
+        "max_affinity": 0.6563,
+        "quality": "borderline"
+      },
+      "S0038": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5106,
+        "min_affinity": 0.4411,
+        "max_affinity": 0.5464,
+        "quality": "borderline"
+      },
+      "S0075": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4782,
+        "min_affinity": 0.4588,
+        "max_affinity": 0.4898,
+        "quality": "borderline"
+      },
+      "S0034": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5374,
+        "min_affinity": 0.4761,
+        "max_affinity": 0.6081,
+        "quality": "borderline"
+      },
+      "S0009": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5347,
+        "min_affinity": 0.5031,
+        "max_affinity": 0.5722,
+        "quality": "borderline"
+      },
+      "S0063": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4842,
+        "min_affinity": 0.4449,
+        "max_affinity": 0.5042,
+        "quality": "borderline"
+      },
+      "S0053": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5333,
+        "min_affinity": 0.5024,
+        "max_affinity": 0.592,
+        "quality": "borderline"
+      },
+      "S0079": {
+        "n_assigned": 3,
+        "avg_affinity": 0.3793,
+        "min_affinity": 0.3427,
+        "max_affinity": 0.4202,
+        "quality": "borderline"
+      },
+      "S0069": {
+        "n_assigned": 3,
+        "avg_affinity": 0.489,
+        "min_affinity": 0.3927,
+        "max_affinity": 0.5706,
+        "quality": "borderline"
+      },
+      "S0081": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5412,
+        "min_affinity": 0.5285,
+        "max_affinity": 0.5601,
+        "quality": "borderline"
+      },
+      "S0004": {
+        "n_assigned": 3,
+        "avg_affinity": 0.589,
+        "min_affinity": 0.4786,
+        "max_affinity": 0.7331,
+        "quality": "borderline"
+      },
+      "S0036": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4563,
+        "min_affinity": 0.4014,
+        "max_affinity": 0.5057,
+        "quality": "borderline"
+      },
+      "S0056": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5942,
+        "min_affinity": 0.5445,
+        "max_affinity": 0.6731,
+        "quality": "borderline"
+      },
+      "S0002": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4946,
+        "min_affinity": 0.4601,
+        "max_affinity": 0.5298,
+        "quality": "borderline"
+      },
+      "S0061": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4547,
+        "min_affinity": 0.3345,
+        "max_affinity": 0.5871,
+        "quality": "borderline"
+      },
+      "S0099": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5027,
+        "min_affinity": 0.4854,
+        "max_affinity": 0.527,
+        "quality": "borderline"
+      },
+      "S0025": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4958,
+        "min_affinity": 0.4492,
+        "max_affinity": 0.5881,
+        "quality": "borderline"
+      },
+      "S0026": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4514,
+        "min_affinity": 0.2977,
+        "max_affinity": 0.6106,
+        "quality": "borderline"
+      },
+      "S0100": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4564,
+        "min_affinity": 0.4244,
+        "max_affinity": 0.4979,
+        "quality": "reject"
+      },
+      "S0006": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4429,
+        "min_affinity": 0.4131,
+        "max_affinity": 0.4739,
+        "quality": "reject"
+      },
+      "S0033": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4243,
+        "min_affinity": 0.397,
+        "max_affinity": 0.4457,
+        "quality": "reject"
+      },
+      "S0014": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4594,
+        "min_affinity": 0.4287,
+        "max_affinity": 0.5065,
+        "quality": "reject"
+      },
+      "S0065": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4736,
+        "min_affinity": 0.4583,
+        "max_affinity": 0.4861,
+        "quality": "reject"
+      },
+      "S0067": {
+        "n_assigned": 3,
+        "avg_affinity": 0.39,
+        "min_affinity": 0.333,
+        "max_affinity": 0.4321,
+        "quality": "reject"
+      },
+      "S0095": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4905,
+        "min_affinity": 0.3789,
+        "max_affinity": 0.5637,
+        "quality": "reject"
+      },
+      "S0064": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4387,
+        "min_affinity": 0.4352,
+        "max_affinity": 0.4421,
+        "quality": "reject"
+      },
+      "S0086": {
+        "n_assigned": 3,
+        "avg_affinity": 0.3085,
+        "min_affinity": 0.0,
+        "max_affinity": 0.5506,
+        "quality": "reject"
+      },
+      "S0050": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4556,
+        "min_affinity": 0.4168,
+        "max_affinity": 0.4998,
+        "quality": "reject"
+      },
+      "S0022": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4459,
+        "min_affinity": 0.4326,
+        "max_affinity": 0.4538,
+        "quality": "reject"
+      },
+      "S0008": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4689,
+        "min_affinity": 0.4169,
+        "max_affinity": 0.532,
+        "quality": "reject"
+      },
+      "S0078": {
+        "n_assigned": 3,
+        "avg_affinity": 0.1169,
+        "min_affinity": 0.0,
+        "max_affinity": 0.3506,
+        "quality": "reject"
+      },
+      "S0001": {
+        "n_assigned": 3,
+        "avg_affinity": 0.0,
+        "min_affinity": 0.0,
+        "max_affinity": 0.0,
+        "quality": "reject"
+      },
+      "S0031": {
+        "n_assigned": 3,
+        "avg_affinity": 0.3215,
+        "min_affinity": 0.0,
+        "max_affinity": 0.5778,
+        "quality": "reject"
+      },
+      "S0093": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4283,
+        "min_affinity": 0.3052,
+        "max_affinity": 0.5216,
+        "quality": "reject"
+      },
+      "S0017": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4235,
+        "min_affinity": 0.3887,
+        "max_affinity": 0.4511,
+        "quality": "reject"
+      },
+      "S0046": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4254,
+        "min_affinity": 0.3472,
+        "max_affinity": 0.5014,
+        "quality": "reject"
+      },
+      "S0088": {
+        "n_assigned": 3,
+        "avg_affinity": 0.3382,
+        "min_affinity": 0.0,
+        "max_affinity": 0.5542,
+        "quality": "reject"
+      },
+      "S0094": {
+        "n_assigned": 3,
+        "avg_affinity": 0.0,
+        "min_affinity": 0.0,
+        "max_affinity": 0.0,
+        "quality": "reject"
+      },
+      "S0010": {
+        "n_assigned": 3,
+        "avg_affinity": 0.0,
+        "min_affinity": 0.0,
+        "max_affinity": 0.0,
+        "quality": "reject"
+      },
+      "S0073": {
+        "n_assigned": 3,
+        "avg_affinity": 0.3469,
+        "min_affinity": 0.0,
+        "max_affinity": 0.6257,
+        "quality": "reject"
+      },
+      "S0051": {
+        "n_assigned": 3,
+        "avg_affinity": 0.3509,
+        "min_affinity": 0.0,
+        "max_affinity": 0.6264,
+        "quality": "reject"
+      },
+      "S0037": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5305,
+        "min_affinity": 0.4984,
+        "max_affinity": 0.5557,
+        "quality": "reject"
+      },
+      "S0021": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4904,
+        "min_affinity": 0.4349,
+        "max_affinity": 0.5481,
+        "quality": "reject"
+      },
+      "S0074": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5418,
+        "min_affinity": 0.3867,
+        "max_affinity": 0.657,
+        "quality": "reject"
+      },
+      "S0055": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5545,
+        "min_affinity": 0.4433,
+        "max_affinity": 0.6608,
+        "quality": "reject"
+      },
+      "S0032": {
+        "n_assigned": 3,
+        "avg_affinity": 0.5241,
+        "min_affinity": 0.4924,
+        "max_affinity": 0.5552,
+        "quality": "reject"
+      },
+      "S0072": {
+        "n_assigned": 3,
+        "avg_affinity": 0.482,
+        "min_affinity": 0.4058,
+        "max_affinity": 0.5343,
+        "quality": "reject"
+      },
+      "S0013": {
+        "n_assigned": 3,
+        "avg_affinity": 0.4236,
+        "min_affinity": 0.411,
+        "max_affinity": 0.4332,
+        "quality": "reject"
+      }
+    }
+  },
+  "assignments": [
+    {
+      "paper_id": "S0023",
+      "reviewer_id": "R0122",
+      "affinity": 0.4438,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4438,
+      "paper_quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0023",
+      "reviewer_id": "R0093",
+      "affinity": 0.4243,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4243,
+      "paper_quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0023",
+      "reviewer_id": "R0099",
+      "affinity": 0.5867,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5867,
+      "paper_quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0098",
+      "reviewer_id": "R0119",
+      "affinity": 0.6137,
+      "bid_score": 2.0,
+      "aggregate_score": 4.6137,
+      "paper_quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0098",
+      "reviewer_id": "R0055",
+      "affinity": 0.5974,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5974,
+      "paper_quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0098",
+      "reviewer_id": "R0004",
+      "affinity": 0.5329,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5329,
+      "paper_quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0047",
+      "reviewer_id": "R0009",
+      "affinity": 0.6253,
+      "bid_score": 2.0,
+      "aggregate_score": 4.6253,
+      "paper_quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0047",
+      "reviewer_id": "R0061",
+      "affinity": 0.61,
+      "bid_score": 2.0,
+      "aggregate_score": 4.6101,
+      "paper_quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0047",
+      "reviewer_id": "R0028",
+      "affinity": 0.5577,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5577,
+      "paper_quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0083",
+      "reviewer_id": "R0010",
+      "affinity": 0.6569,
+      "bid_score": 1.0,
+      "aggregate_score": 2.6569,
+      "paper_quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0083",
+      "reviewer_id": "R0097",
+      "affinity": 0.5752,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5752,
+      "paper_quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0083",
+      "reviewer_id": "R0049",
+      "affinity": 0.5414,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5414,
+      "paper_quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0049",
+      "reviewer_id": "R0135",
+      "affinity": 0.5499,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5499,
+      "paper_quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0049",
+      "reviewer_id": "R0010",
+      "affinity": 0.5787,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5787,
+      "paper_quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0049",
+      "reviewer_id": "R0049",
+      "affinity": 0.5005,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5005,
+      "paper_quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0096",
+      "reviewer_id": "R0029",
+      "affinity": 0.5414,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5414,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0096",
+      "reviewer_id": "R0039",
+      "affinity": 0.5261,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5261,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0096",
+      "reviewer_id": "R0098",
+      "affinity": 0.519,
+      "bid_score": 1.0,
+      "aggregate_score": 2.519,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0077",
+      "reviewer_id": "R0029",
+      "affinity": 0.4468,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4468,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0077",
+      "reviewer_id": "R0128",
+      "affinity": 0.4196,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4196,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0077",
+      "reviewer_id": "R0037",
+      "affinity": 0.4166,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4166,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0024",
+      "reviewer_id": "R0077",
+      "affinity": 0.5614,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5614,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0024",
+      "reviewer_id": "R0127",
+      "affinity": 0.578,
+      "bid_score": 1.0,
+      "aggregate_score": 2.578,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0024",
+      "reviewer_id": "R0097",
+      "affinity": 0.4594,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4594,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0082",
+      "reviewer_id": "R0072",
+      "affinity": 0.6235,
+      "bid_score": 2.0,
+      "aggregate_score": 4.6235,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0082",
+      "reviewer_id": "R0056",
+      "affinity": 0.5786,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5786,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0082",
+      "reviewer_id": "R0059",
+      "affinity": 0.5736,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5736,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0043",
+      "reviewer_id": "R0098",
+      "affinity": 0.3398,
+      "bid_score": 2.0,
+      "aggregate_score": 4.3398,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0043",
+      "reviewer_id": "R0076",
+      "affinity": 0.4242,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4242,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0043",
+      "reviewer_id": "R0039",
+      "affinity": 0.4153,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4153,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0029",
+      "reviewer_id": "R0132",
+      "affinity": 0.3803,
+      "bid_score": 2.0,
+      "aggregate_score": 4.3803,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0029",
+      "reviewer_id": "R0097",
+      "affinity": 0.6073,
+      "bid_score": 1.0,
+      "aggregate_score": 2.6073,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0029",
+      "reviewer_id": "R0135",
+      "affinity": 0.5878,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5878,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0060",
+      "reviewer_id": "R0088",
+      "affinity": 0.5505,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5505,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0060",
+      "reviewer_id": "R0006",
+      "affinity": 0.4956,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4956,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0060",
+      "reviewer_id": "R0070",
+      "affinity": 0.5817,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5817,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0040",
+      "reviewer_id": "R0119",
+      "affinity": 0.6173,
+      "bid_score": 2.0,
+      "aggregate_score": 4.6173,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0040",
+      "reviewer_id": "R0021",
+      "affinity": 0.5421,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5421,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0040",
+      "reviewer_id": "R0091",
+      "affinity": 0.5394,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5394,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0020",
+      "reviewer_id": "R0016",
+      "affinity": 0.5665,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5665,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0020",
+      "reviewer_id": "R0095",
+      "affinity": 0.551,
+      "bid_score": 2.0,
+      "aggregate_score": 4.551,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0020",
+      "reviewer_id": "R0099",
+      "affinity": 0.5919,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5919,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0062",
+      "reviewer_id": "R0048",
+      "affinity": 0.6584,
+      "bid_score": 2.0,
+      "aggregate_score": 4.6584,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0062",
+      "reviewer_id": "R0027",
+      "affinity": 0.5503,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5503,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0062",
+      "reviewer_id": "R0100",
+      "affinity": 0.5379,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5379,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0039",
+      "reviewer_id": "R0012",
+      "affinity": 0.4818,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4818,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0039",
+      "reviewer_id": "R0095",
+      "affinity": 0.4426,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4426,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0039",
+      "reviewer_id": "R0079",
+      "affinity": 0.4424,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4424,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0018",
+      "reviewer_id": "R0044",
+      "affinity": 0.6051,
+      "bid_score": 2.0,
+      "aggregate_score": 4.6051,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0018",
+      "reviewer_id": "R0128",
+      "affinity": 0.5739,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5739,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0018",
+      "reviewer_id": "R0012",
+      "affinity": 0.5737,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5737,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0003",
+      "reviewer_id": "R0004",
+      "affinity": 0.4746,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4746,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0003",
+      "reviewer_id": "R0077",
+      "affinity": 0.4617,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4617,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0003",
+      "reviewer_id": "R0099",
+      "affinity": 0.4533,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4533,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0070",
+      "reviewer_id": "R0091",
+      "affinity": 0.5894,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5894,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0070",
+      "reviewer_id": "R0072",
+      "affinity": 0.5574,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5574,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0070",
+      "reviewer_id": "R0067",
+      "affinity": 0.5322,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5322,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0097",
+      "reviewer_id": "R0057",
+      "affinity": 0.6393,
+      "bid_score": 2.0,
+      "aggregate_score": 4.6393,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0097",
+      "reviewer_id": "R0088",
+      "affinity": 0.5354,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5354,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0097",
+      "reviewer_id": "R0037",
+      "affinity": 0.5448,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5448,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0057",
+      "reviewer_id": "R0050",
+      "affinity": 0.5301,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5301,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0057",
+      "reviewer_id": "R0119",
+      "affinity": 0.6541,
+      "bid_score": 1.0,
+      "aggregate_score": 2.6541,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0057",
+      "reviewer_id": "R0006",
+      "affinity": 0.6445,
+      "bid_score": 1.0,
+      "aggregate_score": 2.6445,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0058",
+      "reviewer_id": "R0139",
+      "affinity": 0.608,
+      "bid_score": 2.0,
+      "aggregate_score": 4.608,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0058",
+      "reviewer_id": "R0066",
+      "affinity": 0.5903,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5903,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0058",
+      "reviewer_id": "R0073",
+      "affinity": 0.586,
+      "bid_score": 2.0,
+      "aggregate_score": 4.586,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0019",
+      "reviewer_id": "R0056",
+      "affinity": 0.6796,
+      "bid_score": 2.0,
+      "aggregate_score": 4.6796,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0019",
+      "reviewer_id": "R0040",
+      "affinity": 0.6527,
+      "bid_score": 2.0,
+      "aggregate_score": 4.6527,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0019",
+      "reviewer_id": "R0091",
+      "affinity": 0.6457,
+      "bid_score": 2.0,
+      "aggregate_score": 4.6457,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0044",
+      "reviewer_id": "R0078",
+      "affinity": 0.5719,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5719,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0044",
+      "reviewer_id": "R0007",
+      "affinity": 0.5677,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5677,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0044",
+      "reviewer_id": "R0108",
+      "affinity": 0.5388,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5388,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0030",
+      "reviewer_id": "R0029",
+      "affinity": 0.5149,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5149,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0030",
+      "reviewer_id": "R0050",
+      "affinity": 0.5787,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5787,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0030",
+      "reviewer_id": "R0039",
+      "affinity": 0.5775,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5775,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0045",
+      "reviewer_id": "R0121",
+      "affinity": 0.4289,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4289,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0045",
+      "reviewer_id": "R0080",
+      "affinity": 0.4234,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4234,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0045",
+      "reviewer_id": "R0034",
+      "affinity": 0.5322,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5322,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0091",
+      "reviewer_id": "R0009",
+      "affinity": 0.539,
+      "bid_score": 2.0,
+      "aggregate_score": 4.539,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0091",
+      "reviewer_id": "R0061",
+      "affinity": 0.5158,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5158,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0091",
+      "reviewer_id": "R0015",
+      "affinity": 0.5134,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5134,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0027",
+      "reviewer_id": "R0061",
+      "affinity": 0.6484,
+      "bid_score": 1.0,
+      "aggregate_score": 2.6484,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0027",
+      "reviewer_id": "R0023",
+      "affinity": 0.6415,
+      "bid_score": 1.0,
+      "aggregate_score": 2.6415,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0027",
+      "reviewer_id": "R0078",
+      "affinity": 0.5387,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5387,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0059",
+      "reviewer_id": "R0002",
+      "affinity": 0.4984,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4984,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0059",
+      "reviewer_id": "R0067",
+      "affinity": 0.4252,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4252,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0059",
+      "reviewer_id": "R0037",
+      "affinity": 0.5805,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5805,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0054",
+      "reviewer_id": "R0013",
+      "affinity": 0.4671,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4671,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0054",
+      "reviewer_id": "R0127",
+      "affinity": 0.4811,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4811,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0054",
+      "reviewer_id": "R0088",
+      "affinity": 0.4498,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4498,
+      "paper_quality": "accept"
+    },
+    {
+      "paper_id": "S0071",
+      "reviewer_id": "R0093",
+      "affinity": 0.4944,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4944,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0071",
+      "reviewer_id": "R0094",
+      "affinity": 0.4656,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4656,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0071",
+      "reviewer_id": "R0048",
+      "affinity": 0.4611,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4611,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0068",
+      "reviewer_id": "R0108",
+      "affinity": 0.4941,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4941,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0068",
+      "reviewer_id": "R0056",
+      "affinity": 0.615,
+      "bid_score": 1.0,
+      "aggregate_score": 2.615,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0068",
+      "reviewer_id": "R0055",
+      "affinity": 0.6111,
+      "bid_score": 1.0,
+      "aggregate_score": 2.6111,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0042",
+      "reviewer_id": "R0010",
+      "affinity": 0.5288,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5288,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0042",
+      "reviewer_id": "R0050",
+      "affinity": 0.4687,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4687,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0042",
+      "reviewer_id": "R0049",
+      "affinity": 0.4425,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4425,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0085",
+      "reviewer_id": "R0025",
+      "affinity": 0.4981,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4981,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0085",
+      "reviewer_id": "R0030",
+      "affinity": 0.6227,
+      "bid_score": 1.0,
+      "aggregate_score": 2.6227,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0085",
+      "reviewer_id": "R0028",
+      "affinity": 0.5899,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5899,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0041",
+      "reviewer_id": "R0044",
+      "affinity": 0.3617,
+      "bid_score": 2.0,
+      "aggregate_score": 4.3617,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0041",
+      "reviewer_id": "R0006",
+      "affinity": 0.5144,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5144,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0041",
+      "reviewer_id": "R0094",
+      "affinity": 0.5099,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5099,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0011",
+      "reviewer_id": "R0077",
+      "affinity": 0.4981,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4981,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0011",
+      "reviewer_id": "R0021",
+      "affinity": 0.4714,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4714,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0011",
+      "reviewer_id": "R0055",
+      "affinity": 0.4444,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4444,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0090",
+      "reviewer_id": "R0051",
+      "affinity": 0.5572,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5572,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0090",
+      "reviewer_id": "R0028",
+      "affinity": 0.5545,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5545,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0090",
+      "reviewer_id": "R0073",
+      "affinity": 0.4973,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4973,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0012",
+      "reviewer_id": "R0031",
+      "affinity": 0.4897,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4897,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0012",
+      "reviewer_id": "R0027",
+      "affinity": 0.4475,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4475,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0012",
+      "reviewer_id": "R0080",
+      "affinity": 0.4235,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4235,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0052",
+      "reviewer_id": "R0136",
+      "affinity": 0.5545,
+      "bid_score": 0.0,
+      "aggregate_score": 0.5545,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0052",
+      "reviewer_id": "R0108",
+      "affinity": 0.4102,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4102,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0052",
+      "reviewer_id": "R0047",
+      "affinity": 0.4031,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4031,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0016",
+      "reviewer_id": "R0132",
+      "affinity": 0.3267,
+      "bid_score": 2.0,
+      "aggregate_score": 4.3267,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0016",
+      "reviewer_id": "R0064",
+      "affinity": 0.6041,
+      "bid_score": 1.0,
+      "aggregate_score": 2.6041,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0016",
+      "reviewer_id": "R0125",
+      "affinity": 0.4631,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4631,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0084",
+      "reviewer_id": "R0034",
+      "affinity": 0.5064,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5064,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0084",
+      "reviewer_id": "R0110",
+      "affinity": 0.4626,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4626,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0084",
+      "reviewer_id": "R0079",
+      "affinity": 0.4033,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4033,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0005",
+      "reviewer_id": "R0002",
+      "affinity": 0.5247,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5247,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0005",
+      "reviewer_id": "R0078",
+      "affinity": 0.555,
+      "bid_score": 1.0,
+      "aggregate_score": 2.555,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0005",
+      "reviewer_id": "R0139",
+      "affinity": 0.5267,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5267,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0087",
+      "reviewer_id": "R0024",
+      "affinity": 0.5434,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5434,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0087",
+      "reviewer_id": "R0128",
+      "affinity": 0.5431,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5431,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0087",
+      "reviewer_id": "R0080",
+      "affinity": 0.4342,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4342,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0015",
+      "reviewer_id": "R0018",
+      "affinity": 0.645,
+      "bid_score": 2.0,
+      "aggregate_score": 4.645,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0015",
+      "reviewer_id": "R0093",
+      "affinity": 0.5466,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5466,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0015",
+      "reviewer_id": "R0016",
+      "affinity": 0.4994,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4994,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0092",
+      "reviewer_id": "R0074",
+      "affinity": 0.3808,
+      "bid_score": 2.0,
+      "aggregate_score": 4.3808,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0092",
+      "reviewer_id": "R0030",
+      "affinity": 0.6216,
+      "bid_score": 1.0,
+      "aggregate_score": 2.6216,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0092",
+      "reviewer_id": "R0025",
+      "affinity": 0.6048,
+      "bid_score": 1.0,
+      "aggregate_score": 2.6048,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0028",
+      "reviewer_id": "R0067",
+      "affinity": 0.4997,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4997,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0028",
+      "reviewer_id": "R0032",
+      "affinity": 0.5388,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5388,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0028",
+      "reviewer_id": "R0126",
+      "affinity": 0.5301,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5301,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0007",
+      "reviewer_id": "R0074",
+      "affinity": 0.605,
+      "bid_score": 2.0,
+      "aggregate_score": 4.605,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0007",
+      "reviewer_id": "R0135",
+      "affinity": 0.5912,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5912,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0007",
+      "reviewer_id": "R0125",
+      "affinity": 0.4924,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4924,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0076",
+      "reviewer_id": "R0023",
+      "affinity": 0.5732,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5732,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0076",
+      "reviewer_id": "R0033",
+      "affinity": 0.336,
+      "bid_score": 1.0,
+      "aggregate_score": 2.336,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0076",
+      "reviewer_id": "R0002",
+      "affinity": 0.472,
+      "bid_score": 0.0,
+      "aggregate_score": 0.472,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0080",
+      "reviewer_id": "R0125",
+      "affinity": 0.5066,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5066,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0080",
+      "reviewer_id": "R0092",
+      "affinity": 0.4432,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4432,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0080",
+      "reviewer_id": "R0132",
+      "affinity": 0.342,
+      "bid_score": 1.0,
+      "aggregate_score": 2.342,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0089",
+      "reviewer_id": "R0062",
+      "affinity": 0.4653,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4653,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0089",
+      "reviewer_id": "R0130",
+      "affinity": 0.3627,
+      "bid_score": 2.0,
+      "aggregate_score": 4.3627,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0089",
+      "reviewer_id": "R0023",
+      "affinity": 0.4645,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4645,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0066",
+      "reviewer_id": "R0072",
+      "affinity": 0.6776,
+      "bid_score": 2.0,
+      "aggregate_score": 4.6776,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0066",
+      "reviewer_id": "R0040",
+      "affinity": 0.6769,
+      "bid_score": 2.0,
+      "aggregate_score": 4.6769,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0066",
+      "reviewer_id": "R0008",
+      "affinity": 0.6434,
+      "bid_score": 2.0,
+      "aggregate_score": 4.6434,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0048",
+      "reviewer_id": "R0073",
+      "affinity": 0.5928,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5928,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0048",
+      "reviewer_id": "R0139",
+      "affinity": 0.4853,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4853,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0048",
+      "reviewer_id": "R0066",
+      "affinity": 0.4256,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4256,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0035",
+      "reviewer_id": "R0129",
+      "affinity": 0.6563,
+      "bid_score": 1.0,
+      "aggregate_score": 2.6563,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0035",
+      "reviewer_id": "R0043",
+      "affinity": 0.6136,
+      "bid_score": 1.0,
+      "aggregate_score": 2.6136,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0035",
+      "reviewer_id": "R0016",
+      "affinity": 0.5571,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5571,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0038",
+      "reviewer_id": "R0043",
+      "affinity": 0.5464,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5464,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0038",
+      "reviewer_id": "R0004",
+      "affinity": 0.4411,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4411,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0038",
+      "reviewer_id": "R0005",
+      "affinity": 0.5444,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5444,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0075",
+      "reviewer_id": "R0015",
+      "affinity": 0.4898,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4898,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0075",
+      "reviewer_id": "R0009",
+      "affinity": 0.486,
+      "bid_score": 1.0,
+      "aggregate_score": 2.486,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0075",
+      "reviewer_id": "R0043",
+      "affinity": 0.4588,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4588,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0034",
+      "reviewer_id": "R0127",
+      "affinity": 0.6081,
+      "bid_score": 2.0,
+      "aggregate_score": 4.6081,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0034",
+      "reviewer_id": "R0054",
+      "affinity": 0.5279,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5279,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0034",
+      "reviewer_id": "R0040",
+      "affinity": 0.4761,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4761,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0009",
+      "reviewer_id": "R0046",
+      "affinity": 0.5722,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5722,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0009",
+      "reviewer_id": "R0024",
+      "affinity": 0.5288,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5288,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0009",
+      "reviewer_id": "R0069",
+      "affinity": 0.5031,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5031,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0063",
+      "reviewer_id": "R0054",
+      "affinity": 0.5042,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5042,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0063",
+      "reviewer_id": "R0008",
+      "affinity": 0.5034,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5034,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0063",
+      "reviewer_id": "R0092",
+      "affinity": 0.4449,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4449,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0053",
+      "reviewer_id": "R0032",
+      "affinity": 0.592,
+      "bid_score": 1.0,
+      "aggregate_score": 2.592,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0053",
+      "reviewer_id": "R0126",
+      "affinity": 0.5024,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5024,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0053",
+      "reviewer_id": "R0005",
+      "affinity": 0.5055,
+      "bid_score": 0.0,
+      "aggregate_score": 0.5055,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0079",
+      "reviewer_id": "R0032",
+      "affinity": 0.4202,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4202,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0079",
+      "reviewer_id": "R0111",
+      "affinity": 0.375,
+      "bid_score": 0.0,
+      "aggregate_score": 0.375,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0079",
+      "reviewer_id": "R0095",
+      "affinity": 0.3427,
+      "bid_score": 0.0,
+      "aggregate_score": 0.3427,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0069",
+      "reviewer_id": "R0136",
+      "affinity": 0.5706,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5706,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0069",
+      "reviewer_id": "R0047",
+      "affinity": 0.5038,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5038,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0069",
+      "reviewer_id": "R0074",
+      "affinity": 0.3927,
+      "bid_score": 1.0,
+      "aggregate_score": 2.3927,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0081",
+      "reviewer_id": "R0129",
+      "affinity": 0.5601,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5601,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0081",
+      "reviewer_id": "R0024",
+      "affinity": 0.535,
+      "bid_score": 2.0,
+      "aggregate_score": 4.535,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0081",
+      "reviewer_id": "R0100",
+      "affinity": 0.5285,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5285,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0004",
+      "reviewer_id": "R0100",
+      "affinity": 0.4786,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4786,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0004",
+      "reviewer_id": "R0129",
+      "affinity": 0.7331,
+      "bid_score": 1.0,
+      "aggregate_score": 2.7331,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0004",
+      "reviewer_id": "R0034",
+      "affinity": 0.5554,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5554,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0036",
+      "reviewer_id": "R0031",
+      "affinity": 0.5057,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5057,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0036",
+      "reviewer_id": "R0047",
+      "affinity": 0.4619,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4619,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0036",
+      "reviewer_id": "R0111",
+      "affinity": 0.4014,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4014,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0056",
+      "reviewer_id": "R0031",
+      "affinity": 0.5649,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5649,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0056",
+      "reviewer_id": "R0136",
+      "affinity": 0.5445,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5445,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0056",
+      "reviewer_id": "R0048",
+      "affinity": 0.6731,
+      "bid_score": 0.0,
+      "aggregate_score": 0.6731,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0002",
+      "reviewer_id": "R0018",
+      "affinity": 0.5298,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5298,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0002",
+      "reviewer_id": "R0070",
+      "affinity": 0.4939,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4939,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0002",
+      "reviewer_id": "R0122",
+      "affinity": 0.4601,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4601,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0061",
+      "reviewer_id": "R0071",
+      "affinity": 0.4424,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4424,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0061",
+      "reviewer_id": "R0033",
+      "affinity": 0.3345,
+      "bid_score": 2.0,
+      "aggregate_score": 4.3345,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0061",
+      "reviewer_id": "R0054",
+      "affinity": 0.5871,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5871,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0099",
+      "reviewer_id": "R0018",
+      "affinity": 0.527,
+      "bid_score": 1.0,
+      "aggregate_score": 2.527,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0099",
+      "reviewer_id": "R0045",
+      "affinity": 0.4958,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4958,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0099",
+      "reviewer_id": "R0101",
+      "affinity": 0.4854,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4854,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0025",
+      "reviewer_id": "R0131",
+      "affinity": 0.4502,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4502,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0025",
+      "reviewer_id": "R0008",
+      "affinity": 0.5881,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5881,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0025",
+      "reviewer_id": "R0110",
+      "affinity": 0.4492,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4492,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0026",
+      "reviewer_id": "R0111",
+      "affinity": 0.6106,
+      "bid_score": 1.0,
+      "aggregate_score": 2.6106,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0026",
+      "reviewer_id": "R0062",
+      "affinity": 0.446,
+      "bid_score": 1.0,
+      "aggregate_score": 2.446,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0026",
+      "reviewer_id": "R0085",
+      "affinity": 0.2977,
+      "bid_score": 1.0,
+      "aggregate_score": 2.2977,
+      "paper_quality": "borderline"
+    },
+    {
+      "paper_id": "S0100",
+      "reviewer_id": "R0062",
+      "affinity": 0.4979,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4979,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0100",
+      "reviewer_id": "R0085",
+      "affinity": 0.4469,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4469,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0100",
+      "reviewer_id": "R0130",
+      "affinity": 0.4244,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4244,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0006",
+      "reviewer_id": "R0131",
+      "affinity": 0.4417,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4417,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0006",
+      "reviewer_id": "R0121",
+      "affinity": 0.4131,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4131,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0006",
+      "reviewer_id": "R0070",
+      "affinity": 0.4739,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4739,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0033",
+      "reviewer_id": "R0025",
+      "affinity": 0.4457,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4457,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0033",
+      "reviewer_id": "R0013",
+      "affinity": 0.4302,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4302,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0033",
+      "reviewer_id": "R0027",
+      "affinity": 0.397,
+      "bid_score": 0.0,
+      "aggregate_score": 0.397,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0014",
+      "reviewer_id": "R0001",
+      "affinity": 0.443,
+      "bid_score": 2.0,
+      "aggregate_score": 4.443,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0014",
+      "reviewer_id": "R0059",
+      "affinity": 0.5065,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5065,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0014",
+      "reviewer_id": "R0005",
+      "affinity": 0.4287,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4287,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0065",
+      "reviewer_id": "R0051",
+      "affinity": 0.4861,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4861,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0065",
+      "reviewer_id": "R0001",
+      "affinity": 0.4583,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4583,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0065",
+      "reviewer_id": "R0021",
+      "affinity": 0.4765,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4765,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0067",
+      "reviewer_id": "R0098",
+      "affinity": 0.333,
+      "bid_score": 2.0,
+      "aggregate_score": 4.333,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0067",
+      "reviewer_id": "R0076",
+      "affinity": 0.4321,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4321,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0067",
+      "reviewer_id": "R0069",
+      "affinity": 0.4049,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4049,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0095",
+      "reviewer_id": "R0012",
+      "affinity": 0.5637,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5637,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0095",
+      "reviewer_id": "R0079",
+      "affinity": 0.5289,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5289,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0095",
+      "reviewer_id": "R0130",
+      "affinity": 0.3789,
+      "bid_score": 1.0,
+      "aggregate_score": 2.3789,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0064",
+      "reviewer_id": "R0001",
+      "affinity": 0.4421,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4421,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0064",
+      "reviewer_id": "R0051",
+      "affinity": 0.4388,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4388,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0064",
+      "reviewer_id": "R0101",
+      "affinity": 0.4352,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4352,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0086",
+      "reviewer_id": "R0064",
+      "affinity": 0.5506,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5506,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0086",
+      "reviewer_id": "R0101",
+      "affinity": 0.375,
+      "bid_score": 0.0,
+      "aggregate_score": 0.375,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0086",
+      "reviewer_id": "R0131",
+      "affinity": 0.0,
+      "bid_score": 0.0,
+      "aggregate_score": 0.0,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0050",
+      "reviewer_id": "R0007",
+      "affinity": 0.4502,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4502,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0050",
+      "reviewer_id": "R0015",
+      "affinity": 0.4998,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4998,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0050",
+      "reviewer_id": "R0059",
+      "affinity": 0.4168,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4168,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0022",
+      "reviewer_id": "R0094",
+      "affinity": 0.4514,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4514,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0022",
+      "reviewer_id": "R0122",
+      "affinity": 0.4538,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4538,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0022",
+      "reviewer_id": "R0057",
+      "affinity": 0.4326,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4326,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0008",
+      "reviewer_id": "R0092",
+      "affinity": 0.532,
+      "bid_score": 2.0,
+      "aggregate_score": 4.532,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0008",
+      "reviewer_id": "R0107",
+      "affinity": 0.4578,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4578,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0008",
+      "reviewer_id": "R0007",
+      "affinity": 0.4169,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4169,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0078",
+      "reviewer_id": "R0121",
+      "affinity": 0.3506,
+      "bid_score": 0.0,
+      "aggregate_score": 0.3506,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0078",
+      "reviewer_id": "R0065",
+      "affinity": 0.0,
+      "bid_score": 0.0,
+      "aggregate_score": 0.0,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0078",
+      "reviewer_id": "R0030",
+      "affinity": 0.0,
+      "bid_score": 0.0,
+      "aggregate_score": 0.0,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0001",
+      "reviewer_id": "R0065",
+      "affinity": 0.0,
+      "bid_score": 0.0,
+      "aggregate_score": 0.0,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0001",
+      "reviewer_id": "R0110",
+      "affinity": 0.0,
+      "bid_score": 0.0,
+      "aggregate_score": 0.0,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0001",
+      "reviewer_id": "R0107",
+      "affinity": 0.0,
+      "bid_score": 0.0,
+      "aggregate_score": 0.0,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0031",
+      "reviewer_id": "R0085",
+      "affinity": 0.5778,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5778,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0031",
+      "reviewer_id": "R0066",
+      "affinity": 0.3867,
+      "bid_score": 0.0,
+      "aggregate_score": 0.3867,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0031",
+      "reviewer_id": "R0065",
+      "affinity": 0.0,
+      "bid_score": 0.0,
+      "aggregate_score": 0.0,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0093",
+      "reviewer_id": "R0126",
+      "affinity": 0.5216,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5216,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0093",
+      "reviewer_id": "R0057",
+      "affinity": 0.4581,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4581,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0093",
+      "reviewer_id": "R0064",
+      "affinity": 0.3052,
+      "bid_score": 0.0,
+      "aggregate_score": 0.3052,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0017",
+      "reviewer_id": "R0045",
+      "affinity": 0.4511,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4511,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0017",
+      "reviewer_id": "R0107",
+      "affinity": 0.4307,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4307,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0017",
+      "reviewer_id": "R0069",
+      "affinity": 0.3887,
+      "bid_score": 0.0,
+      "aggregate_score": 0.3887,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0046",
+      "reviewer_id": "R0044",
+      "affinity": 0.5014,
+      "bid_score": 0.0,
+      "aggregate_score": 0.5014,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0046",
+      "reviewer_id": "R0013",
+      "affinity": 0.4277,
+      "bid_score": 0.0,
+      "aggregate_score": 0.4277,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0046",
+      "reviewer_id": "R0071",
+      "affinity": 0.3472,
+      "bid_score": 0.0,
+      "aggregate_score": 0.3472,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0088",
+      "reviewer_id": "R0071",
+      "affinity": 0.5542,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5542,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0088",
+      "reviewer_id": "R0033",
+      "affinity": 0.4604,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4604,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0088",
+      "reviewer_id": "R0046",
+      "affinity": 0.0,
+      "bid_score": 0.0,
+      "aggregate_score": 0.0,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0094",
+      "reviewer_id": "R0046",
+      "affinity": 0.0,
+      "bid_score": 0.0,
+      "aggregate_score": 0.0,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0094",
+      "reviewer_id": "R0087",
+      "affinity": 0.0,
+      "bid_score": 0.0,
+      "aggregate_score": 0.0,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0094",
+      "reviewer_id": "R0076",
+      "affinity": 0.0,
+      "bid_score": 0.0,
+      "aggregate_score": 0.0,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0010",
+      "reviewer_id": "R0087",
+      "affinity": 0.0,
+      "bid_score": 0.0,
+      "aggregate_score": 0.0,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0010",
+      "reviewer_id": "R0045",
+      "affinity": 0.0,
+      "bid_score": 0.0,
+      "aggregate_score": 0.0,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0010",
+      "reviewer_id": "R0113",
+      "affinity": 0.0,
+      "bid_score": 0.0,
+      "aggregate_score": 0.0,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0073",
+      "reviewer_id": "R0113",
+      "affinity": 0.0,
+      "bid_score": 0.0,
+      "aggregate_score": 0.0,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0073",
+      "reviewer_id": "R0087",
+      "affinity": 0.4151,
+      "bid_score": -1.0,
+      "aggregate_score": -1.5849,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0073",
+      "reviewer_id": "R0068",
+      "affinity": 0.6257,
+      "bid_score": 2.0,
+      "aggregate_score": 4.6257,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0051",
+      "reviewer_id": "R0113",
+      "affinity": 0.0,
+      "bid_score": 0.0,
+      "aggregate_score": 0.0,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0051",
+      "reviewer_id": "R0005",
+      "affinity": 0.6264,
+      "bid_score": 2.0,
+      "aggregate_score": 4.6264,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0051",
+      "reviewer_id": "R0133",
+      "affinity": 0.4264,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4264,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0037",
+      "reviewer_id": "R0073",
+      "affinity": 0.5557,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5557,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0037",
+      "reviewer_id": "R0078",
+      "affinity": 0.4984,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4984,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0037",
+      "reviewer_id": "R0101",
+      "affinity": 0.5373,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5373,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0021",
+      "reviewer_id": "R0134",
+      "affinity": 0.5481,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5481,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0021",
+      "reviewer_id": "R0012",
+      "affinity": 0.4882,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4882,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0021",
+      "reviewer_id": "R0079",
+      "affinity": 0.4349,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4348,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0074",
+      "reviewer_id": "R0109",
+      "affinity": 0.657,
+      "bid_score": 2.0,
+      "aggregate_score": 4.657,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0074",
+      "reviewer_id": "R0056",
+      "affinity": 0.5816,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5816,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0074",
+      "reviewer_id": "R0071",
+      "affinity": 0.3867,
+      "bid_score": 2.0,
+      "aggregate_score": 4.3867,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0055",
+      "reviewer_id": "R0104",
+      "affinity": 0.6608,
+      "bid_score": 2.0,
+      "aggregate_score": 4.6608,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0055",
+      "reviewer_id": "R0074",
+      "affinity": 0.5595,
+      "bid_score": 2.0,
+      "aggregate_score": 4.5595,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0055",
+      "reviewer_id": "R0130",
+      "affinity": 0.4433,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4433,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0032",
+      "reviewer_id": "R0063",
+      "affinity": 0.5552,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5552,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0032",
+      "reviewer_id": "R0133",
+      "affinity": 0.5246,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5246,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0032",
+      "reviewer_id": "R0107",
+      "affinity": 0.4924,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4924,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0072",
+      "reviewer_id": "R0113",
+      "affinity": 0.4058,
+      "bid_score": 2.0,
+      "aggregate_score": 4.4058,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0072",
+      "reviewer_id": "R0089",
+      "affinity": 0.5343,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5343,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0072",
+      "reviewer_id": "R0124",
+      "affinity": 0.5059,
+      "bid_score": 1.0,
+      "aggregate_score": 2.5059,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0013",
+      "reviewer_id": "R0066",
+      "affinity": 0.411,
+      "bid_score": 2.0,
+      "aggregate_score": 4.411,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0013",
+      "reviewer_id": "R0074",
+      "affinity": 0.4332,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4332,
+      "paper_quality": "reject"
+    },
+    {
+      "paper_id": "S0013",
+      "reviewer_id": "R0073",
+      "affinity": 0.4266,
+      "bid_score": 1.0,
+      "aggregate_score": 2.4266,
+      "paper_quality": "reject"
+    }
+  ]
+}

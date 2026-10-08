@@ -1,0 +1,73 @@
+{
+  "paper": "https://arxiv.org/abs/2609.05227",
+  "num_papers": 100,
+  "num_reviewers": 140,
+  "num_author_reviewers": 92,
+  "areas": [
+    "cs.LG",
+    "cs.CV",
+    "cs.CL",
+    "cs.AI"
+  ],
+  "llm_model": "deepseek-v4-flash",
+  "affinity_model": "all-MiniLM-L6-v2",
+  "bid_pool_size": 20,
+  "bid_labels": {
+    "Very Low": -100,
+    "Low": -1,
+    "Neutral": 0,
+    "High": 1,
+    "Very High": 2
+  },
+  "matcher": {
+    "type": "greedy",
+    "w_affinity": 1,
+    "w_bid": 2,
+    "reviews_per_paper": 3,
+    "max_reviewer_load": 5,
+    "author_min_load": 3,
+    "minimum_load_priority_boost": 1000
+  },
+  "collusion_rates": [
+    0,
+    0.2,
+    0.5
+  ],
+  "ring_sizes": [
+    2,
+    3
+  ],
+  "strategy_probabilities": {
+    "aggressive": 0.5,
+    "subtle": 0.5
+  },
+  "decoding": {
+    "reviewer_temperature": 0.4,
+    "grader_temperature": 0.2,
+    "max_output_tokens": 4096
+  },
+  "bidding_chunk_size": 10,
+  "structural_seeds": [
+    42,
+    921,
+    1125,
+    2024,
+    7777
+  ],
+  "run_labels": [
+    "seed42_001",
+    "seed42_002",
+    "seed42_003",
+    "seed0921",
+    "seed1125",
+    "seed2024",
+    "seed7777"
+  ],
+  "population_std_ddof": 0,
+  "detector_trials": 30,
+  "detector_seed": 0,
+  "detector_thresholds": [
+    1,
+    2
+  ]
+}

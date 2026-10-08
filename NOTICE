@@ -1,0 +1,22 @@
+CABAL: Multi-Agent Simulacra for Tracing the Effects of Collusive Bidding in Peer Review
+Copyright 2026 CABAL authors.
+
+Paper: https://arxiv.org/abs/2609.05227
+
+Code: Apache License 2.0 (LICENSE).
+De-identified numerical dataset and saved detector results: CC BY 4.0 (DATA_LICENSE.md).
+
+The detector implementations acknowledge the following work and source references:
+
+Jecmen et al., A Dataset on Malicious Paper Bidding in Peer Review (WWW 2023).
+https://github.com/sjecmen/malicious_bidding_dataset
+
+Jecmen et al., On the Detection of Reviewer-Author Collusion Rings From Paper Bidding.
+https://github.com/sjecmen/peer-review-collusion-detection
+
+The included evaluation code implements Counting, Pairwise Reciprocity,
+Low-rank Residual, OQC, TellTail, greedy densest, and Fraudar for CABAL inputs.
+TellTail and Fraudar additionally draw on the methods of Hooi et al.
+The CABAL ports include adaptations for multiple-paper authorship, bid encoding,
+random starts and tie handling, and a Charikar approximation for densest subgraph.
+Upstream datasets and researcher publication portfolios are not bundled.

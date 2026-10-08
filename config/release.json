@@ -1,0 +1,28 @@
+{
+  "version": "v0.1.0",
+  "paper": "https://arxiv.org/abs/2609.05227",
+  "reviewer_ids": "randomly reassigned R0001-R0140",
+  "paper_ids": "randomly reassigned S0001-S0100",
+  "profiles_included": false,
+  "free_text_reviews_included": false,
+  "removed_fields": [
+    "grader_reasoning",
+    "reasoning",
+    "research_areas",
+    "review_text",
+    "sample_publications",
+    "target_description"
+  ],
+  "dropped_field_counts": {
+    "grader_reasoning": 100,
+    "reasoning": 58800,
+    "research_areas": 2940,
+    "sample_publications": 2940,
+    "target_description": 2940,
+    "review_text": 6300
+  },
+  "profile_phrase_redactions_in_synthetic_text": 4,
+  "simulation_runs": 7,
+  "scenarios_per_run": 3,
+  "note": "Numerical values and input/output record order are retained; identifying background and generated rationale/review text are omitted."
+}

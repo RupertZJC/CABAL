@@ -1,0 +1,2241 @@
+[
+  {
+    "paper_id": "S0071",
+    "title": "Fine-Tuning Disentangled Context Memory for Video Editing with Flow-Based GRPO",
+    "abstract": "Recent video editing models struggle to maintain object identity across multiple edits. PermaVid introduced a disentangled context memory to address this, yet the memory readout is not directly optimized for user instruction adherence. In this work, we propose an incremental extension that applies a flow-based GRPO objective to fine-tune the context memory readout of a frozen video diffusion backbone, rewarding edits that preserve identity while following editing instructions. To make the approach tractable, we use a lightweight reward model based on clip similarity and an instruction-following metric. We evaluate in a limited setting on a subset of the EditBench dataset with 100 prompts per task, and report initial results suggesting modest gains in identity preservation over the PermaVid baseline, but we do not measure full editing quality or compare against recent instruction-editing baselines due to compute constraints. We also omit ablations of the reward weighting and memory size. While the improvement is marginal and the evaluation incomplete, our preliminary findings indicate that reinforcement fine-tuning of memory modules is a promising direction, though substantial revision and broader benchmarking are required for any practical deployment.",
+    "keywords": [
+      "video editing",
+      "diffusion models",
+      "GRPO",
+      "context memory",
+      "reinforcement learning"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0070"
+    ],
+    "generated_at": "2026-08-19T15:42:34.040255",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0068",
+    "title": "Multi-Turn LLM Performance in Interactive Fiction Across EU Languages: A Preliminary Evaluation",
+    "abstract": "Recent research has highlighted disparities in multi-turn LLM performance across languages, but the impact of these disparities on complex interactive tasks remains underexplored. We investigate the performance of several multilingual LLMs in text-based game environments, where agents must maintain coherent dialogue and follow narrative constraints over multiple turns. Extending a prior multi-turn evaluation framework developed for EU-24 languages (Author, 2026), we focus on a subset of five languages and two interactive fiction scenarios. We measure dialogue consistency and task completion rates, comparing three proprietary and two open-weight models. Initial results suggest that model rankings shift across languages and that even high-performing models exhibit inconsistent behavior in game contexts, such as losing track of inventory items or contradicting prior statements. However, our evaluation is limited to a small set of scenarios, a short dialogue history of at most eight turns, and we do not include fine-tuned or instruction-tuned variants of the open models. We also lack a human baseline and do not perform ablations. Despite these limitations, our findings point to the need for more nuanced, task-oriented evaluation of multilingual multi-turn capabilities. We release our prompts and scenario descriptions for future work.",
+    "keywords": [
+      "multilingual LLM evaluation",
+      "multi-turn dialogue",
+      "interactive fiction",
+      "language disparities",
+      "conversational coherence"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0067"
+    ],
+    "generated_at": "2026-08-19T15:42:34.850100",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0042",
+    "title": "A Deep Reinforcement Learning Extension for Privacy Budget Allocation in Encrypted Range Queries over Mobile Clouds",
+    "abstract": "Privacy-preserving range queries in mobile cloud environments face a fundamental trade-off between query accuracy and privacy budget consumption, especially under varying workload intensities. While existing works have applied heuristic or rule-based strategies to allocate privacy budgets, these methods fail to adapt to dynamic query arrival patterns. In this paper, we extend a deep reinforcement learning (DRL) framework, originally developed for scheduling in blockchain payment channel networks, to the problem of privacy budget allocation for encrypted range queries in mobile edge clouds. The proposed method, termed DRL-PRQ, models each query as a state feature and learns a policy that selects either a Laplace mechanism or a truncated Gaussian mechanism per query, under a cumulative budget constraint. We evaluate DRL-PRQ in a limited simulation setting using a synthetic Gaussian dataset and a single query workload trace. Compared with a fixed-budget baseline, our initial results suggest that DRL-PRQ can reduce average query latency by approximately 12% while maintaining comparable privacy loss, though the improvement is not consistent across all privacy parameter regimes. We do not evaluate against other learning-based baselines or real-world datasets, and the reward shaping requires further tuning. Overall, this is a marginal and preliminary step toward adaptive privacy-aware query processing, requiring substantial revision and more comprehensive benchmarking.",
+    "keywords": [
+      "privacy-preserving range queries",
+      "deep reinforcement learning",
+      "mobile edge cloud",
+      "privacy budget allocation",
+      "Laplace mechanism"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0125"
+    ],
+    "generated_at": "2026-08-19T15:42:37.108976",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0085",
+    "title": "Initializing Graph Neural Recommenders with Multi-Hop Knowledge Graph Embeddings: A Preliminary Study",
+    "abstract": "Recent work has shown that incorporating knowledge graphs into recommender systems can alleviate data sparsity and improve interpretability. In this paper, we propose a simple extension to an existing graph neural network (GNN) based recommender by initializing user and item embeddings with pre-trained multi-hop knowledge graph representations. Specifically, we take entity embeddings obtained from a multi-hop reasoning model over a knowledge graph and use them as initial node features in a light graph convolution network. We then apply a lightweight attention mechanism to aggregate neighborhood information during propagation. We evaluate our approach in a limited setting on two public datasets, comparing only against a single baseline due to computational constraints. Initial results suggest that the proposed initialization yields modest improvements in Recall@20 and NDCG@20 over the baseline, but the gains are not consistent across all item categories. We do not include a full ablation study of the attention component or a sensitivity analysis of hyperparameters, and we acknowledge that a more comprehensive evaluation against state-of-the-art methods is required. Overall, our findings indicate that this direction is promising but requires further investigation to fully validate its effectiveness.",
+    "keywords": [
+      "recommender systems",
+      "knowledge graphs",
+      "graph neural networks",
+      "multi-hop reasoning",
+      "collaborative filtering"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0066"
+    ],
+    "generated_at": "2026-08-19T15:42:34.060394",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0023",
+    "title": "DiffPatch: Distributional Location-Aware Adversarial Patches for Robust World Models",
+    "abstract": "We present DiffPatch, a new generative framework for distributional adversarial patch robustness in vision-based world models. Unlike prior patch attacks that optimize a single appearance at a fixed location, DiffPatch learns a conditional diffusion model over the joint space of patch appearance and placement, allowing continuous-scale, physically realizable adversarial patches to be synthesized at any position. We formulate a new minimax training objective that couples the denoising network with a world model's perception encoder, and we solve it via a differentiable alternating update. This joint training enables the world model to defend against a distribution of patch attacks rather than a single one. On the nuScenes and KITTI future-prediction benchmarks, DiffPatch improves state-of-the-art robust accuracy from 62.3% to 68.7% and from 57.1% to 63.4%, respectively, under a 2% patch-area budget. On the CARLA autonomous-driving benchmark, the resulting world model raises end-to-end driving success from 71.5% to 78.2% and reduces collision rate by 31%. The gains are consistent across unseen patch scales, locations, and illuminations, confirming that DiffPatch learns a genuinely robust and generalizable patch distribution.",
+    "keywords": [
+      "adversarial patches",
+      "diffusion models",
+      "world models",
+      "robust perception",
+      "autonomous driving"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "strong_accept",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0069"
+    ],
+    "generated_at": "2026-08-19T15:42:44.569536",
+    "generation_model": "llm",
+    "quality": "strong_accept",
+    "grader_score": 8.0
+  },
+  {
+    "paper_id": "S0098",
+    "title": "LinguaTurn: A Multi-Turn Multilingual Benchmark and Counterfactual Turn-Augmented Fine-Tuning for Robust Instruction Following",
+    "abstract": "Although large language models (LLMs) achieve strong performance on single-turn instruction following, their accuracy degrades substantially in multi-turn conversations, particularly for lower-resourced European languages. We introduce LinguaTurn, a new benchmark containing 10,000 multi-turn dialogues with instructions and reference responses, covering 24 EU languages and 4 language families. LinguaTurn comes with turn-level metrics for coherence and consistency, enabling fine-grained comparisons. We evaluate six open-weight and proprietary LLMs (Llama-3-8B-Instruct, Mistral-7B, Gemma-7B, GPT-4, Claude-3.5, and GPT-3.5) and find that performance drops by an average of 11.7% between single-turn and fifth-turn instructions, with the largest drops for Estonian and Maltese. To address this, we propose Counterfactual Turn-Augmented Fine-tuning (CTAF), a data-curation strategy that reorders, inserts distractors, and removes turns to make models robust to dialogue dynamics. On LinguaTurn, CTAF improves accuracy by 4.2 points over standard fine-tuning and by 6.1 points over zero-shot prompting, with negligible cost on standard single-turn benchmarks. Human evaluation on a 200-dialogue subset confirms that CTAF outputs are more coherent and consistent. We release code and data.",
+    "keywords": [
+      "multi-turn dialogue",
+      "multilingual evaluation",
+      "instruction following",
+      "fine-tuning",
+      "LLM robustness"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "accept",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0067"
+    ],
+    "generated_at": "2026-08-19T15:42:41.348195",
+    "generation_model": "llm",
+    "quality": "strong_accept",
+    "grader_score": 7.0
+  },
+  {
+    "paper_id": "S0096",
+    "title": "Language-Modulated Overfitting Control in Offline Reinforcement Learning",
+    "abstract": "Deep offline reinforcement learning (RL) is often prone to overfitting to the static dataset, particularly when the training environment is narrow. Recent work has shown that regulating overfitting significantly improves online deep RL, but less is known about whether the same regularization transfers to the offline setting. In this paper, we investigate a straightforward extension: adding dropout and weight decay to an offline RL algorithm while augmenting its reward signal with auxiliary semantic rewards generated by a pretrained language model. We combine these two ingredients in a single framework and evaluate on a limited set of tasks from the D4RL benchmark, using only the medium-expert and medium datasets for two locomotion environments. In our experiments, the proposed regularization improves normalized score on half of the tested datasets, while on the other half it slightly degrades performance relative to a standard CQL baseline. We also ablate the language-model reward component alone and find inconsistent gains. We report a complementary analysis of the learned Q-values to provide initial evidence about the interaction between the two components. These initial results are mixed but suggest that language-modulated overfitting control may help in offline RL when the dataset is narrow, but not across the board. We believe substantial further tuning and larger-scale evaluation are necessary before drawing stronger conclusions.",
+    "keywords": [
+      "offline reinforcement learning",
+      "overfitting regularization",
+      "language-model reward shaping",
+      "CQL",
+      "D4RL"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0050"
+    ],
+    "generated_at": "2026-08-19T15:42:35.036692",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 6.0
+  },
+  {
+    "paper_id": "S0100",
+    "title": "Applying Deep Temporal Graph Learning to Fake News Propagation: A Preliminary Study on a Small Twitter Dataset",
+    "abstract": "We present a preliminary application of deep temporal graph learning to the task of fake news propagation modeling. Specifically, we apply a structural embedding pre-trained temporal graph network, originally developed for general dynamic graph forecasting, to the spread of misinformation on social media. Our goal is to explore whether this existing method can capture the temporal dynamics of fake news cascades when adapted with minimal changes. We use a single, small dataset of 500 manually annotated fake news propagation trees extracted from Twitter, covering a two-week period. In our initial experiments, we train the model to predict the next node in the cascade and report accuracy and F1 scores on a held-out test set. We do not compare against any baselines, as the focus is on feasibility rather than superiority. The results show moderate performance, indicating that the approach may have some potential but requires substantial further investigation. We explicitly acknowledge the limitations: the dataset is very small, there is no benchmarking against state-of-the-art methods, and the model is applied off-the-shelf without any domain-specific adaptation. Consequently, our findings are only suggestive and should be interpreted with caution.",
+    "keywords": [
+      "temporal graph learning",
+      "fake news propagation",
+      "deep learning",
+      "graph neural networks",
+      "social media"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "reject",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0074"
+    ],
+    "generated_at": "2026-08-19T15:42:31.751106",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 2.0
+  },
+  {
+    "paper_id": "S0041",
+    "title": "Latency-Aware Scheduling for Geometry-Grounded Track-Anything Models in Streaming Video",
+    "abstract": "We present an incremental extension of the G2TAM framework by coupling it with a latency-aware scheduling heuristic originally designed for streaming 3D perception. The core contribution is a geometric-displacement gate that decides when to run the tracking model, reducing inference frequency while preserving object identity in video. This combines existing ideas from geometry grounding and latency-aware perception into a single pipeline. We evaluate in a limited setting: one video sequence from MMSI-Video-Bench, two object categories, and we compare against a single baseline (fixed-frame-rate G2TAM). We do not perform ablations on the gate threshold, nor do we test on other benchmarks. Initial results suggest that the proposed gate reduces model invocations by ~20% with only a minor decrease in association accuracy in this specific scenario. These are preliminary findings; the gain is modest and may not generalize to cluttered scenes or higher-speed egomotion. We believe the idea is interesting but requires substantial revision, more thorough evaluation, and an expanded ablation study before any stronger claim can be made.",
+    "keywords": [
+      "track anything",
+      "geometry grounding",
+      "latency-aware perception",
+      "streaming video",
+      "video object association"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0095"
+    ],
+    "generated_at": "2026-08-19T15:42:46.330500",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0011",
+    "title": "Applying Structured Chain-of-Thought Prompting to Quantum Circuit Code Generation: Initial Experiments",
+    "abstract": "We apply structured chain-of-thought (CoT) prompting, previously proposed for general-purpose code generation, to the new domain of quantum circuit code generation. The method is used exactly as originally described, with no adaptation or methodological novelty. We explore whether its staged decomposition—requirement analysis, algorithm planning, and code synthesis—transfers from imperative Python code to the gate-based, declarative style of Qiskit programs. In initial experiments on a single author-collected dataset of 80 natural-language-to-quantum-circuit problems, we use one large language model (GPT-4) and report raw generation outcomes. The structured prompt yields syntactically valid Qiskit code in most cases, but functional correctness, measured by matching reference circuit outputs, is low and highly variable across problem types. We do not compare against other prompting methods, do not test multiple models, and do not ablate any components. The dataset is small, domain-specific, and created by the authors, so results may not generalize. These preliminary findings indicate that structured CoT offers only limited benefit for this domain, warranting further study with larger datasets and stronger evaluation.",
+    "keywords": [
+      "structured chain-of-thought",
+      "quantum circuit generation",
+      "code generation",
+      "large language models",
+      "Qiskit"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "reject",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0004"
+    ],
+    "generated_at": "2026-08-19T15:42:46.603441",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0077",
+    "title": "Batch-Aware Contrastive Fine-Tuning of Universal Cell Embeddings with Dynamic Hard Negative Mining",
+    "abstract": "Universal cell embeddings are foundation models that encode single-cell RNA-seq profiles into a shared latent space, enabling transfer across datasets and tissues. However, their generalization is limited by residual batch effects and the difficulty of learning discriminative features for rare cell types. We introduce CellAlign, a self-supervised contrastive fine-tuning method that adapts a pre-trained universal embedding model to a noisy target corpus while preserving its broad prior knowledge. CellAlign constructs positive pairs via reciprocal k-nearest neighbors in the embedding space and uses a dynamic hard negative mining strategy that prioritizes in-batch negatives that are close in the embedding but distinct in the observed expression program. To mitigate catastrophic forgetting, we add a regularization term that anchors the fine-tuned model to the original embedding function. We evaluate CellAlign on six publicly available single-cell datasets spanning diverse tissues and sequencing protocols, benchmarking against the frozen foundation model, scVI, and a vanilla contrastive fine-tuning baseline. CellAlign improves average cell-type classification F1 by 11.3% and batch-integration metrics (kBET and ARI) by a large margin, with largest gains on rare populations. While the method requires a representative target dataset for fine-tuning and incurs moderate compute overhead, it consistently outperforms baselines even with as few as 10,000 cells. Our results demonstrate that targeted contrastive fine-tuning is a practical, low-resource pathway to adapt universal cell embeddings to domain-specific single-cell atlases.",
+    "keywords": [
+      "single-cell RNA-seq",
+      "universal cell embeddings",
+      "contrastive learning",
+      "batch effect correction",
+      "self-supervised fine-tuning"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "accept",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0113"
+    ],
+    "generated_at": "2026-08-19T15:42:41.770981",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 5.5
+  },
+  {
+    "paper_id": "S0090",
+    "title": "Latent Entity Anchors for In-Context Knowledge Graph Completion: Initial Results with Code World Models",
+    "abstract": "Knowledge graph foundation models (KGFMs) such as KGPFN have shown that in-context learning can adapt to unseen graph schemas. However, their performance degrades when entity labels are sparse or semantically ambiguous, because the model must infer entity identity solely from the prompt. In this paper we combine two existing ideas: we inject latent entity anchors extracted from a code world model (VisualPatchWorld-style patch encodings) into the in-context exemplars of KGPFN. The anchors are generated offline by a pretrained patch transformer and appended as structured tokens to each example, rather than training a new architecture. This is an incremental extension of prior work, not a new method. We evaluate on two subsets of Wikidata5M and a small biomedical triple set, measuring Hits@10 and MRR. Our initial results suggest that anchor injection yields modest gains on entities with patch-correlated images, while performance on text-only entities is unchanged. We do not compare against full KGPFN baselines with larger context windows, and we omit ablation of the anchor dimension and injection position. In this limited setting, we cannot yet determine whether the gains are due to the anchors or to the increased prompt length. Overall, the contribution is marginal and needs substantial revision.",
+    "keywords": [
+      "knowledge graphs",
+      "in-context learning",
+      "latent representations",
+      "world models",
+      "KG completion"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0139"
+    ],
+    "generated_at": "2026-08-19T15:42:44.927031",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0012",
+    "title": "SignAlign: Language-Guided Cross-Modal Contrastive Learning for Isolated Sign Language Recognition",
+    "abstract": "We propose SignAlign, a novel contrastive learning framework for isolated sign language recognition that jointly aligns pose keypoint sequences and RGB frames with textual gloss embeddings from a pre-trained language model. The core contribution is a pose-aware attention module that learns to weight each keypoint by its linguistic salience, guided by a distillation objective from a multi-modal model, thereby reducing noise from irrelevant body movements. To further mitigate modality bias, we introduce a cross-modal consistency regularizer that aligns classifier predictions across pose and RGB streams, and combine it with a masked temporal contrastive loss for robust representation learning. On the WLASL100 and MSASL100 benchmarks, SignAlign achieves 82.4% and 85.1% top-1 accuracy, outperforming recent sign recognition baselines by 3.2 and 2.7 percentage points, respectively. Using only 5% of labeled training data, our semi-supervised variant surpasses fully supervised baselines, demonstrating the effectiveness of leveraging language priors. We also analyze failure cases involving signs with high handshape variation, which points to limitations in current keypoint representations. Code and models will be released publicly.",
+    "keywords": [
+      "sign language recognition",
+      "cross-modal learning",
+      "contrastive learning",
+      "pose estimation",
+      "vision-language models"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "accept",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0018"
+    ],
+    "generated_at": "2026-08-19T15:42:50.477527",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0024",
+    "title": "Watermarking Multilingual ASR Transcripts: An Initial Extension of TextSeal to Speech Recognition Outputs",
+    "abstract": "We propose a lightweight extension of TextSeal, a localized LLM watermarking scheme, to the outputs of multilingual automatic speech recognition (ASR) systems. The goal is to embed provenance markers directly into ASR transcripts so that synthetic or machine-generated text can be traced back to its source model. Our approach adapts the token-level watermarking mechanism of TextSeal to operate on ASR hypotheses, exploiting the fact that ASR decoders typically produce token sequences over a fixed vocabulary. We apply the watermark during beam search by biasing the selection of tokens that carry a secret key, similar to the original TextSeal formulation. We evaluate on transcripts from two multilingual ASR systems (faster-whisper and a small fine-tuned wav2vec2.0 model) for four languages (English, French, Hindi, and Swahili) from the Common Voice corpus. Results show that watermark detection remains robust for English and French, but degradation occurs for lower-resource languages due to higher word error rates and tokenization mismatches. We also observe a slight increase in word error rate (average +0.8%) when the watermark is enabled. Our study is limited to a single dataset and two ASR models; we do not evaluate against stronger paraphrasing attacks or test on streaming ASR. Initial results suggest that TextSeal-based watermarking can be transferred to ASR transcripts with modest cost, but more work is needed to handle multilingual tokenization and to preserve quality in low-resource settings.",
+    "keywords": [
+      "multilingual ASR",
+      "watermarking",
+      "TextSeal",
+      "provenance",
+      "low-resource languages"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0092"
+    ],
+    "generated_at": "2026-08-19T15:42:49.880651",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 5.0
+  },
+  {
+    "paper_id": "S0052",
+    "title": "Applying Function-Space Variational Inference to Uncertainty-Aware Bank Term Deposit Prediction: A Preliminary Study",
+    "abstract": "Function-space variational inference (FSVI) is a recent approach for uncertainty estimation in Bayesian neural networks that directly matches a variational distribution in function space. In this paper, we apply FSVI to the problem of predicting bank term deposit subscriptions from telemarketing call data. We use the UCI Bank Marketing dataset, from which we randomly select a subset of 5,000 instances to keep computational costs manageable. We train a Bayesian neural network with a Gaussian process prior in function space using the FSVI objective and report classification accuracy, AUC, and expected calibration error. Our initial experiments show that FSVI can be trained on this small dataset and achieves reasonable performance in terms of accuracy (around 0.86) and calibration (ECE around 0.05). However, we do not compare against other uncertainty estimation methods or even a standard neural network baseline, so the practical benefits of FSVI in this domain remain unclear. We also note that the dataset is heavily imbalanced and our subset may not be representative. These preliminary results are intended to explore the feasibility of applying FSVI beyond the synthetic benchmarks in the original work; we make no claims of state-of-the-art performance.",
+    "keywords": [
+      "function-space variational inference",
+      "Bayesian neural networks",
+      "uncertainty estimation",
+      "term deposit prediction",
+      "preliminary study"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "reject",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0126"
+    ],
+    "generated_at": "2026-08-19T15:43:03.490091",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0047",
+    "title": "Grounded Latent World Models: Evidence-Constrained State Abstractions for Knowledge-Consistent Planning",
+    "abstract": "World models that plan in learned latent spaces are prone to hallucinated transitions—latent states that are not entailed by observed evidence. We formalize this failure as the problem of grounded latent consistency, and propose GLOW (Grounded Latent Optimization with World-knowledge), a novel framework that couples a latent world model with a knowledge-graph foundation model and an agentic entailment verifier. At each planning step, GLOW performs differentiable optimization over the latent code, simultaneously minimizing transition prediction error and maximizing entailment probability with respect to retrieved evidence paths from the knowledge graph. To evaluate this setting we introduce WorldPlanBench, a new benchmark of 2,000 long-horizon plan generation tasks in four domains, each paired with gold knowledge evidence. GLOW sets state-of-the-art results: plan success climbs from 41.3% to 68.9% on WorldPlanBench, from 25.6% to 47.3% on ALFWorld, and 0.93 plan executability (vs 0.71 for the strongest prior) on VirtualHome. Importantly, GLOW cuts hallucinated state entities by 74.2% relative to the strongest latent world model baseline on our state-consistency metric, and improves downstream task reward by 22.4% on average across all benchmarks. These results demonstrate that explicit evidence grounding of latent state abstractions is necessary and feasible for reliable world-model planning.",
+    "keywords": [
+      "grounded latent world models",
+      "knowledge graph foundation models",
+      "planning",
+      "evidence grounding",
+      "entailment verification"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "strong_accept",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0139"
+    ],
+    "generated_at": "2026-08-19T15:42:57.446738",
+    "generation_model": "llm",
+    "quality": "strong_accept",
+    "grader_score": 9.0
+  },
+  {
+    "paper_id": "S0006",
+    "title": "Zero-Shot Isolated Sign Language Recognition with CLIP: A Preliminary Study",
+    "abstract": "We explore the application of a pre-trained vision-language model, CLIP, to isolated sign language recognition. Our method treats each sign language video as a sequence of static frames, extracts frame-level features using CLIP's image encoder, and classifies via cosine similarity with text embeddings of gloss labels. No fine-tuning, architectural modification, or temporal modeling is employed. We conduct initial experiments on a small subset of the MSASL dataset, consisting of 20 sign classes and 500 videos. Preliminary results indicate that this straightforward application achieves a top-1 accuracy of approximately 18%, which is substantially lower than specialized sign language models reported in the literature. However, we note that no baseline comparisons are included in this study. The primary limitations are the absence of temporal information, the reliance on frame sampling, the restricted vocabulary size, and the lack of hyperparameter tuning. We position this work as an initial exploration to assess the feasibility of directly using general-purpose vision-language models for sign language understanding, and we highlight open challenges for future research.",
+    "keywords": [
+      "sign language recognition",
+      "vision-language models",
+      "CLIP",
+      "zero-shot classification",
+      "cross-modal"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "reject",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0018"
+    ],
+    "generated_at": "2026-08-19T15:42:59.540126",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 2.0
+  },
+  {
+    "paper_id": "S0082",
+    "title": "Language-Adaptive Denoising Pre-training for Multilingual Machine Translation",
+    "abstract": "Multilingual denoising pre-training has become a standard recipe for neural machine translation, but existing methods apply a uniform corruption strategy to all languages during pre-training. In this paper, we identify that uniformly sampled span masking is suboptimal for multilingual translation because it fails to account for differences in token frequency, morphological complexity, and data availability across languages. We propose LanAdapt-Corrupt, a language-adaptive denoising objective that adjusts span length and masking rate per language during pre-training. The schedule is derived from a small, cheap set of language-family statistics, namely the average token length, morphological productivity, and corpus size; low-resource and highly inflectional languages use shorter, less aggressive corruption to preserve surface forms that are difficult to reconstruct. To facilitate transfer, we also introduce a shared corruption-policy network that predicts span lengths from language embeddings and is trained jointly with the denoiser. We pre-train a model on 25 languages and evaluate it on the WMT-9 and TED-8 many-to-many translation benchmarks. Our model outperforms random-span denoising baselines, including mBART, by +1.8 BLEU on average, and improves low-resource translation by up to +3.1 BLEU. In addition, it remains competitive on high-resource pairs. Ablations confirm that both the language-adaptive schedule and the policy network contribute to the gain. A limitation is that the schedule depends on coarse language-family typology and may not generalize to dialectal variation; we leave fine-grained adaptation for future work.",
+    "keywords": [
+      "multilingual neural machine translation",
+      "denoising pre-training",
+      "span corruption",
+      "low-resource translation",
+      "language typology"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "accept",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0040"
+    ],
+    "generated_at": "2026-08-19T15:43:15.997115",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 5.0
+  },
+  {
+    "paper_id": "S0016",
+    "title": "Applying Adaptive Federated Averaging to Wearable Stress Detection: Initial Experiments and Preliminary Results",
+    "abstract": "We apply adaptive federated averaging (FedAvg with per-client learning rates) to the task of stress detection from wearable sensor data. This is a direct application of an existing method to a new domain, and we do not propose any algorithmic modifications. We explore whether adaptive per-client step sizes can improve convergence and accuracy in a federated setting where user data is distributed across devices and cannot be shared due to privacy constraints. We run initial experiments on a small public dataset of 12 participants with a simple feedforward network and a fixed number of communication rounds. Our preliminary results show that adaptive federated averaging reaches a higher test accuracy than standard FedAvg after 50 rounds in a single train/test split. However, this work has several clear limitations: the dataset is small and homogeneous, we do not compare against any other federated optimization methods or centralized baselines, and we do not perform any hyperparameter tuning. Additionally, the privacy analysis is limited to the use of federated averaging without any formal differential privacy guarantees. These results should be viewed as an early exploration rather than a conclusive evaluation.",
+    "keywords": [
+      "federated learning",
+      "adaptive learning rates",
+      "wearable sensors",
+      "stress detection",
+      "privacy"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "reject",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0135"
+    ],
+    "generated_at": "2026-08-19T15:42:54.586722",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0043",
+    "title": "Role-Conditioned Advantage Estimation for Cooperative Policy Learning in Imperfect-Information Tabletop Games",
+    "abstract": "We introduce Role-Conditioned Advantage Estimation (RCAE), a novel policy-gradient method for training cooperative agents in multiplayer tabletop games with imperfect information. RCAE decomposes the shared team reward into role-specific advantage estimates using a mixed-motive potential function, allowing a single policy network to simultaneously optimize distinct agent roles (e.g., leader, supporter, or scout) while preserving joint coordination. The method requires no additional domain knowledge beyond a role assignment, making it applicable to a range of cooperative tabletop settings. We evaluate RCAE on two benchmark environments: a cooperative variant of Hanabi with four roles and a hidden-traitor tabletop game with asymmetric objectives. We compare against standard PPO, independent PPO, and a state-of-the-art opponent-modeling baseline. Results show that RCAE achieves statistically significant improvements in team win rate by 9.2% in Hanabi and 11.7% in the hidden-traitor game, while also producing more interpretable and behaviorally distinct role profiles, as measured by a behavioral embedding analysis. We further ablate the contribution of the potential function and show that RCAE is robust to varying team compositions. Minor limitations include a fixed role assignment during training and increased computational cost for the advantage estimator. Overall, RCAE offers a practical and effective framework for role-aware multi-agent training in imperfect-information games.",
+    "keywords": [
+      "multi-agent reinforcement learning",
+      "tabletop games",
+      "advantage estimation",
+      "role specialization",
+      "imperfect information"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "accept",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0046"
+    ],
+    "generated_at": "2026-08-19T15:42:59.279125",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 6.0
+  },
+  {
+    "paper_id": "S0084",
+    "title": "Zero-Shot Grounded Cells: A Preliminary Study of Grounded SAM for Nuclei Segmentation in Histopathology Images",
+    "abstract": "Recent open-world vision models such as Grounded SAM combine grounding and segmentation capabilities, allowing users to prompt with free-form text. In this paper, we investigate a straightforward extension: using Grounded SAM in a zero-shot manner to segment cell nuclei from H&E-stained histopathology images. We prompt the model with descriptive texts such as 'nucleus' and 'cell' and evaluate on a subset of the public PanNuke dataset containing 250 images. Our initial results show that while the model can localize some nuclei, the segmentation quality is brittle—varying with prompt phrasing and image stain color—and the average Dice score (0.32) is considerably lower than the supervised U-Net baseline (0.71). We do not fine-tune or adapt the model, and we did not have the resources to run ablations on prompt templates or to compare across additional datasets. We also observe that combining multiple prompt terms can sometimes confuse the grounding module, resulting in false positives on non-nucleus structures. Our limited experiments suggest that direct zero-shot application of open-world grounding models to histopathology is not yet competitive, but the ability to interactively prompt may still offer a useful starting point for annotation. We release our evaluation code and prompt templates to facilitate reproducibility.",
+    "keywords": [
+      "Grounded SAM",
+      "zero-shot segmentation",
+      "histopathology",
+      "nuclei segmentation",
+      "vision-language models"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0080"
+    ],
+    "generated_at": "2026-08-19T15:43:30.264660",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0005",
+    "title": "Conformal Relevance Labeling for Black-box Retrieval-Augmented Generation: A Preliminary Study",
+    "abstract": "We propose Conformal Relevance Labeling (CRL), an extension of the ARL2 framework for aligning retrievers with black-box large language models (LLMs). ARL2 uses self-guided adaptive relevance labeling to train retrieval models without access to LLM internals, but produces only point-wise relevance scores without uncertainty estimates. CRL adds a conformal prediction layer to output calibrated confidence sets over retrieved passages, enabling the LLM to abstain or expand its retrieval set when uncertainty is high. We evaluate CRL on two open-domain QA benchmarks (Natural Questions and TriviaQA) using a fixed black-box LLM (GPT-3.5) and a bi-encoder retriever. In this limited setting, CRL yields modest gains over ARL2 in answer recall and expected calibration error, and the conformal sets are often small yet informative. However, we do not compare against other uncertainty-aware retrieval methods, nor do we ablate the effects of calibration set size or self-guided labeling iterations. Initial results suggest that conformal prediction can provide a useful uncertainty signal for black-box RAG, though improvements on TriviaQA fall within noise range. Overall, the contribution is incremental, combining two existing ideas with preliminary evidence that warrants further investigation.",
+    "keywords": [
+      "conformal prediction",
+      "retrieval-augmented generation",
+      "black-box LLM",
+      "uncertainty calibration",
+      "relevance labeling"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0108"
+    ],
+    "generated_at": "2026-08-19T15:43:02.242297",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0029",
+    "title": "Applying a Blockchain-Based Reputation Mechanism to Federated Learning for Heart Disease Prediction: A Preliminary Study",
+    "abstract": "We apply an existing blockchain-based reputation aggregation mechanism, originally designed for collaborative spectrum sensing, to the domain of cross-silo federated learning for heart disease prediction. The mechanism maintains a decentralized reputation score for each participating client and uses it to weight model updates during aggregation. We implement this approach on top of standard FedAvg and simulate a federated environment using the UCI Heart Disease dataset, partitioned across five clients to mimic different hospital data distributions. In initial experiments, the reputation mechanism successfully mitigates the impact of a single label-flipping adversary, with accuracy degradation reduced compared to naive averaging. However, this preliminary work has major limitations. The evaluation is restricted to a single small dataset with a binary classification task, and no baseline comparisons are made against established robust aggregation methods such as Krum, Trimmed Mean, or coordinate-wise median. The threat model considers only one attack type, the client population is fixed, and blockchain parameters are taken directly from the original protocol without tuning. As an early exploratory study, our findings should be interpreted with caution; extensive validation on larger, more heterogeneous datasets and a broader set of adversarial scenarios is necessary before drawing any practical conclusions.",
+    "keywords": [
+      "federated learning",
+      "blockchain",
+      "reputation mechanism",
+      "heart disease prediction",
+      "preliminary study"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "reject",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0049"
+    ],
+    "generated_at": "2026-08-19T15:43:06.522696",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 5.0
+  },
+  {
+    "paper_id": "S0033",
+    "title": "Applying Structure-Adaptive Multi-View Graph Clustering to Multispectral Drone Imagery: Preliminary Results",
+    "abstract": "Multi-view graph clustering has shown promising results for remote sensing image analysis. In this paper, we apply a state-of-the-art structure-adaptive multi-view graph clustering method, originally developed for satellite remote sensing, to a new domain: multispectral drone imagery of agricultural crop fields. This is a direct application with no methodological novelty; we reuse the original algorithm and its default parameters. We conduct initial experiments on a single small dataset comprising 120 drone images collected from one farm. No baseline comparisons are performed, and we do not tune any hyperparameters. The preliminary results indicate a clustering accuracy of only 61.8% on our dataset, which is substantially lower than typical results reported for the original domain. Visual inspection of the clusters shows poor separation between crop types and many fragmented clusters. These findings suggest that the existing algorithm does not transfer well without domain-specific adaptations. We explicitly acknowledge the limitations of this work, including the small dataset size, the lack of comparison, and the single-run evaluation. We consider this a preliminary exploration rather than a comprehensive study. Future work will involve larger datasets, hyperparameter tuning, and comparisons with existing clustering baselines.",
+    "keywords": [
+      "multi-view graph clustering",
+      "remote sensing",
+      "drone imagery",
+      "transferability",
+      "preliminary study"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "reject",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0130"
+    ],
+    "generated_at": "2026-08-19T15:43:19.869470",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 1.0
+  },
+  {
+    "paper_id": "S0087",
+    "title": "A Preliminary Study on Region-Level Visual Reward Modeling for Referring Expression Comprehension",
+    "abstract": "Recent progress in multimodal reward models has shown promise for aligning vision-language models with human preferences. In this work, we present a straightforward extension of the Unified Reward Model (URM) to region-level visual preference scoring for referring expression comprehension. Our approach combines URM's existing global scoring capability with a visual equivalence signal computed from cropped image regions, following the idea of Visual-ERM. We construct preference pairs from the RefCOCOg dataset and fine-tune URM using a margin ranking loss. In a limited evaluation, we compare our model against URM and a random baseline on the validation set, reporting only accuracy on the held-out split. Initial results suggest that the region-aware reward model provides a slight improvement in preference ranking accuracy over the baseline, but the gain is not consistent across all categories. Due to compute constraints, we do not perform ablations on the equivalence signal or cross-dataset generalization. These preliminary findings indicate that while region-level reward modeling is a plausible direction, substantial refinement and additional evaluation are required before the approach can be considered practical. We discuss potential limitations and future work.",
+    "keywords": [
+      "reward modeling",
+      "visual equivalence",
+      "referring expression comprehension",
+      "preference alignment",
+      "multimodal understanding"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0093"
+    ],
+    "generated_at": "2026-08-19T15:43:11.168222",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0014",
+    "title": "Applying Fine-tuned Qwen-7B to Cross-Lingual Entity Alignment in Historical Chinese Local Gazetteers: A Preliminary Study",
+    "abstract": "We apply a fine-tuned Qwen-7B model to the task of cross-lingual entity alignment between historical Chinese local gazetteers and a modern geographic knowledge base. The task requires linking person and place names in classical Chinese text to English-language entries in Wikidata, which is challenging due to historical naming conventions and sparse contextual clues. Our approach is a straightforward application of an existing seq2seq fine-tuning recipe: we treat alignment as a generation problem and train Qwen-7B on a small corpus of 120 manually aligned gazetteer excerpts. We report preliminary results on a held-out set of 30 excerpts, achieving an accuracy of 0.62 for place entities and 0.41 for person entities. We do not compare against baselines, as the dataset is built solely for this study and no prior work has directly addressed this exact setting. We acknowledge clear limitations: the dataset is very small and skews toward well-known localities, no error analysis is provided, and the fine-tuning procedure is borrowed without modification from prior work. These initial experiments suggest that large language models can assist human indexers, but the results are far from production-ready and require substantial further research.",
+    "keywords": [
+      "cross-lingual entity alignment",
+      "historical Chinese gazetteers",
+      "Qwen-7B",
+      "fine-tuning",
+      "preliminary study"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "reject",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0078"
+    ],
+    "generated_at": "2026-08-19T15:43:16.063632",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 2.0
+  },
+  {
+    "paper_id": "S0015",
+    "title": "Sparse Embedding Modulation for Chain-of-Thought Spatial Reasoning in Frozen Vision-Language Models: A Preliminary Study",
+    "abstract": "Sparse Embedding Modulation (SEM) was recently introduced as a post-hoc debiasing method for vision-language models (VLMs) by selectively modulating a small subset of embedding dimensions. In this work, we extend SEM to the task of chain-of-thought (CoT) spatial reasoning for single-view 3D scene understanding. We apply SEM to a frozen VLM that is prompted to describe the layout of objects in a single RGB image and then answer questions about their relative positions. Our hypothesis is that SEM can reduce the object-attribute biases that often cause VLMs to produce implausible spatial relations. We evaluate our approach on a small subset of the ScanNet dataset, restricted to three object categories, and compare against two baselines: the unmodified VLM and a random modulation variant. Initial results suggest that SEM yields a slight improvement in answer accuracy (+2.3%) and produces more geometrically consistent CoT explanations. However, the gains are inconsistent across object pairs, and we do not perform ablations on the sparse modulation rate or compare to full fine-tuning or recent debiasing methods such as prompt tuning. These limitations make the findings preliminary; substantial further evaluation is required to establish the effectiveness of SEM for spatial reasoning.",
+    "keywords": [
+      "vision-language models",
+      "sparse embedding modulation",
+      "chain-of-thought reasoning",
+      "spatial reasoning",
+      "3D scene understanding"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0088"
+    ],
+    "generated_at": "2026-08-19T15:43:14.678545",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0092",
+    "title": "Multi-Hop Knowledge Graph Reasoning for Session-Based Recommendation: An Incremental Extension and Preliminary Evaluation",
+    "abstract": "Multi-hop knowledge graph reasoning has shown promise for interpretable link prediction, yet its application to recommendation has been mostly limited to static settings. In this paper, we extend a recently proposed few-shot knowledge graph reasoning framework to session-based recommendation by treating user-item interactions as entity-relation paths. Our approach adapts the reasoning module to incorporate session context and produces path-based explanations for recommended items. We evaluate the method on two public datasets, comparing against a single baseline and a non-reasoning variant. Initial results suggest that the proposed extension can improve recommendation accuracy and provide more interpretable path explanations, but the gains are inconsistent across settings and the path explanations occasionally contain irrelevant entities. Due to time and computational constraints, we do not perform extensive hyperparameter tuning, ablation studies, or comparison with state-of-the-art sequential recommenders. The evaluation is limited to offline accuracy metrics and a small qualitative analysis of path quality. Overall, this is a preliminary study indicating that adapting multi-hop reasoning to session-based recommendation is feasible, though substantial further work is required to establish robust improvements.",
+    "keywords": [
+      "knowledge graph reasoning",
+      "session-based recommendation",
+      "multi-hop reasoning",
+      "explainability",
+      "sequential recommendation"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0066"
+    ],
+    "generated_at": "2026-08-19T15:43:10.218421",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0060",
+    "title": "Semi-Supervised Referring Image Segmentation via Vision-Language Pseudo-Labeling and Prompt-Based Refinement",
+    "abstract": "Recent work has shown that large vision-language models can serve as effective teachers for dense prediction tasks. In this paper, we explore a semi-supervised setting for referring image segmentation, where only a small set of image-region-text pairs is labeled and a large corpus of unlabeled images is available. We propose a simple framework that extends existing referring segmentation models (e.g., PolyFormer) by generating pseudo masks from a frozen vision-language model and then refining them with a prompt-aware student network. Our method also incorporates task explanation prompts to guide the student model across different referring expressions. We evaluate on the RefCOCO dataset with only 10% labeled data and compare against fully supervised baselines. Initial results suggest that our method improves over a strong self-training baseline by 2.3% IoU, but the gap to fully supervised remains large. We also observe that pseudo-label noise severely limits performance on harder expressions. Due to time constraints, we only report results on RefCOCO and do not include ablations on prompt designs or comparisons with other semi-supervised methods. Overall, our work presents a preliminary step toward reducing annotation cost for referring segmentation, though substantial improvements are needed.",
+    "keywords": [
+      "referring image segmentation",
+      "semi-supervised learning",
+      "vision-language model",
+      "pseudo-labeling",
+      "prompt-based refinement"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0128"
+    ],
+    "generated_at": "2026-08-19T15:43:15.951096",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 5.0
+  },
+  {
+    "paper_id": "S0065",
+    "title": "Zero-Shot Entity Typing in 19th-Century Encyclopedia Snippets Using a Pre-trained Cross-Encoder: A Preliminary Study",
+    "abstract": "Zero-shot entity typing in historical encyclopedia snippets is important for digital humanities. We apply a pre-trained cross-encoder model, originally designed for fine-grained entity typing in modern news text, to a new domain: a single small dataset of 200 snippets from a 19th-century encyclopedia. The method is used off-the-shelf with no fine-tuning, no prompt engineering, and no task-specific modifications. We explore its zero-shot performance by mapping the model's 125-type taxonomy to three coarse types (Person, Location, Organization). Initial experiments show a macro-F1 of 0.61 on this one dataset, with no baseline comparisons or ablation studies. We explicitly acknowledge that the dataset is very small, contains annotation noise, and the taxonomy mismatch leads to frequent misclassifications. Nested mentions are not handled, and the model's performance on rare types is poor. These preliminary results are insufficient to support any general claim. This paper presents a straightforward application of an existing model to a new domain, and no methodological novelty is claimed.",
+    "keywords": [
+      "entity typing",
+      "zero-shot learning",
+      "historical text",
+      "pre-trained language model",
+      "cross-encoder"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "reject",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0078"
+    ],
+    "generated_at": "2026-08-19T15:43:24.457358",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 2.0
+  },
+  {
+    "paper_id": "S0028",
+    "title": "Exploring Hallucinated Claims in Python Question Answering: A Preliminary Application of the FACTOR Framework",
+    "abstract": "Recent work has shown that evaluating large language models for accuracy can inadvertently incentivize hallucinated outputs. We apply the FACTOR hallucination evaluation framework, originally developed for open-domain question answering, to a new domain: technical question answering about the Python programming language. Our dataset consists of 120 manually collected Stack Overflow questions and corresponding answers generated by a fine-tuned LLaMA-2 model. Using the FACTOR prompt, we measure the proportion of answers containing unsupported claims. Initial experiments suggest that accuracy-based scoring indeed encourages the model to produce statements not entailed by the provided context, replicating prior findings in this new setting. However, these preliminary results are based on a single small dataset, and we do not compare against any baseline methods or alternative evaluation metrics. The lack of baselines, limited dataset size, and absence of statistical testing mean our conclusions are only suggestive. We explore this setting as a first step, and we explicitly acknowledge that broader claims about model behavior would require substantially larger and more diverse evaluation sets, multiple random seeds, and significance testing. This work is intended as a preliminary exploration only.",
+    "keywords": [
+      "hallucination",
+      "evaluation framework",
+      "question answering",
+      "Python",
+      "preliminary study"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "reject",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0057"
+    ],
+    "generated_at": "2026-08-19T15:43:22.961584",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0067",
+    "title": "Follower-Guided Rollout Policies for Monte Carlo Tree Search in Cooperative Tabletop Games",
+    "abstract": "Monte Carlo Tree Search (MCTS) is widely used in tabletop game agents, but cooperative domains remain difficult because the search must align individual actions with team goals. In this paper, we adapt the following-the-leader heuristic, originally developed for competitive multiplayer tabletop games, to cooperative settings and combine it with MCTS by using a lightweight leader-follower policy to bias rollouts. The leader is selected by a hand-crafted ranking over state features, and all other agents imitate the leader's chosen action during the rollout phase. We evaluate this approach in a limited setting: a single scenario of a cooperative tabletop game with three agents and a fixed initial state. Initial results suggest that follower-guided rollouts improve the win rate over random-rollout MCTS by a small margin, although the gain is not consistent across seeds and disappears when the leader ranking is inaccurate. Because the game environment was modified after a reinforcement learning baseline had been trained, we were unable to include that baseline, and we did not run ablations on rollout count or leader definition. These preliminary findings indicate that the proposed method can modestly help MCTS in cooperative tabletop games, but the contribution remains marginal and would need substantial revision before general claims are justified.",
+    "keywords": [
+      "Monte Carlo Tree Search",
+      "cooperative games",
+      "tabletop games",
+      "rollout policy",
+      "leader-follower"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0046"
+    ],
+    "generated_at": "2026-08-19T15:43:36.018125",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 2.0
+  },
+  {
+    "paper_id": "S0095",
+    "title": "Applying a Pretrained Denoising Diffusion Spatio-Spectral Model to Hyperspectral Image Super-Resolution: Initial Experiments on a Single Urban Scene",
+    "abstract": "We apply a pretrained denoising diffusion spatio-spectral model to hyperspectral image super-resolution. The model, originally designed for restoration, is transferred as-is to enhance the spatial resolution of a single small hyperspectral image of an urban scene, without any adjustment or fine-tuning. We explore the influence of the number of diffusion steps and the noise scaling factor on the output quality. Initial experiments, based only on this one dataset, yield qualitative and quantitative results in terms of PSNR, SSIM, and SAM. However, we report no comparison with existing super-resolution approaches, and the evaluation is limited to a single scene. The lack of baselines, the small scale of the data, and the absence of a careful sensitivity analysis constitute clear limitations. These outcomes should therefore be interpreted as preliminary and exploratory, rather than as evidence of effectiveness. We conclude that transferring the model to a new task and domain requires substantially more validation before any claim of practical utility is possible.",
+    "keywords": [
+      "hyperspectral imaging",
+      "super-resolution",
+      "denoising diffusion model",
+      "transfer learning",
+      "preliminary study"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "reject",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0013"
+    ],
+    "generated_at": "2026-08-19T15:43:30.860648",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 2.0
+  },
+  {
+    "paper_id": "S0040",
+    "title": "Grammar-Guided Modular Decoding for Structurally Constrained Generation in Low-Resource Languages",
+    "abstract": "We present a modular decoding framework that imposes formal grammatical constraints on pretrained language models without fine-tuning. Targeted at low-resource languages where large-scale treebanks are unavailable, our method induces a lightweight context-free grammar from a small set of seed sentences (as little as 500 tokens) and uses it to prune the search space during beam search. This grammar acts as a separate control module, complementing the neural model's distribution, and can be swapped for different languages without retraining. We evaluate on two structurally distinct tasks: multilingual summarization (WikiLingua) and morphological inflection (UniMorph) covering 8 under-resourced languages. Compared with standard beam search, unconstrained sampling, and a lexical constrained decoding baseline (PD), our method improves grammatical acceptability by 6.5 points and BLEU by 2.1 points on average, while maintaining comparable lexical diversity. The gains are most pronounced for verb-final languages with rich case marking. Limitations remain: the induced grammars are approximations, and coverage on highly synthetic languages is incomplete. Nonetheless, our results demonstrate that syntactic control can be effectively factored out of the neural model, offering a path toward more controllable generation for low-resource languages.",
+    "keywords": [
+      "low-resource NLP",
+      "grammar-constrained decoding",
+      "modular language generation",
+      "multilingual summarization",
+      "morphological inflection"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "accept",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0127"
+    ],
+    "generated_at": "2026-08-19T15:43:32.489647",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 7.0
+  },
+  {
+    "paper_id": "S0007",
+    "title": "Robust Federated Aggregation via Mutual Information-Based Trust and Decentralized Reputation Management",
+    "abstract": "This paper presents FL-TRUST, a robust aggregation framework for federated learning (FL) that mitigates Byzantine and free-riding attacks using an information-theoretic trust score combined with blockchain-anchored reputation. In each round, FL-TRUST computes the mutual information between each client's gradient update and the global model to quantify the client's contribution and identify statistically anomalous updates. These trust scores are aggregated into a decentralized reputation ledger maintained via a lightweight blockchain protocol, enabling traceable and tamper-evident client history across rounds and tasks. The aggregation rule weighs client updates by a combination of instantaneous trust and historical reputation, effectively down-weighting malicious or lazy participants. We evaluate FL-TRUST on MNIST, Fashion-MNIST, and CIFAR-10 under various attack scenarios, including label flipping, random gradient, and free-riding. Compared to standard FedAvg, Krum, and Trimmed Mean, FL-TRUST reduces model accuracy degradation by up to 60% under a 30% Byzantine clients and converges up to 2x faster in non-IID settings. We also analyze the communication and computational overhead of the blockchain component, which remains modest for moderate client counts. A limitation is that the method assumes a bounded fraction of malicious participants and relies on the initial global model to be benign. Overall, FL-TRUST provides a practical and interpretable defense for decentralized FL.",
+    "keywords": [
+      "federated learning",
+      "robust aggregation",
+      "Byzantine attacks",
+      "reputation management",
+      "blockchain"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "accept",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0049"
+    ],
+    "generated_at": "2026-08-19T15:43:28.685315",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0076",
+    "title": "Adding Template-Based Explanations to a Conversational Critiquing System: Initial Results from a Small User Study",
+    "abstract": "Conversational recommender systems have shown promise for eliciting user preferences through natural language. Building on prior work on attribute-aware item-set recommendations, this paper presents an incremental extension that combines a pre-existing conversational agent with template-based explanations for critiquing. Our approach reuses the conversational flow from earlier work and augments it with a simple explanation generation module that paraphrases the system's current attribute preferences. To assess this integration, we conduct a small user study (N=14) in a limited domain with a single dataset, comparing the extended system against the original without explanations. We do not compare against state-of-the-art baselines, and we omit ablation studies that isolate the explanation component's effect. Initial results suggest that users find the explanations understandable, but we observe no significant improvement in task completion or satisfaction. Due to the small sample and the absence of broader benchmarks, these findings are preliminary; future work would need a more extensive evaluation with multiple baselines and larger participant pools to draw stronger conclusions. Overall, the contribution is marginal, offering a modest, self-contained step toward explainable conversational recommenders.",
+    "keywords": [
+      "conversational recommender systems",
+      "explainable AI",
+      "critiquing",
+      "item-set recommendation",
+      "user study"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0030"
+    ],
+    "generated_at": "2026-08-19T15:43:31.754028",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0020",
+    "title": "Point-Voxel Set Attention for Context-Aware 3D Object Detection from Point Clouds",
+    "abstract": "We present PVSA-RCNN, a 3D object detection framework that combines the strengths of point-based and voxel-based representations through a novel Point-Voxel Set Attention (PVSA) mechanism. Unlike previous methods that fuse voxel features to points via simple nearest-neighbor interpolation or repetitive convolutional blocks, PVSA explicitly models long-range dependencies and cross-scale interactions by computing set attention over a dynamic neighborhood of both raw points and voxel centers. This allows the detector to recover fine-grained geometric details lost in voxelization while also incorporating global contextual cues crucial for detecting occluded or distant objects. We further introduce a Context-Aware Proposal Refinement stage that re-weights proposal features using scene-level attention, effectively suppressing false positives. On the KITTI test set, our method achieves 81.4% mAP on car, 78.2% on pedestrian, and 75.9% on cyclist, outperforming PV-RCNN by 1.6%, 2.3%, and 1.8%, respectively. On the nuScenes test set, we obtain 68.5% mAP, exceeding the PV-RCNN baseline by 1.9 mAP points while maintaining a comparable inference speed of 82 ms per frame. Ablation studies confirm that each component contributes meaningfully. We note that performance degrades for extremely sparse points (e.g., greater than 50 m), which we plan to address by incorporating temporal fusion in future work.",
+    "keywords": [
+      "3D object detection",
+      "point cloud",
+      "set attention",
+      "point-voxel representation",
+      "autonomous driving"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "accept",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0087"
+    ],
+    "generated_at": "2026-08-19T15:43:34.447690",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 6.0
+  },
+  {
+    "paper_id": "S0064",
+    "title": "Preliminary Experiments on Applying XLM-R to Cross-Lingual Document Classification in Tibetan",
+    "abstract": "We present a preliminary exploration of applying the pre-trained multilingual encoder XLM-R to cross-lingual document classification for the Tibetan language, a low-resource language that has seen limited attention in prior work. Our approach directly uses the off-the-shelf XLM-R model to encode Tibetan documents and their English translations into a shared embedding space, and then performs nearest-neighbor classification in that space. We evaluate on a single, small dataset of 1,200 Tibetan news documents paired with English translations, which we collected from one online news source. Preliminary results show that the model achieves an accuracy of only 41.3%, which is barely above the majority-class baseline of 38.2% for our three-class problem. However, we did not compare against any other methods, nor did we perform fine-tuning or hyperparameter optimization. We also did not address the large domain shift between our dataset and the training data of XLM-R. These initial experiments highlight the need for more robust cross-lingual models for Tibetan, but we acknowledge that our findings are limited by the small dataset and the lack of comparative baselines. In future work, we plan to expand the dataset and include comparisons with multilingual BERT and other models.",
+    "keywords": [
+      "cross-lingual transfer",
+      "low-resource language",
+      "XLM-R",
+      "document classification",
+      "Tibetan"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "reject",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0059"
+    ],
+    "generated_at": "2026-08-19T15:43:38.688946",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 1.0
+  },
+  {
+    "paper_id": "S0080",
+    "title": "FastPaD-RAG: Transferring a Privacy-Preserving Similarity Leakage Detection Protocol to Retrieval-Augmented Generation",
+    "abstract": "We present FastPaD-RAG, an incremental extension of the FastPaD protocol for detecting similarity-based leakage in retrieval-augmented generation (RAG) pipelines. The original protocol was designed for password similarity checks in IoT services; here we adapt its core padded-similarity computation to dense text embeddings, replacing the password metric with cosine similarity over query and document vectors. A differential-privacy noise calibration is introduced to mask threshold violations during retrieval. The contribution is modest: we combine existing ideas from privacy-preserving similarity auditing and RAG reliability, without proposing a new problem or a fundamentally new method. We evaluate in a limited setting, using two small synthetic query sets derived from MS MARCO and TREC COVID, and compare only against a non-private baseline. We do not perform ablations on the noise calibration parameter, nor do we test against realistic attack models beyond a simple membership inference heuristic. Initial results suggest that leakage detection accuracy is comparable to the original FastPaD, but the privacy budget trade-off makes deployment impractical without further tuning. Overall, these findings are preliminary and would require substantial revision, including broader benchmarks and a rigorous comparison to existing leakage mitigation techniques, before the approach could be considered for practical use.",
+    "keywords": [
+      "privacy",
+      "retrieval-augmented generation",
+      "similarity leakage",
+      "membership inference",
+      "differential privacy"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0097"
+    ],
+    "generated_at": "2026-08-19T15:43:39.786272",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0089",
+    "title": "TempoGNN: Structural Pre-Training on Temporal Graphs for Early Fake News Detection",
+    "abstract": "This paper introduces TempoGNN, a temporal graph neural network for early fake news detection that jointly exploits the structural and temporal dimensions of news propagation. Unlike existing propagation-based methods that rely on static graph snapshots, TempoGNN models dynamic user-news interactions through a continuous-time graph encoder. Its core contribution is a novel structural pre-training objective that learns transferable representations of propagation patterns from unlabeled temporal graphs via masked node and edge reconstruction, followed by task-specific fine-tuning on labeled fake news data. We evaluate TempoGNN on three public benchmarks, Twitter15, Twitter16, and Weibo, and compare it against several state-of-the-art baselines, including propagation-aware GCN and GAT models as well as existing fake news detectors. TempoGNN consistently achieves higher accuracy and F1 score, with the largest gains observed in early detection settings where only a few retweets are available. Ablation studies show that structural pre-training accelerates convergence and improves robustness to sparse user activity. A minor limitation is that the model relies on reliable timestamps for cascade construction, which may be noisy on certain platforms, yet the overall results indicate that TempoGNN provides a solid and practical solution for propagation-based fake news detection.",
+    "keywords": [
+      "Temporal Graph Neural Network",
+      "Fake News Detection",
+      "Structural Pre-training",
+      "Propagation Dynamics",
+      "Early Detection"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "accept",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0074"
+    ],
+    "generated_at": "2026-08-19T15:43:40.973341",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.5
+  },
+  {
+    "paper_id": "S0062",
+    "title": "HandPrompt: Enhancing Video Action Recognition with Hand-Pose Guided Prompting in Image-Pretrained Transformers",
+    "abstract": "We propose HandPrompt, a novel approach for video action recognition that adapts image-pretrained vision transformers using hand-pose cues. Unlike prior methods that require full fine-tuning or heavy temporal modules, we inject hand-keypoint prompts into the token sequence, enabling the model to capture fine-grained manipulative actions with minimal extra parameters. To exploit hand dynamics, we design a lightweight handmotion encoder that projects spatiotemporal hand-keypoint sequences into prompt tokens, which are then interleaved with frame patches. The resulting model retains the strong spatial priors of image models while gaining temporal sensitivity, and can be trained end-to-end on standard video datasets. We evaluate HandPrompt on Something-Something v2 and Epic-Kitchens 100, where it achieves top-1 accuracies of 68.3% and 43.7%, outperforming recent efficient video architectures such as AIM and Mformer, while requiring 3x fewer FLOPs. Ablations confirm that hand prompts contribute more than generic learned prompts on hand-oriented action classes. A limitation is that HandPrompt relies on a pre-trained hand detector, which may introduce errors in occluded scenes. Code and models will be released.",
+    "keywords": [
+      "action recognition",
+      "video transformers",
+      "hand pose",
+      "prompting",
+      "efficient video models"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "accept",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0129"
+    ],
+    "generated_at": "2026-08-19T15:43:45.301472",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 5.0
+  },
+  {
+    "paper_id": "S0066",
+    "title": "Leveraging Hybrid Mamba-Transformer Decoders for Low-Resource Machine Translation with Minimal Parallel Corpora",
+    "abstract": "Recent work has shown that modest amounts of parallel data can yield usable machine translation systems when combined with careful curation. Meanwhile, hybrid Mamba-Transformer architectures have shown promise for efficient sequence modeling in large language models. We combine these two lines of work by adapting a hybrid Mamba-Transformer decoder to the minimal-data training recipe of prior work for low-resource machine translation. Specifically, we replace the standard Transformer decoder in a small NMT system with a Mamba-Transformer hybrid that interleaves selective state-space layers with attention layers, keeping the encoder and data pipeline unchanged. We evaluate on English-to-Nepali and English-to-Sinhala, using only 10K parallel sentences per pair and a shared subword vocabulary. Our experiments are limited to a single training seed and a 1,000-sentence test set, and we do not ablate the effect of data size or decoding hyperparameters. Initial results suggest a small but consistent BLEU improvement (0.8-1.2) for the hybrid decoder over a Transformer baseline on the Nepali pair, whereas on Sinhala the Mamba-only decoder performs best and the hybrid offers no gain. These findings are preliminary, and we do not claim superiority over strong back-translation baselines. Overall, the contribution is an incremental extension of minimal-data MT, and more extensive evaluation is needed.",
+    "keywords": [
+      "low-resource machine translation",
+      "Mamba-Transformer hybrids",
+      "minimal parallel data",
+      "state-space models"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0056"
+    ],
+    "generated_at": "2026-08-19T15:43:44.356777",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0086",
+    "title": "Federated Averaging for Privacy-Preserving Vehicle Speed Prediction at the Edge: A Preliminary Study",
+    "abstract": "Federated learning enables multiple clients to collaboratively train a model without sharing raw data. In this paper, we apply a standard federated averaging (FedAvg) algorithm to a vehicular edge computing scenario for privacy-preserving vehicle speed prediction. We focus on a simple setup where roadside units act as clients and train a light-weight neural network on locally collected traffic data. We explore the feasibility of this straightforward application using a small public vehicle trajectory dataset, preprocessed into 90-second speed sequences from 50 vehicles across 3 days. Under a non-IID data split, we run initial experiments with FedAvg and report the resulting mean absolute error and convergence behavior. Our preliminary results show that federated training reaches a reasonable error level after about 100 communication rounds, though with noticeable variance across clients. We explicitly note that this is an initial exploration rather than a rigorous evaluation: we use a single small dataset, do not compare against centralized training or other federated algorithms, and do not address important practical issues such as client dropouts, heterogeneity in computation, or communication constraints. Future work will include larger benchmarks and stronger baselines.",
+    "keywords": [
+      "federated learning",
+      "privacy",
+      "vehicular networks",
+      "speed prediction",
+      "edge computing"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "reject",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0010"
+    ],
+    "generated_at": "2026-08-19T15:43:42.632713",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 2.0
+  },
+  {
+    "paper_id": "S0048",
+    "title": "DiscourseRotatE: Injecting Discourse Relations into RotatE for Multi-Hop Query Answering over Knowledge Graphs",
+    "abstract": "Recent work on knowledge graph embeddings has shown that incorporating relational paths can improve multi-hop query answering. However, most path-based models treat all paths uniformly and ignore discourse cues present in natural language queries, such as concession, contrast, and temporal ordering. In this paper, we propose an incremental extension of the RotatE model, called DiscourseRotatE, that injects discourse relation embeddings derived from an off-the-shelf discourse parser into the composition function for multi-hop paths. The approach is a straightforward combination of existing techniques: discourse parsing features, relation path embeddings, and rotational distance scoring. We evaluate DiscourseRotatE in a limited setting using two benchmark subsets—WebQuestionsSP and a dialogue-based knowledge graph dataset—and compare against two standard baselines. We do not perform a full ablation, and attention-based and language model baselines are not included due to computational constraints. Initial results suggest that discourse-aware path weighting yields modest gains on queries containing explicit discourse connectives, but the improvements are inconsistent across relation types and dataset splits. Overall, the contribution is marginal and would require more extensive evaluation and a more principled integration of discourse structure to be competitive with state-of-the-art models.",
+    "keywords": [
+      "knowledge graph embedding",
+      "discourse relations",
+      "multi-hop query answering",
+      "relation paths",
+      "RotatE"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0101"
+    ],
+    "generated_at": "2026-08-19T15:43:46.659932",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0035",
+    "title": "Augmenting Instructional Videos for Procedural Activity Recognition via Distant Supervision and Learned Video Composition",
+    "abstract": "Procedural activity recognition typically requires fine-grained annotations of step boundaries and labels, which are costly to obtain. Recent work leverages distant supervision from narrations in instructional videos to automatically generate pseudolabels for training, reducing annotation cost, while separate work has shown that learned video composition can provide effective data augmentation for action recognition. In this paper, we build on both lines of work and propose a method that combines distant supervision with a learned augmentation strategy for procedural activity recognition. Specifically, we adapt a video augmentation model originally designed for short action clips so that it can be applied to multi-step procedural videos, using the pseudolabels from a distantly supervised teacher model to guide the composition of training clips. We evaluate our approach on a subset of the Breakfast dataset, focusing on four activity categories, and report initial results. Our method shows modest gains over a strong baseline that uses the same distant supervision but no augmentation, suggesting that the two ideas are complementary. However, we do not outperform existing fully supervised state-of-the-art methods, and we lack an ablation of the individual components. In this limited setting, the results are promising yet inconclusive, and further study is required to assess generality.",
+    "keywords": [
+      "procedural activity recognition",
+      "distant supervision",
+      "data augmentation",
+      "instructional videos",
+      "video understanding"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0048"
+    ],
+    "generated_at": "2026-08-19T15:43:48.157244",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0038",
+    "title": "Predicting Human Judgments of Instruction-Tuned Models from LLM-Estimated Data Utility: An Initial Study",
+    "abstract": "Recent work has shown that language models can estimate the utility of pretraining data points for downstream performance, enabling efficient data mixture selection. In parallel, correlation studies find that standard NLP benchmarks align only weakly with human preferences. We extend the LLM-estimated utility approach, previously applied to pretraining, to the instruction-tuning setting and investigate whether aggregate utility scores predict human evaluations of tuned model variants. Using a single base model and a small set of candidate instruction-tuning mixtures, we compute utility scores for each mixture, lightly tune variants on those mixtures, and compare the resulting utility-based ranking against human ratings on a limited set of 50 prompts. We observe a moderate positive correlation in one of three configurations, while the remaining configurations show no significant relationship. Our evaluation is restricted to one base model, a single utility estimator, and no hyperparameter ablations or baseline comparisons. These initial results suggest that LLM-estimated utility may carry signal about human-perceived quality, but the effect is unreliable and potentially confounded by model capacity. Moreover, the utility estimator was not designed for instruction-following data, which may limit transfer. Overall, this work is a modest first step toward connecting data-centric optimization to human evaluation, but it requires substantial revision and broader validation to establish dependable predictions.",
+    "keywords": [
+      "LLM-estimated utility",
+      "data mixture selection",
+      "human evaluation",
+      "instruction tuning",
+      "benchmark correlation"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0055"
+    ],
+    "generated_at": "2026-08-19T15:43:50.927188",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 3.5
+  },
+  {
+    "paper_id": "S0075",
+    "title": "Budget-Aware Tool-Use with Stability-Inducing Weight Perturbation for Multi-LLM Agent Teams",
+    "abstract": "We propose a modest extension to budget-aware tool-use that couples it with stability-inducing weight perturbation (STAR) for multi-LLM agent teams. Our method, STAR-Tool, applies a regularization penalty derived from the Fisher information of the tool-selection policy to reduce catastrophic forgetting when agents are adapted to new tasks under a shared token budget. Unlike prior work that treats tool-use budgeting as a single-agent optimization problem, we use a simple cooperative scheduling rule and adjust the perturbation magnitude per agent. We evaluate STAR-Tool on two subsets of a tool-augmented reasoning benchmark in a limited setting: three LLM agents and a fixed budget. Initial results suggest that STAR-Tool can preserve tool selection accuracy on seen tasks slightly better than a budget-aware baseline and an unregularized multi-agent variant, while keeping average task completion cost comparable. However, the gains are consistent only for the smaller agent configuration and do not translate to the larger model suite; we also did not run full ablations on the perturbation schedule. Because our evaluation is limited and the contribution is primarily a combination of existing components, these results should be viewed as preliminary. We discuss several limitations and potential revisions.",
+    "keywords": [
+      "multi-LLM agents",
+      "tool use",
+      "budget-aware scheduling",
+      "continual learning",
+      "weight perturbation"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0061"
+    ],
+    "generated_at": "2026-08-19T15:43:49.098997",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0050",
+    "title": "Counterfactual Knowledge Editing for Temporal Legal Fact Updates in a Small QA Model: A Preliminary Study",
+    "abstract": "Recent work in knowledge editing has shown that counterfactual factual updates can be injected into language models through direct weight modification. In this paper, we apply a standard counterfactual knowledge editing method—specifically the rank-one model editing approach—to a small legal question-answering model, with the goal of updating outdated statutory references and case citations. Our motivation is to explore whether this widely used editing technique transfers to a narrowly scoped domain where facts change over time. We collect a single small dataset of 300 temporal legal fact pairs from an online legal database and perform initial experiments. We do not compare against any baseline editing methods, fine-tuning, or retrieval-based approaches. We find that a substantial fraction of edits fail to generalize to paraphrased queries, and that editing one fact sometimes degrades performance on unrelated nearby facts. These preliminary results suggest that straightforward application of the method yields limited reliability in this setting. We conclude by noting the need for more careful evaluation and domain-specific adaptation, and we explicitly refrain from making strong claims about the usefulness of the approach.",
+    "keywords": [
+      "knowledge editing",
+      "counterfactual update",
+      "temporal facts",
+      "legal question answering",
+      "language models"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "reject",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0051"
+    ],
+    "generated_at": "2026-08-19T15:43:57.177861",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 2.0
+  },
+  {
+    "paper_id": "S0039",
+    "title": "PolyMatch: Semi-Supervised Referring Image Segmentation via Polygon-Sequence Consistency",
+    "abstract": "Recent referring image segmentation methods predict masks by generating polygon vertex sequences, which avoids pixel-wise decoding and improves boundary quality. However, these methods rely on large amounts of expensive mask annotations. We present PolyMatch, a semi-supervised framework that adapts a polygon-sequence decoder for referring segmentation to settings with only a fraction of the RefCOCO-type annotations labeled. PolyMatch is built on a student-teacher architecture with a shared vision-language encoder. The teacher produces pseudo polygon sequences for unlabeled images under weak augmentation, and the student is supervised to match these sequences under strong augmentation. To prevent drift in the polygon coordinate space, we combine a point-wise L1 loss with a directed Chamfer distance between sampled polygon edges, and we further regularize the intermediate visual features with a contrastive loss between matched referring expressions and image regions. We evaluate PolyMatch on RefCOCO, RefCOCO+, and RefCOCOg using 1%, 5%, and 10% labeled training samples. PolyMatch consistently outperforms fully supervised training on the labeled subset and strong semi-supervised baselines including FixMatch and UniMatch, improving mIoU by up to 5.3 points with 5% labels. We also show that the polygon-based consistency loss yields larger gains than mask-based consistency. One limitation is the extra decoding cost of polygon generation, which we mitigate by early stopping the vertex decoder during inference.",
+    "keywords": [
+      "semi-supervised learning",
+      "referring image segmentation",
+      "polygon generation",
+      "consistency regularization",
+      "vision-language model"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "accept",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0128"
+    ],
+    "generated_at": "2026-08-19T15:44:04.040083",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 6.0
+  },
+  {
+    "paper_id": "S0034",
+    "title": "Extending TextSeal to Multilingual ASR Transcripts: A Preliminary Study of Error-Induced Watermark Degradation",
+    "abstract": "Recent advances in multilingual speech recognition have made it possible to transcribe hundreds of languages, raising concerns about unauthorized use of transcripts in training large language models. Existing text watermarking methods like TextSeal embed provenance signals in generated text, but their behavior under automatic speech recognition (ASR) errors is not well understood. We propose a simple extension that applies TextSeal's entropy-based token selection to multilingual ASR transcripts, accounting for the confidence scores of a multilingual ASR model such as Omnilingual ASR. We evaluate the method on five languages from the Common Voice dataset and a synthetic noise condition. Our initial results suggest that watermark detection accuracy degrades significantly in the presence of ASR errors, particularly for low-resource languages with higher character error rates. We also observe that the localized watermarking property of TextSeal is partially retained in clean conditions. The study is limited in scope: we only test a fixed bit budget and a single ASR model, and we do not compare against adversarial attacks or paraphrase robustness. Overall, the findings are preliminary but indicate that naively adapting text watermarks to ASR outputs is not sufficient, and further work is needed to design error-resilient watermarking schemes for speech-to-text pipelines.",
+    "keywords": [
+      "watermarking",
+      "multilingual ASR",
+      "TextSeal",
+      "low-resource languages",
+      "speech-to-text"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0092"
+    ],
+    "generated_at": "2026-08-19T15:43:54.269186",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0009",
+    "title": "A3C-DPG: Asynchronous Advantage Actor-Critic with Delayed Policy Updates for Continuous Control",
+    "abstract": "Asynchronous advantage actor-critic (A3C) has proven an effective and lightweight paradigm for parallel deep reinforcement learning, yet its on-policy nature limits its sample efficiency in continuous control. Off-policy deterministic policy gradient methods such as DDPG achieve state-of-the-art performance in many continuous tasks, but they are usually trained in a synchronous, single-agent fashion. In this paper, we propose A3C-DPG, an incremental combination of these two families. The algorithm maintains a set of asynchronous actor workers that collect transitions and write them to a shared replay buffer, while a single learner applies deterministic policy gradient updates with a pair of slowly moving target networks. To mitigate the overestimation bias inherent in deterministic value functions, we delay the policy update relative to the critic update, following recent suggestions. We evaluate A3C-DPG on two standard benchmark tasks (HalfCheetah-v2 and Hopper-v2) with a fixed number of 16 workers. In our limited experiments, the proposed method reaches a return comparable to single-threaded DDPG but did not consistently beat a well-tuned TD3 baseline. There is also no clear evidence that asynchronous collection yields a wall-clock speedup over a single learner in our setup. We have not performed ablations of the replay buffer size or the update delay, and our results cover only two environments. These initial findings are thus preliminary and suggest that further engineering and hyperparameter tuning would be needed to make asynchronous off-policy updates practical.",
+    "keywords": [
+      "deep reinforcement learning",
+      "asynchronous methods",
+      "continuous control",
+      "deterministic policy gradient",
+      "target networks"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0098"
+    ],
+    "generated_at": "2026-08-19T15:44:08.749388",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.5
+  },
+  {
+    "paper_id": "S0063",
+    "title": "Value-Guided Decoding with Modular Transformers: A Preliminary Study on Efficiency and Preference Trade-offs",
+    "abstract": "Recent work has shown that value-guided Monte-Carlo Tree Search (MCTS) decoding can improve the preference alignment of generated text, while modular transformers offer a flexible way to compress large models for efficient inference by routing inputs through a subset of layers. In this paper, we combine these two ideas, using a modular transformer as the policy model within a value-guided MCTS decoding framework, with the goal of reducing inference cost while maintaining gains in text preference. We conduct an initial evaluation on a single summarization dataset and one base model, comparing against standard beam search and value-guided decoding with a dense transformer. Our results are mixed: the modular value-guided approach achieves modest improvements in preference metrics over beam search, but the expected speed-ups are only partially realized due to the overhead of MCTS rollouts. We do not yet provide ablations on different modularization granularities or value model sizes, and the study is limited to a single domain. These initial results suggest that the combination has potential, but substantial further investigation is needed to determine when and how modular value-guided decoding can be practically beneficial.",
+    "keywords": [
+      "value-guided decoding",
+      "modular transformers",
+      "Monte-Carlo tree search",
+      "inference efficiency",
+      "text generation"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0021"
+    ],
+    "generated_at": "2026-08-19T15:43:54.175949",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0018",
+    "title": "Pre-Training Plain Vision Transformers for Detection via Masked Patch Substitution",
+    "abstract": "We present Masked Patch Substitution (MPS), a self-supervised pre-training method for plain Vision Transformer backbones in object detection and instance segmentation. MPS randomly replaces a subset of input patches with learned prototype embeddings and tasks the network with predicting the original features, encouraging both low-level reconstruction and high-level semantic grouping. Unlike MAE, which discards masked patches, MPS retains the full token sequence, avoiding the pre-training/fine-tuning gap and enabling seamless use with structured detectors such as Mask R-CNN and ViTDet. On COCO and LVIS, we show that plain ViT-B and ViT-L backbones pre-trained with MPS improve detection and segmentation AP by up to +1.5 over MAE pre-training and +0.8 over ImageNet-1k supervised pre-training, with larger gains for the ViT-L backbone. A scaling study demonstrates that MPS benefits from increased pre-training compute and data, reaching 58.2 box AP on COCO with ViT-L and a 2B token corpus. We also analyze the effect of prototype granularity and replacement ratio. A minor limitation is that MPS has only been evaluated on detection and segmentation; its transfer to other dense prediction tasks remains unexplored. Our code and models will be released.",
+    "keywords": [
+      "vision transformer",
+      "object detection",
+      "self-supervised pre-training",
+      "instance segmentation",
+      "masked visual modeling"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "accept",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0034"
+    ],
+    "generated_at": "2026-08-19T15:44:01.337177",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 6.0
+  },
+  {
+    "paper_id": "S0053",
+    "title": "Applying Structured Chain-of-Thought Prompting to R Script Generation for Statistical Analysis: A Preliminary Study",
+    "abstract": "In this paper, we apply Structured Chain-of-Thought prompting, an established technique for code generation, to a new domain: generating R scripts for statistical analysis from natural language descriptions. We collect a small dataset of 120 problem statements from introductory statistics courses and evaluate the approach using GPT-4. Without modifying the prompting methodology, we explore how well this method transfers to this domain. Preliminary results show that the method achieves a pass@1 of 34.2%, indicating moderate capability. However, this is an initial exploration with several limitations: our dataset is small and not representative of real-world statistical coding tasks; we do not compare against any baseline methods or alternative prompting strategies; and the evaluation is conducted with a single model and a single run. Furthermore, we do not analyze failure cases or the effect of different prompt formulations. These limitations preclude any strong claims. Nonetheless, we believe this work provides insights for future research on applying general-purpose code generation methods to specialized domains. We release our dataset and evaluation scripts for reproducibility.",
+    "keywords": [
+      "code generation",
+      "structured chain-of-thought",
+      "R scripts",
+      "statistical analysis",
+      "natural language to code"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "reject",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0004"
+    ],
+    "generated_at": "2026-08-19T15:44:07.280081",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0003",
+    "title": "EditNet: Multi-Scale Time Series Forecasting of Developer Edits in AI-Assisted Programming",
+    "abstract": "AI code assistants are increasingly ubiquitous, yet their impact on developer productivity is hard to measure because edit behavior is bursty and highly non-stationary. In this work, we tackle the forecasting of developer edit streams as a multi-scale time series problem, and introduce EditNet, a transformer-based architecture that captures both short-term burstiness and long-term drift in code modification activity. EditNet uses a temporal convolutional stem to extract local features, followed by a self-attention module over the most recent edit sessions. We train and evaluate EditNet on two large-scale benchmarks: RealEdit-53.6K, a corpus of 53.6K real-world edits made by developers to AI-generated code, and CommitStream, a public dataset of commit events. EditNet achieves 18.4% lower mean absolute error (MAE) than the best baseline (Toto 2.0 zero-shot) on RealEdit-53.6K and 23.7% lower MAE on CommitStream, while being 3.2x more parameter-efficient than the leading foundation model. We also show that EditNet's attention weights align with known patterns of post-acceptance refactoring. Limitations include a focus on per-session counts rather than individual keystrokes, and the fact that both benchmarks mainly reflect developer activity in production environments. We release our code and pre-trained checkpoints.",
+    "keywords": [
+      "time series forecasting",
+      "code edit prediction",
+      "transformer architecture",
+      "AI code assistance",
+      "developer behavior"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "accept",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0032"
+    ],
+    "generated_at": "2026-08-19T15:44:15.347964",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 5.5
+  },
+  {
+    "paper_id": "S0079",
+    "title": "A Streaming Algorithm for Maximum Estimation with Heavy-Hitter Pre-Filtering in Sliding Windows",
+    "abstract": "We study the problem of estimating the maximum value in a sliding window over a high-velocity data stream. While classical streaming algorithms maintain exact or approximate maxima, they require per-element processing that is costly when the window is large. We propose an incremental combination of heavy-hitter detection and max tracking, where a Misra-Gries-style counter is used to prune non-candidates before the max operation. This extends the deterministic heavy-hitters literature to the maximum-estimation setting. We evaluate the method on synthetic Zipfian and uniform streams in a limited setting, comparing against a naive max-retaining baseline and an exact window scan. Initial results suggest that our method reduces per-element update time by up to 40% while maintaining bounded overestimation errors on skewed data. However, the trade-off is sensitive to the window length and the choice of the heavy-hitter threshold, and we do not yet provide a theoretical regret bound. The evaluation is also restricted to a single synthetic workload; we have not tested on real-world traces, nor have we implemented a comparison against sketching-based alternatives. These limitations indicate that substantial revision is needed before the approach can be considered for production deployment.",
+    "keywords": [
+      "data streams",
+      "heavy hitters",
+      "maximum estimation",
+      "sliding windows",
+      "streaming algorithms"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0076"
+    ],
+    "generated_at": "2026-08-19T15:44:03.758088",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0022",
+    "title": "Applying AIM to Hand Gesture Recognition: A Preliminary Study on a Small Custom Dataset",
+    "abstract": "In this work, we apply AIM, a recently proposed method for adapting image models to video action recognition, to the domain of hand gesture recognition. AIM was originally developed and evaluated on large-scale action recognition benchmarks, and here we explore whether it can transfer to a visually focused task involving only hands. We collect a small custom dataset of 500 video clips covering 10 gesture classes, including common signs and fine-grained finger movements. We train AIM using a frozen image backbone and a lightweight temporal adapter, and our initial experiments achieve a top-1 accuracy of 62.3%. However, we do not compare against any existing hand gesture recognition methods, and we observe several limitations: the model often confuses visually similar gestures, is sensitive to background clutter, and degrades significantly when hands are partially occluded. These are preliminary results, and we explicitly acknowledge that the small dataset size and lack of baseline comparisons limit the generalizability of our findings. The contribution is a straightforward application of an existing method to a new domain, with no methodological novelty, and we view this as an initial exploration rather than a definitive study.",
+    "keywords": [
+      "action recognition",
+      "hand gesture recognition",
+      "image model adaptation",
+      "video understanding",
+      "transfer learning"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "reject",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0129"
+    ],
+    "generated_at": "2026-08-19T15:44:05.181026",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 2.0
+  },
+  {
+    "paper_id": "S0070",
+    "title": "LC-Align: Language-Conditioned Canonical Alignment for Massively Multilingual Sentence Embeddings",
+    "abstract": "Massively multilingual sentence embeddings such as SONAR and NLLB encode thousands of languages into a shared space, yet retrieval and classification quality drops sharply for low-resource languages. We propose LC-Align, a language-conditioned canonical alignment method that learns a lightweight orthogonal transformation per language to map pretrained embeddings into a common canonical space. Unlike prior contrastive approaches that require large parallel corpora, LC-Align is trained on a small set of high-resource pivot languages using a bi-directional cycle-consistency objective, and it can be applied zero-shot to languages unseen during alignment training. We evaluate on multilingual sentence retrieval (Tatoeba, BUCC), zero-shot XNLI, and a new 300-language semantic similarity test set built from translated parallel sentences. LC-Align improves average recall@1 by 8.4 points over SONAR and 12.1 points over LaBSE on low-resource languages, while retaining within-language performance. On XNLI, LC-Align yields a 3.9 point absolute accuracy improvement for the lowest-resource language families. We further show that the learned transformations are complementary to existing embedding alignment, giving gains in a downstream NMT reranking task. Limitations include reliance on a small parallel evaluation set and remaining degradation for languages outside the training distribution. Our code, model, and evaluation data are public.",
+    "keywords": [
+      "massively multilingual embeddings",
+      "cross-lingual alignment",
+      "low-resource languages",
+      "sentence retrieval",
+      "language-conditioned transformation"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "accept",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0059"
+    ],
+    "generated_at": "2026-08-19T15:44:13.328884",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 5.0
+  },
+  {
+    "paper_id": "S0069",
+    "title": "Graph Isomorphism-Based Architecture Augmentation for Evolutionary Neural Architecture Search in Facial Expression Recognition",
+    "abstract": "Neural architecture search (NAS) has shown promise for automated design of deep models for facial expression recognition (FER). Recent work introduced graph isomorphism-based architecture augmentation to enhance performance predictors in NAS, improving ranking accuracy with limited computational cost. In this paper, we combine these two directions by applying architecture augmentation to an evolutionary NAS framework for FER. Specifically, we augment the predictor training set with isomorphic variants of evaluated architectures, intending to regularize the predictor and mitigate overfitting when the search space is small. We evaluate our approach on FER2013, a widely used benchmark, with a restricted search space of only 1,024 architectures. Initial results suggest a modest improvement in predictor ranking accuracy and final accuracy of the discovered architecture compared to training without augmentation. However, our evaluation is limited: we use only one dataset, a single search space, and do not compare against standard NAS baselines or ablate the augmentation ratio. Moreover, graph isomorphism augmentation may introduce redundant training samples, and its effectiveness under larger search spaces remains unclear. Overall, this is a preliminary study indicating that architecture augmentation can be beneficial for FER NAS, but substantial further validation and ablations are required to confirm the findings.",
+    "keywords": [
+      "neural architecture search",
+      "facial expression recognition",
+      "performance predictor",
+      "graph isomorphism",
+      "evolutionary algorithms"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0065"
+    ],
+    "generated_at": "2026-08-19T15:44:11.366017",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 3.5
+  },
+  {
+    "paper_id": "S0097",
+    "title": "Safety-Aware Decoding for Vision-Language Models: A Preliminary Study on Multimodal Jailbreak Resistance",
+    "abstract": "As vision-language models (VLMs) become widely deployed, their vulnerability to multimodal jailbreak attacks—where adversarial images are crafted to bypass safety alignment—poses a serious risk. While safety-aware decoding methods like SafeDecoding have proven effective for text-only LLMs, their adaptation to the multimodal setting remains underexplored. In this paper, we extend SafeDecoding to VLMs by introducing a safety expert model that conditions on both visual and textual embeddings to adjust the next-token distribution during generation. We evaluate our method on a restricted set of four jailbreak attack types drawn from a publicly available multimodal safety benchmark, using LLaVA-1.5 and MiniGPT-4 as base models. Our results show an average reduction in attack success rate of 14.7% across the tested attacks, but with considerable variance: the method performs well on text-only attacks and image-text mismatch attacks, yet offers negligible improvement on adversarially perturbed images. We also conduct a small human preference study (N=20) comparing safety-aware and baseline outputs; participants show a slight preference for the former, though the difference does not reach statistical significance. We do not perform ablations on the safety expert's training data size or architecture, and we suspect the expert may not generalize to unseen attack vectors. These initial results suggest that transferring safety-aware decoding to multimodal inputs is feasible, but substantially more robust evaluation and refinement are needed before practical deployment.",
+    "keywords": [
+      "vision-language models",
+      "jailbreak attacks",
+      "safety-aware decoding",
+      "multimodal alignment",
+      "human preferences"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "borderline",
+    "author_type": "single",
+    "author_profile_ids": [
+      "R0043"
+    ],
+    "generated_at": "2026-08-19T15:44:15.194733",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 5.0
+  },
+  {
+    "paper_id": "S0081",
+    "title": "Temporal Equivalence Reward Modeling for 3D Human Pose Estimation",
+    "abstract": "We introduce Temporal Equivalence Reward Modeling (TERM), a new learning paradigm for 3D human pose estimation that directly optimizes temporal coherence and anatomical plausibility. Unlike prior methods that rely on hand-crafted pose priors or adversarial losses, TERM formulates the problem of learning a reward model over pose sequences. This reward model, trained on million-scale synthetic motion capture data, learns a semantic equivalence function that identities nonlinearly warped poses representing the same underlying motion. We use TERM as (i) a re-ranking target to select the most consistent pose sequence from candidate outputs of any backbone estimator, and (ii) a dense auxiliary reward for policy-gradient fine-tuning. TERM introduces a novel problem: reward modeling for spatio-temporal pose dynamics, with a new evaluation protocol. On Human3.6M, TERM reduces MPJPE from 50.2mm to 48.1mm over the strong baseline TCPFormer; on MPI-INF-3DHP, it raises the AUC from 84.1% to 87.6%; and on 3DPW, it improves MPJPE from 72.9mm to 68.3mm. TERM also generalizes across backbones, improving VideoPose3D by 3.1mm and PoseMAE by 2.4mm on Human3.6M. Our code and models are publicly available.",
+    "keywords": [
+      "3D human pose estimation",
+      "reward modeling",
+      "temporal coherence",
+      "re-ranking",
+      "self-supervised learning"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "strong_accept",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0093",
+      "R0027"
+    ],
+    "generated_at": "2026-08-19T15:44:23.884412",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0008",
+    "title": "Applying Token-Level Policy Optimization to Code-Mixed Speech-to-Text Dialogue Models: A Preliminary Study",
+    "abstract": "We apply token-level policy optimization (TLPO), originally proposed for mitigating language confusion in large language models, to the setting of end-to-end speech-to-text dialogue models operating on code-mixed speech. Our motivation is that code-mixed speech exhibits frequent language switches that may induce the same confusion patterns observed in text-based LLMs. We adapt the existing TLPO objective directly to the spoken model's decoder, with no changes to the method itself. Initial experiments are conducted on a single small dataset of 500 code-mixed Hindi-English spoken dialogues, collected from publicly available sources. We evaluate only the adapted model's word error rate and language-confusion rate, without comparison to any baselines. Preliminary results suggest that TLPO can reduce language confusion in some utterance types, but the improvements are inconsistent across samples. Limitations include the small dataset size, lack of baselines, and the fact that we did not tune hyperparameters for the speech setting. Overall, this work is a straightforward application of an existing method to a new domain, and further investigation is needed to draw robust conclusions.",
+    "keywords": [
+      "code-mixed speech",
+      "token-level policy optimization",
+      "spoken dialogue models",
+      "language confusion",
+      "preliminary study"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "reject",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0119",
+      "R0077"
+    ],
+    "generated_at": "2026-08-19T15:44:13.639751",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 2.0
+  },
+  {
+    "paper_id": "S0057",
+    "title": "LEAP: Language-Embedded Adaptation for Policy Transfer across Visual and Dynamics Domains",
+    "abstract": "We introduce LEAP, a method that leverages large-scale language models to construct a shared task-embedding space, enabling a policy to be primed with relevant experiences from a library of prior tasks. By treating language as a task interface, LEAP identifies and recombines sub-skills from heterogeneous demonstration data, facilitating sample-efficient adaptation to new environments and dynamics. Our experiments on three benchmarks—Meta-World, the Franka kitchen domain, and a high-speed driving simulator—demonstrate that LEAP significantly outperforms strong baselines, including goal-conditioned RL, prior transfer methods, and model-agnostic meta-learning, achieving up to a 60% reduction in interactions needed to reach a target performance level. We further analyze robustness to language annotation noise and visual distribution shift, showing that LEAP retains superior performance under these perturbations. The main limitations of our approach are its reliance on a pre-trained language encoder and the requirement for a small set of target-domain demonstrations. Overall, LEAP provides a practical and scalable framework for language-conditioned policy transfer, with clear benefits in sample efficiency and robustness across diverse autonomous control tasks.",
+    "keywords": [
+      "Language-conditioned learning",
+      "Policy transfer",
+      "Robot learning",
+      "Sample efficiency",
+      "Distribution shift"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "accept",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0029",
+      "R0099"
+    ],
+    "generated_at": "2026-08-19T15:44:24.827840",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 7.0
+  },
+  {
+    "paper_id": "S0058",
+    "title": "EERL: Event-Enhanced Reinforcement Learning for Temporal Knowledge Graph Reasoning with LLM-Generated Semantic Tags",
+    "abstract": "We propose EERL, a novel framework that integrates large language model (LLM)-based event extraction with reinforcement learning to improve multi-hop reasoning over temporal knowledge graphs (TKGs). TKG reasoning requires capturing both structural and temporal contexts, but existing RL methods rely on static embeddings or overlook event semantics. EERL first uses an LLM to extract event-centric semantic tags from text sources, which are aligned with TKG entities and relations via a contrastive learning module. These tags are then injected as auxiliary edge features into a temporal graph neural network, and an adaptive policy network is trained with inductive embeddings to select effective reasoning paths. We evaluate EERL on three benchmarks (ICEWS14, ICEWS18, and GDELT) for the time-aware link prediction task. EERL consistently outperforms state-of-the-art baselines, including ARLIE, TANGO, and DSTAG, achieving up to 8.3% relative improvement in mean reciprocal rank (MRR) and 6.1% in Hits@1, while maintaining comparable training efficiency. Ablation studies confirm the contribution of each component. We also discuss limitations, including the dependency on text coverage and the computational overhead of LLM inference, which we mitigate via caching. The results demonstrate that integrating event semantics with RL-based reasoning yields robust and interpretable temporal predictions.",
+    "keywords": [
+      "temporal knowledge graph",
+      "reinforcement learning",
+      "event extraction",
+      "large language models",
+      "link prediction"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "accept",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0028",
+      "R0001"
+    ],
+    "generated_at": "2026-08-19T15:44:21.714322",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 5.0
+  },
+  {
+    "paper_id": "S0004",
+    "title": "A Preliminary Study on Transferring Vision-Language Models for Fine-Grained Action Recognition in Procedural Videos",
+    "abstract": "We explore the use of pre-trained vision-language models for fine-grained action recognition in procedural videos. While recent work has shown strong performance on generic action recognition, their application to domain-specific procedural activities remains under-explored. We propose a simple yet effective method that adapts a vision-language model by generating pseudo-labels from video-language alignment and then fine-tuning on target procedures. This leverages distant supervision without manual annotations. Our approach extends existing work by incorporating a lightweight temporal aggregation module. We evaluate on a single benchmark, the CrossTask dataset, and compare against a limited set of baselines. Initial results suggest moderate improvements over the base model, but we observe instability across different backbone initializations and temporal aggregation choices. We do not perform full ablation studies or evaluate on multiple datasets due to computational constraints. The findings are preliminary and require further investigation to confirm generalizability. Overall, this study highlights the potential of vision-language transfer for procedural activity recognition, but substantial refinement is needed to achieve robust performance.",
+    "keywords": [
+      "action recognition",
+      "procedural videos",
+      "vision-language models",
+      "distant supervision",
+      "transfer learning"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "borderline",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0048",
+      "R0006"
+    ],
+    "generated_at": "2026-08-19T15:44:19.830855",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0019",
+    "title": "Combining Lexical Data Augmentation with Reinforced Self-Training for Low-Resource Multilingual Machine Translation",
+    "abstract": "Multilingual machine translation models often underperform on low-resource language pairs, and recent work has shown that lexical data augmentation (e.g., Bilex Rx) and reinforced self-training (ReST) can each yield gains in different settings. In this paper, we propose a simple extension that combines both ideas: an alternating training procedure where the target side of synthetic translation data is rephrased using a bilingual lexicon, and the model is updated via a REINFORCE-style objective with rewards computed against a small development reference set. This is an incremental combination of existing components rather than a new method. We evaluate in a limited setting on four low-resource language pairs from FLORES-200 using a 300M-parameter multilingual encoder-decoder. Compared to a standard pretrained baseline, the combined approach improves average ChrF by 0.6, and it slightly outperforms either component applied alone. However, we do not compare against strong recent systems such as NLLB, and we do not ablate important design choices including reward scaling, lexicon thresholding, or sampling temperature. Initial results suggest that the gains are modest and concentrated on languages with larger available lexicons. We believe this direction is promising, but the current evidence is inconclusive and would require substantially more evaluation across languages, model sizes, and baselines.",
+    "keywords": [
+      "multilingual machine translation",
+      "lexical data augmentation",
+      "reinforced self-training",
+      "low-resource languages",
+      "REINFORCE"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "borderline",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0072",
+      "R0008"
+    ],
+    "generated_at": "2026-08-19T15:44:25.599918",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 5.0
+  },
+  {
+    "paper_id": "S0036",
+    "title": "Combining Self-Supervised Pre-training and Implicit Neural Representations for Few-Shot Time-Series Classification",
+    "abstract": "Self-supervised pre-training has shown promise for few-shot classification in audio and image domains. In this paper, we extend this approach to time-series classification by combining a large-scale self-supervised pre-training objective with a meta-learned encoder based on implicit neural representations. Our method, which we call INR-FSL, encodes each time-series instance as a continuous function and learns to adapt to new classes via a prototypical network. We evaluate on three publicly available time-series datasets (ECG200, Wafer, and FordA) and compare against a standard fine-tuning baseline and a feature-wise pre-training baseline. In our limited experiments, INR-FSL achieves modest gains in accuracy on two of the three datasets, with an average improvement of 2.1 percentage points over fine-tuning. However, the gains are inconsistent across domains, and we observe that the implicit representation adds significant computational overhead. We do not include ablations on the pre-training objective or meta-learning schedule, and we do not compare to more recent transformer-based methods. Our initial results suggest that implicit neural representations can complement self-supervised pre-training for few-shot time-series classification, but substantial further investigation is needed to understand when and why this combination helps.",
+    "keywords": [
+      "few-shot learning",
+      "self-supervised pre-training",
+      "implicit neural representations",
+      "time-series classification",
+      "meta-learning"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "borderline",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0131",
+      "R0029"
+    ],
+    "generated_at": "2026-08-19T15:44:26.753775",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0044",
+    "title": "Value-Guided Evidence Aggregation: Monte-Carlo Tree Search for Long-Document Retrieval",
+    "abstract": "Long-document retrieval often loses critical evidence when a single document must be split into chunks: a single vector representation cannot capture all relevant passages, and existing chunk aggregation methods rely on heuristics or task-specific supervision that do not account for downstream answer quality. We propose Value-Guided Monte-Carlo Evidence Aggregation (VG-MCEA), a method that frames chunk selection as a sequential decision process and uses a learned value model to guide Monte-Carlo Tree Search over candidate chunk combinations. VG-MCEA iteratively expands and evaluates evidence sets, directly optimizing for the expected answer relevance of the retrieved package rather than independent chunk scores. We train the value model on a small set of annotated (query, document, answer) triples and apply it without fine-tuning the underlying retriever or generator. On three long-document QA benchmarks — HotpotQA, Natural Questions long-document split, and TREC-CAR — VG-MCEA improves answer F1 by 3.1–4.7 points over state-of-the-art chunk aggregation baselines and increases recall at 64 tokens by up to 6.2 points, while requiring only 15% of the inference time of exhaustive reranking. Ablations confirm that the value signal and tree search each contribute meaningfully. Limitations include sensitivity to chunk granularity and additional decoding overhead, but the method offers a general, scoring-model-agnostic strategy for evidence aggregation.",
+    "keywords": [
+      "long-document retrieval",
+      "Monte-Carlo Tree Search",
+      "value models",
+      "evidence aggregation",
+      "question answering"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "accept",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0021",
+      "R0002"
+    ],
+    "generated_at": "2026-08-19T15:44:31.407710",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 6.0
+  },
+  {
+    "paper_id": "S0078",
+    "title": "Applying DDS2M Self-Supervised Denoising Diffusion to Hyperspectral Video Restoration: Initial Experiments on a Small Dataset",
+    "abstract": "We present a straightforward application of the DDS2M self-supervised denoising diffusion spatio-spectral model, originally designed for hyperspectral image restoration, to the task of hyperspectral video restoration. We directly leverage the existing framework without any methodological modifications or novel components. Our initial experiments are conducted on a single small dataset consisting of 30 hyperspectral video sequences with synthetic noise. We evaluate the restoration quality using PSNR and SSIM, but do not include comparisons with any baseline methods. The goal of this work is to explore whether the spatio-spectral diffusion prior from DDS2M can transfer to the temporal setting of video data. Our preliminary results indicate that the model produces visually acceptable restorations, but quantitatively the performance degrades for frames with large motion, and the lack of temporal modeling leads to flickering artifacts. We explicitly acknowledge that the single small dataset and the absence of baseline comparisons limit the interpretability and generalizability of these findings. This study serves as an initial exploration and does not claim state-of-the-art performance. We hope to address these limitations in future work by incorporating temporal modules and evaluating on larger benchmarks.",
+    "keywords": [
+      "hyperspectral video restoration",
+      "self-supervised denoising diffusion",
+      "spatio-spectral model",
+      "transfer learning",
+      "preliminary study"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "reject",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0013",
+      "R0070"
+    ],
+    "generated_at": "2026-08-19T15:44:30.634157",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 2.0
+  },
+  {
+    "paper_id": "S0001",
+    "title": "Applying a Contrastive Gender-Debiasing Method to English–Kurmanji Machine Translation: A Preliminary Study on a Small Test Set",
+    "abstract": "In this paper, we apply a target-agnostic gender-aware contrastive learning approach, originally designed for multilingual machine translation, directly to English-to-Kurmanji translation, a low-resource language pair, without any methodological changes. We explore whether this existing method can mitigate gender bias in translation output when training data is scarce. Our initial experiments use a single small test set consisting of 200 sentence pairs with ambiguous gender references, and we fine-tune a pre-trained multilingual model using the contrastive objective. We then evaluate translations for gender accuracy and fluency. However, this work is preliminary and has clear limitations: we do not include any baseline comparisons, and the dataset is too small to support robust conclusions. Furthermore, the contrastive examples used for fine-tuning are limited in diversity, and our evaluation is based on a small set of sentences, which may not represent the broader challenges of Kurmanji. Results are mixed; we observe minor improvements for some pronoun categories but no consistent overall gain. We therefore view our findings as exploratory and caution against generalization. We release our data and code, but we stress that the effectiveness of the method in low-resource domains remains an open question. Future work with larger datasets and baseline methods is necessary.",
+    "keywords": [
+      "machine translation",
+      "gender bias",
+      "low-resource languages",
+      "contrastive learning",
+      "multilingual"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "reject",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0091",
+      "R0054"
+    ],
+    "generated_at": "2026-08-19T15:44:37.867612",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0030",
+    "title": "Asynchronous Bayesian Optimization for Automated Hyperparameter Tuning of Deep Reinforcement Learning Agents",
+    "abstract": "We introduce AsyncBO-RL, a Bayesian optimization framework for automated hyperparameter tuning of deep reinforcement learning (RL) agents. Unlike traditional Bayesian optimization, which evaluates hyperparameter configurations synchronously, AsyncBO-RL supports asynchronous evaluations in a distributed setting, making it well suited for computationally expensive RL training runs. A key innovation is a censored surrogate model that ingests partially completed training runs, improving data efficiency without requiring full rollouts. We pair this model with a resource-aware acquisition function that balances exploration, exploitation, and early stopping. On three continuous control benchmarks (HalfCheetah, Hopper, Walker2d), we tune the hyperparameters of PPO and DDPG. AsyncBO-RL consistently outperforms random search and standard Bayesian optimization in terms of wall-clock time and final return, and matches or exceeds hand-tuned baselines across all test environments. We also demonstrate robustness to evaluation noise. A limitation is that our experiments are limited to simulated control tasks; applying the method to real-world systems is an area for future work. Overall, AsyncBO-RL provides a practical, sample-efficient solution for RL hyperparameter tuning.",
+    "keywords": [
+      "Bayesian optimization",
+      "asynchronous evaluations",
+      "deep reinforcement learning",
+      "hyperparameter tuning",
+      "continuous control"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "accept",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0136",
+      "R0098"
+    ],
+    "generated_at": "2026-08-19T15:44:34.250495",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 6.0
+  },
+  {
+    "paper_id": "S0031",
+    "title": "Applying DSTAG to Temporal Knowledge Graph Completion for Historical Maritime Trade: A Preliminary Study",
+    "abstract": "We apply DSTAG, a semantic tag-enhanced dual-graph convolutional network originally designed for temporal knowledge graph completion, to a newly assembled temporal knowledge graph of historical maritime trade routes. This dataset is small, containing 1,200 entities and 8,000 timestamped facts across 20 years. Our goal is to evaluate the direct transferability of the model to a new domain without any methodological adaptation. Preliminary results show that the model achieves a mean reciprocal rank of 0.23, which is lower than the performance reported on the original benchmark. We do not include baseline comparisons because no established temporal knowledge graph completion baselines have yet been applied to this domain, and the dataset's small scale limits the reliability of any comparative evaluation. We also identify several limitations: the semantic tags required by DSTAG must be manually constructed for this domain, the temporal granularity of shipping records is irregular, and the model's attention mechanism does not capture the periodicity of trade cycles. Our initial experiments suggest that direct application of an existing model to a niche domain without domain-specific adjustments yields suboptimal results. This work is an exploratory application rather than a methodological contribution; we intend it to serve as a starting point for future adaptation efforts.",
+    "keywords": [
+      "temporal knowledge graph",
+      "graph neural network",
+      "link prediction",
+      "maritime trade",
+      "transfer learning"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "reject",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0028",
+      "R0062"
+    ],
+    "generated_at": "2026-08-19T15:44:39.618321",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 2.0
+  },
+  {
+    "paper_id": "S0045",
+    "title": "Language-Guided Pseudo-Label Denoising for Semantic Segmentation in Adverse Driving Conditions",
+    "abstract": "Self-training with pseudo-labels is a prominent approach to semantic segmentation for autonomous driving, but its accuracy degrades rapidly when pseudo-labels are corrupted under adverse weather and lighting. We propose LGSeg, a vision-language guided denoising framework that enhances self-training robustness by leveraging pre-trained vision-language models to identify and correct noisy pseudo-labels. For each training image, we extract class-aligned text embeddings and compute patch-wise alignment scores between image features and each class description. These scores act as a reliability prior for the predicted mask, and we introduce a dynamic masking mechanism that adaptively excludes or rectifies low-confidence regions before they are used as supervision. To further reduce error accumulation, we perturb the alignment distribution with a lightweight denoising network that refines unreliable predictions in both feature and label space. We evaluate LGSeg on Cityscapes and the Adverse Conditions Dataset (ACDC) for fog, night, and rain scenarios. Our method improves mean IoU by 3.2% and 4.1% over a strong self-training baseline and outperforms recent pseudo-label denoising approaches across all conditions. A key limitation is the added computational cost of online VLM inference, which we mitigate with a distilled student. We will release code and models.",
+    "keywords": [
+      "semantic segmentation",
+      "autonomous driving",
+      "vision-language models",
+      "pseudo-label denoising",
+      "adverse conditions"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "accept",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0079",
+      "R0006"
+    ],
+    "generated_at": "2026-08-19T15:44:40.422187",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 6.0
+  },
+  {
+    "paper_id": "S0091",
+    "title": "Conformal Tool Selection for LLM Agents under Imperfect Instructions: A Case Study on Web Navigation",
+    "abstract": "LLM agents increasingly rely on tool-use policies to complete complex tasks; however, their performance degrades when user-provided instructions are ambiguous or partially incorrect. In this work, we extend conformal prediction—an established framework for distribution-free uncertainty quantification—to the task of tool selection in LLM agents. We propose a lightweight calibration step that adjusts the agent's confidence scores over candidate tools, producing a selectable set of tools that is guaranteed to contain the correct tool with high marginal probability. On a single web-navigation benchmark with synthetically corrupted instructions, we show that conformalized tool selection reduces failure rate by a modest margin compared to a greedy baseline. We do not include additional benchmarks, ablations, or comparisons with alternative uncertainty methods; the evaluation is restricted to one domain and one agent backbone. Initial results suggest that the approach is promising, but the improvement is within the noise of our limited setup, and substantial refinement—including better calibration objectives, broader evaluation, and integration with downstream planning—would be needed to draw firm conclusions. Overall, this work constitutes an incremental step toward reliable tool use in LLM agents under imperfect guidance.",
+    "keywords": [
+      "conformal prediction",
+      "LLM agents",
+      "tool selection",
+      "imperfect instructions",
+      "uncertainty quantification"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "borderline",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0119",
+      "R0108"
+    ],
+    "generated_at": "2026-08-19T15:44:34.734499",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 5.0
+  },
+  {
+    "paper_id": "S0056",
+    "title": "Function-Space Bayesian Continual Learning with Pre-Trained Feature Priming",
+    "abstract": "We propose a novel method for continual learning that combines function-space variational inference with pre-trained feature abstractions. Our approach, called Bayesian Primed Function-Space (BPFS), maintains a distribution over functions rather than parameters, enabling principled uncertainty estimation and mitigating catastrophic forgetting. We introduce a feature-priming mechanism that transfers representations from a pre-trained backbone to the function-space prior, allowing the model to rapidly adapt to new tasks while preserving previously learned knowledge. We evaluate BPFS on standard continual learning benchmarks, including Split CIFAR-100, Split Tiny ImageNet, and a continual domain-incremental scenario. Compared to established baselines such as Elastic Weight Consolidation, Variational Continual Learning, and Functional Regularization of Continual Learning, BPFS achieves consistently higher average accuracy and lower forgetting. Our ablation studies show the contribution of each component. We also demonstrate that BPFS is robust to varying pre-training qualities and task orders. A limitation is the increased computational cost due to function-space inference, although this is acceptable for moderate model sizes. Overall, BPFS provides a solid step toward scalable Bayesian continual learning with strong empirical performance.",
+    "keywords": [
+      "Bayesian continual learning",
+      "function-space variational inference",
+      "neural priming",
+      "catastrophic forgetting",
+      "pre-trained representations"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "accept",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0126",
+      "R0099"
+    ],
+    "generated_at": "2026-08-19T15:44:36.084325",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 5.0
+  },
+  {
+    "paper_id": "S0027",
+    "title": "Self-Corrective Conversational Recommender Agents via Learned World Models of User Preference Dynamics",
+    "abstract": "Conversational recommender systems (CRS) must balance eliciting user preferences and making accurate suggestions under uncertainty. While recent methods use large language models for dialogue generation, they lack explicit modeling of how user preferences evolve as the conversation progresses. We propose WM-CRS, a conversational recommendation agent that learns a lightweight world model of user preference dynamics from dialogue context and historical interaction data. The world model enables (1) counterfactual rollouts to evaluate candidate items before asking, and (2) a test-time self-correction mechanism that refines the agent's policy when predicted outcomes diverge from observed user feedback. We integrate WM-CRS with both template-based and LLM-based response generators, requiring no additional annotation. On the ReDial and GoRecDial benchmarks, WM-CRS improves recommendation hit@10 by 8.2% and 11.4% relative over strong baselines (BARCOR, CRM, and KBRD), while increasing dialogue success rate by 6.3 percentage points on average. Ablations confirm that the world model's counterfactual rollouts contribute most to gains in cold-start scenarios. Limitations include evaluation on only two benchmarks and reliance on synthetic user feedback for self-correction; future work will extend to live user studies and multi-domain catalogs.",
+    "keywords": [
+      "conversational recommender systems",
+      "world models",
+      "test-time self-correction",
+      "user preference modeling",
+      "LLM agents"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "accept",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0030",
+      "R0009"
+    ],
+    "generated_at": "2026-08-19T15:44:43.419789",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 6.0
+  },
+  {
+    "paper_id": "S0002",
+    "title": "SparseInstrucNav: Instruction-Aware Fuzzy Pruning for Efficient Egocentric Visual Navigation",
+    "abstract": "Egocentric visual navigation agents often rely on dense frame-by-frame reasoning, which is computationally expensive and exposes the model to irrelevant distractors. We present SparseInstrucNav, a method that dynamically prunes both spatial and channel dimensions of video frames using a fuzzy sparsity formulation, conditioned on natural-language navigation instructions. Our framework employs a lightweight instruction-following gate, built on a multimodal large language model, to estimate the relevance of each input frame to the current navigation subgoal. Frames with low relevance are aggressively pruned, while informative regions are retained via fuzzy channel selection. We integrate SparseInstrucNav into a transformer-based navigation policy and train it end-to-end with a sparse-aware loss. On the R2R benchmark and the indoor-instruction subset of Ego4D, SparseInstrucNav outperforms prior navigation policies (e.g., DUET and VLN-BERT) by 4.1% and 3.3% in success rate, respectively, while cutting FLOPs by 32% and improving inference speed by 1.8x. We also show that our pruning strategy transfers across environments, though we observe a small accuracy drop when the instruction distribution shifts to highly ambiguous wording. Our work demonstrates that instruction-aware fuzzy frame pruning is a practical and effective approach for real-time egocentric navigation.",
+    "keywords": [
+      "Egocentric navigation",
+      "Vision-and-Language Navigation",
+      "Fuzzy Pruning",
+      "Multimodal Large Language Models",
+      "Frame Selection"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "accept",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0012",
+      "R0100"
+    ],
+    "generated_at": "2026-08-19T15:44:49.609618",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 5.0
+  },
+  {
+    "paper_id": "S0061",
+    "title": "Term-Aware Curriculum Selection for Low-Resource Clinical Machine Translation with Fairness Evaluation",
+    "abstract": "We present a targeted fine-tuning framework for machine translation (MT) in the clinical domain, specifically designed for low-resource conditions. Our method, called term-aware curriculum selection (TACS), leverages a small set of in-domain sentences prioritized by medical term frequency and lexical diversity, combined with a lightweight adapter module that is inserted into a frozen pretrained MT model. We evaluate TACS on two clinical translation benchmarks: a new dermatology-focused English-to-French/Portuguese test set extracted from patient education materials, and the public UF Medical Clinical Translation corpus. In experiments with as few as 1,000 training sentences, TACS improves BLEU by an average of 4.2 points over a strong unsupervised baseline (M2M-100) and outperforms full fine-tuning of the same model with 10x more data, reducing training cost by 80%. We also perform a fairness analysis across patient demographic subgroups using a novel composite metric, showing that TACS yields more consistent error rates than baselines. Limitations include a narrow language pair coverage and reliance on automatically extracted terminology. Our results demonstrate that with a principled data selection strategy, practical clinical MT is achievable using minimal human-annotated data.",
+    "keywords": [
+      "clinical machine translation",
+      "low-resource neural MT",
+      "term-aware data selection",
+      "fairness evaluation",
+      "dermatology natural language processing"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "accept",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0056",
+      "R0107"
+    ],
+    "generated_at": "2026-08-19T15:44:47.701783",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0093",
+    "title": "Retrieval-Guided Weight Interpolation for Continual Learning under Covariate Shift",
+    "abstract": "Recent work in continual learning has explored both adapter routing and model merging as complementary approaches to mitigate catastrophic forgetting. In this paper, we combine these existing ideas into a simple retrieval-guided weight interpolation method. At each task, a lightweight retrieval module selects the most relevant previously trained adapters based on the current task’s features; the selected adapters are then merged with the newly trained adapter via weight averaging. This extends standard model merging by conditioning the interpolation weights on task similarity, and extends adapter routing by incorporating parameter-level knowledge. We evaluate our method in a limited setting: four tasks from Split-CIFAR-100 with a synthetic covariate shift, comparing against a single baseline of naive weight averaging. We do not include an ablation of the retrieval module or comparisons to more recent continual learning methods. Initial results suggest that retrieval-guided interpolation can reduce forgetting by a small margin on two of the four tasks, while performing on par with the baseline on the others. Overall, the contribution is incremental and would benefit from a larger-scale study; nonetheless, the combination of retrieval and merging appears promising for further investigation.",
+    "keywords": [
+      "continual learning",
+      "model merging",
+      "adapter retrieval",
+      "weight interpolation",
+      "distribution shift"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "borderline",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0031",
+      "R0047"
+    ],
+    "generated_at": "2026-08-19T15:44:44.985809",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 2.5
+  },
+  {
+    "paper_id": "S0017",
+    "title": "Preliminary Application of World-Model-Augmented Web Agents to Organic Afterglow Literature Mining",
+    "abstract": "We apply the world-model-augmented web agent with action correction, an existing framework, to the task of retrieving and summarizing synthesis recipes from the organic afterglow materials literature. As a preliminary exploration, we curate a small dataset of 30 recent papers from this domain and run the agent in its default configuration. We report initial results: the agent successfully identifies key synthesis parameters in 60% of cases, but fails to correct action errors in the remaining cases. However, we do not compare against any baseline systems, and the dataset is too small to draw general conclusions. Our work is a straightforward application with no methodological novelty; we simply transfer the framework to a new domain. We also observe that the agent's internal world model, trained on general web data, lacks domain-specific knowledge, leading to suboptimal search strategies. Nevertheless, these initial experiments suggest that further domain adaptation and a larger evaluation corpus are necessary before any claims about applicability can be made. We hope this study can serve as a starting point for future work on using deep research agents in molecular informatics.",
+    "keywords": [
+      "deep research agents",
+      "world model",
+      "web agents",
+      "organic afterglow materials",
+      "preliminary study"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "reject",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0009",
+      "R0023"
+    ],
+    "generated_at": "2026-08-19T15:44:50.415811",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 1.0
+  },
+  {
+    "paper_id": "S0046",
+    "title": "Applying Query2Label to Robotic Object Tagging: A Preliminary Study on a Small Custom Dataset",
+    "abstract": "In this paper, we apply the Query2Label transformer framework, originally proposed for multi-label image classification, to the new domain of robotic object tagging. We collect a single small dataset of 120 images from a fixed camera overlooking a tabletop robot workspace, and manually annotate the presence of 10 everyday objects. We fine-tune a pre-trained Query2Label model on this dataset and report initial results using F1 score and accuracy. We also explore how varying brightness levels affect tag prediction performance. Our experiments are preliminary: we do not compare against existing object detectors or classification baselines, and the dataset is limited in size, object variety, and scene diversity. These constraints clearly limit the generalizability of our findings. Despite these limitations, the qualitative and quantitative results suggest that transformer-based multi-label classification may be adaptable to robot perception tasks, but more extensive validation with larger datasets and baseline comparisons is necessary. This work is intended as an initial exploration rather than a definitive solution.",
+    "keywords": [
+      "multi-label classification",
+      "transformer",
+      "robot perception",
+      "object tagging",
+      "brightness"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "reject",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0121",
+      "R0016"
+    ],
+    "generated_at": "2026-08-19T15:44:52.583457",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0088",
+    "title": "Applying a Discrete Speech-to-Speech Translation Model to Medical Consultations: A Preliminary Study",
+    "abstract": "We present a preliminary study applying PolyVoice, an existing discrete speech-to-speech translation framework, to medical consultation dialogues. We directly use the pre-trained model without any architectural modifications or task-specific fine-tuning, evaluating its feasibility on a newly collected small dataset of 40 simulated English-to-Spanish medical conversations, totaling 1.2 hours of speech. Our initial experiments measure translation quality using automatic metrics (ASR-based BLEU and a speech translation specific metric). The results indicate that the model produces partially intelligible translations but frequently omits critical medical terms. As a preliminary exploration, this study is limited by the small dataset size, the lack of baseline comparisons, and the absence of human expert evaluation. We also do not assess performance on other language pairs or in real clinical settings. These limitations make our findings primarily indicative of potential challenges and avenues for future research, rather than a validation of the approach. We hope this initial study encourages further work on adapting speech translation models to high-stakes domains like healthcare.",
+    "keywords": [
+      "speech translation",
+      "medical dialogue",
+      "discrete speech representations",
+      "preliminary study",
+      "low-resource domain"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "reject",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0005",
+      "R0054"
+    ],
+    "generated_at": "2026-08-19T15:44:49.973964",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0094",
+    "title": "Applying Multi-LLM Ensemble Voting to Developer vs. LLM Code Classification: A Preliminary Study on a Small Dataset",
+    "abstract": "We apply a multi-LLM collaboration method, originally developed for general reasoning tasks, to the problem of code evaluation. Specifically, we use an ensemble of three LLMs that independently score code snippets and then aggregate their outputs via majority voting to classify whether a code change was authored by a human developer or generated by an LLM. Our initial experiments are conducted on a single dataset of 120 code snippets extracted from a single GitHub repository. We report preliminary results showing that the ensemble achieves moderate accuracy, and we explore the effect of different prompt templates. We do not compare against any baseline methods, and we do not modify the underlying collaboration technique. The scope is limited: the dataset is small and domain-specific, the prompt templates are not optimized, and the results may not generalize to other repositories or code types. These limitations mean that our findings should be interpreted as an initial exploration rather than a validated solution. We conclude that applying this existing method to code evaluation yields mixed results, and further work with larger and more diverse datasets, as well as baseline comparisons, is necessary.",
+    "keywords": [
+      "multi-LLM collaboration",
+      "code evaluation",
+      "LLM-generated code",
+      "ensemble voting",
+      "developer vs LLM"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "reject",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0032",
+      "R0061"
+    ],
+    "generated_at": "2026-08-19T15:44:50.353660",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 1.0
+  },
+  {
+    "paper_id": "S0010",
+    "title": "Applying ROME Knowledge Editing to Event Fact Correction: A Preliminary Study on a Small Political Dataset",
+    "abstract": "Recent advances in knowledge editing have shown that large language models can be updated by directly modifying internal weights. In this paper, we apply an existing weight-based editing method, ROME, to a new domain: correcting factual event knowledge in a small corpus of political event descriptions. We explore whether this off-the-shelf method, originally designed for entity substitution, can be directly transferred to update event facts without any methodological changes. We conduct initial experiments on a single dataset of 250 event descriptions, reporting post-edit accuracy and consistency metrics. No baseline methods are included, and hyper-parameters are left at their default settings. Results show that ROME achieves reasonable accuracy on simple event edits, but its performance declines on multi-relational and temporal statements. We also observe that the method sometimes introduces unrelated factual changes, which limits its practical reliability. This study is a preliminary exploration of cross-domain knowledge editing; we explicitly do not propose new techniques. We discuss the limitations of the evaluation, including the small dataset size, lack of comparisons, and domain specificity, and suggest directions for future work. Overall, our findings indicate that existing editing methods may require domain-specific adaptation to be effective for event-centric knowledge.",
+    "keywords": [
+      "knowledge editing",
+      "event fact prediction",
+      "ROME",
+      "preliminary study",
+      "language models"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "reject",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0051",
+      "R0073"
+    ],
+    "generated_at": "2026-08-19T15:45:03.808246",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0073",
+    "title": "Spatial Mask Consistency with World-Model-Inspired Perturbation for Semi-Supervised Left Atrium Segmentation",
+    "abstract": "We propose an incremental extension of semi-supervised 3D left atrium segmentation by integrating a lightweight spatial reasoning module inspired by recent world models. Our method combines a cross-slice context consistency loss with a spatial mask prediction task, where input volumes are perturbed with frequency-domain masks and the model is trained to recover the original segmentation from a spatially transformed feature space. This mimics world-model-style self-supervision and encourages global anatomical structure learning. We evaluate the proposed approach on a single public left atrium dataset with only 10% labeled volumes, comparing against a standard mean-teacher baseline and a recent mask consistency method. In this limited setting, our method improves the Dice score by 1.3 points over the baseline, but gains are inconsistent across other metrics and no statistical significance is reported. We also provide qualitative visualizations, but no ablation of the spatial reasoning module is performed. These initial results suggest that integrating spatial reasoning into semi-supervised medical segmentation is promising, yet the contribution remains marginal and would require substantial additional experiments, multiple datasets, and thorough ablations to be fully validated. The work is a direct combination of existing ideas from spatial reasoning models and mask-based consistency, rather than a novel problem formulation.",
+    "keywords": [
+      "semi-supervised segmentation",
+      "left atrium",
+      "world models",
+      "spatial reasoning",
+      "mask consistency"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "borderline",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0110",
+      "R0122"
+    ],
+    "generated_at": "2026-08-19T15:44:55.129650",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0051",
+    "title": "Multi-Morbid Synthetic Patient Generation for Conversational Symptom Assessment: A Limited Feasibility Study",
+    "abstract": "Recent work has shown the promise of synthetic patients for training and evaluating conversational symptom-assessment agents. However, existing synthetic user generators model single, isolated conditions, limiting their realism for primary care, where multi-morbidity is common. We present an incremental extension of the SyntheticUser framework that conditions patient profiles on co-occurring chronic conditions (e.g., diabetes and hypertension) using a rule-based comorbidity matrix combined with a prompted large language model. We generate a small corpus of 120 simulated primary-care dialogues and use it to fine-tune a lightweight dialogue triage model. In a limited evaluation against a single baseline (the original single-condition generator), our approach yields modest gains in differential-diagnosis coverage (F1 +3.1 points) but does not significantly improve patient satisfaction ratings. We conduct no ablations of the rule-based component, and we do not test on real patient data. Initial results suggest that multi-morbid synthetic patients may add realism for training conversational agents, but substantial validation and additional baselines are required before any clinical deployment.",
+    "keywords": [
+      "synthetic patients",
+      "comorbidity",
+      "conversational agent",
+      "symptom assessment",
+      "large language models"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "borderline",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0071",
+      "R0033"
+    ],
+    "generated_at": "2026-08-19T15:44:55.662712",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0083",
+    "title": "FedMotionLM: Federated Motion Forecasting as Language Modeling with Adaptive Game-Theoretic Client Reweighting",
+    "abstract": "We introduce FedMotionLM, a new federated learning framework that trains multi-agent motion forecasting models as sequence generators across distributed data silos without sharing raw trajectories. Unlike prior federated methods that treat clients equally or add uniform noise, FedMotionLM formalizes client participation as a network effects game, where each client's contribution is adaptively reweighted based on the marginal improvement of its local model to the global prediction skill. To safeguard trajectory privacy, we propose a novel adaptive differential privacy mechanism that allocates noise budget per client according to its data heterogeneity, yielding an average 2.3x lower privacy loss at equal utility. In experiments on three benchmarks, FedMotionLM establishes new state-of-the-art results: on Argoverse 2, it reduces minimum Average Displacement Error (minADE) from 0.61 to 0.56 and Miss Rate (MR) from 0.13 to 0.11; on NuScenes, minADE drops from 0.72 to 0.68; on the Waymo Open Motion Dataset, MR improves from 0.17 to 0.15. In addition, on the CIFAR-10 and FEMNIST federated benchmarks, FedMotionLM improves accuracy from 84.3% to 85.7% and from 76.1% to 77.4%, respectively. Our work provides the first privacy-preserving federated framework for motion forecasting with game-theoretic client incentives and adaptive differential privacy.",
+    "keywords": [
+      "Federated Learning",
+      "Motion Forecasting",
+      "Differential Privacy",
+      "Game Theory",
+      "Language Modeling"
+    ],
+    "primary_area": "cs.LG",
+    "preset_quality": "strong_accept",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0135",
+      "R0039"
+    ],
+    "generated_at": "2026-08-19T15:45:49.536078",
+    "generation_model": "llm",
+    "quality": "strong_accept",
+    "grader_score": 8.0
+  },
+  {
+    "paper_id": "S0037",
+    "title": "Direct Application of a Multi-Modal Siamese Network to Few-Shot Event Relation Extraction in Scientific Abstracts",
+    "abstract": "In this paper, we explore the direct application of a multi-modal Siamese network, originally proposed for few-shot knowledge graph completion, to the task of few-shot event relation extraction in scientific abstracts. We treat each event relation as a triplet analogous to a knowledge graph fact, and reuse the model's textual and structural encoders without architectural modifications. We evaluate the model on a single small dataset consisting of 200 human-annotated abstracts reporting NLP experiments, covering 10 event relation types with 5 support instances per type. Our initial experiments yield a macro-averaged F1 score of 58.2%, but we note that the dataset is small, the relation types are selected for convenience, and no baseline methods are included. The results are preliminary and should be interpreted with caution; they mainly demonstrate feasibility rather than effectiveness. Limitations include the lack of comparison to existing few-shot relation extraction or event extraction models, the narrow domain coverage, and the fact that the model's multi-modal components are not fully exploited since only text is used. Overall, this is an application-oriented exploration with no methodological novelty; we hope it serves as a starting point for future work that adapts knowledge graph completion techniques to event extraction in more realistic settings.",
+    "keywords": [
+      "few-shot learning",
+      "event relation extraction",
+      "knowledge graph completion",
+      "scientific abstracts",
+      "siamese network"
+    ],
+    "primary_area": "cs.AI",
+    "preset_quality": "reject",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0111",
+      "R0001"
+    ],
+    "generated_at": "2026-08-19T15:45:04.148011",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 2.0
+  },
+  {
+    "paper_id": "S0021",
+    "title": "Spatial Memory Enhanced Masked Attention for Closed-Loop Instance Segmentation",
+    "abstract": "We present an incremental extension of the Masked-Attention Mask Transformer (Mask2Former) by injecting a lightweight spatial memory module derived from a world model representation. The proposed method, SpatialMask, uses a frozen world model encoder to produce a spatial prior that conditions the masked attention mechanism for instance segmentation. This combination is natural because masked attention transformers and spatial world models both rely on structured latent representations. We evaluate SpatialMask in a limited closed-loop setting on a synthetic indoor navigation environment. We build on the Mask2Former architecture and replace its standard attention queries with spatially grounded queries sampled from the world model's latent space. The world model is pre-trained offline on a semantic segmentation task. Initial results suggest a modest improvement in segmentation quality for seen object categories, but the performance gain diminishes for unseen objects. We also observe that the spatial memory module degrades when the world model is not fine-tuned. Due to time constraints, we do not provide ablations on the memory injection location, nor do we compare with recent state-of-the-art segmentation models such as Mask DINO. Our analysis is restricted to one simulation environment with only 20 episodes and a single A100 GPU. These preliminary findings indicate that integrating spatial memory into masked attention is feasible but requires substantial further investigation to be practically useful. We plan to release code upon acceptance.",
+    "keywords": [
+      "spatial world models",
+      "masked attention",
+      "instance segmentation",
+      "closed-loop",
+      "spatial memory"
+    ],
+    "primary_area": "cs.CV",
+    "preset_quality": "borderline",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0122",
+      "R0044"
+    ],
+    "generated_at": "2026-08-19T15:45:06.528743",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 2.0
+  },
+  {
+    "paper_id": "S0074",
+    "title": "Applying a Target-Agnostic Gender-Aware Contrastive Objective to Reduce Gender Bias in Medical Machine Translation: A Preliminary Study on a Small Clinical Corpus",
+    "abstract": "We apply a target-agnostic gender-aware contrastive learning objective, originally developed for multilingual machine translation, to reduce gender bias in medical translations. Our domain is a small parallel corpus of clinical discharge summaries (English-Spanish) that we constructed from public sources. We fine-tune a pretrained multilingual MT model with the contrastive objective and report preliminary results. On our corpus, the approach reduces masculine default translations by about 15% for female patient references while preserving BLEU within 1 point of the fine-tuned baseline. However, we do not compare against any other debiasing methods, and our evaluation is limited to a single small dataset of 2,000 sentences. We also find that the objective is sensitive to hyperparameters and shows inconsistent gains across medical subdomains, suggesting limited generalizability. These initial experiments are exploratory; we do not claim any methodological novelty, and we expect that larger, annotated clinical corpora and additional baselines are needed to validate the approach. Our findings indicate that existing debiasing techniques may transfer to medical translation, but should be adapted and evaluated more rigorously.",
+    "keywords": [
+      "machine translation",
+      "gender bias",
+      "medical domain",
+      "contrastive learning",
+      "multilingual NLP"
+    ],
+    "primary_area": "cs.CL",
+    "preset_quality": "reject",
+    "author_type": "dual_same_area",
+    "author_profile_ids": [
+      "R0091",
+      "R0033"
+    ],
+    "generated_at": "2026-08-19T15:45:01.140639",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 2.0
+  },
+  {
+    "paper_id": "S0055",
+    "title": "Temporal Graph Clustering for Interaction-Aware Motion Forecasting: A Preliminary Study",
+    "abstract": "We present an incremental extension of [profile-derived reference removed] to multi-agent motion forecasting. Our method, TC-MAF, applies a contrastive temporal graph clustering objective to group agents with similar interaction patterns over time, and then uses the resulting cluster assignments as auxiliary features in an attention-based forecasting backbone. This is a direct combination of existing ideas from graph clustering (Dink-Net) and motion forecasting (Wayformer), with no new architectural components. We evaluate TC-MAF in a limited setting on a single dataset, the Interaction dataset, against a small set of baselines. In this setup, initial results suggest that the cluster features yield a slight improvement in prediction accuracy for a subset of scenario types, but the gains are inconsistent across evaluation metrics and are not statistically significant compared to the baseline. We do not include ablations of the clustering components or test on additional datasets, and we defer these analyses to future work. Overall, the contribution is marginal: our findings indicate potential for combining temporal graph clustering with motion forecasting, but substantial revision is required to establish clear and consistent benefits over existing methods.",
+    "keywords": [
+      "temporal graph clustering",
+      "motion forecasting",
+      "contrastive learning",
+      "multi-agent systems",
+      "interaction-aware prediction"
+    ],
+    "primary_area": "cs.AI+cs.LG",
+    "preset_quality": "borderline",
+    "author_type": "cross_area",
+    "author_profile_ids": [
+      "R0062",
+      "R0039"
+    ],
+    "generated_at": "2026-08-19T15:45:03.368325",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0059",
+    "title": "RoutEQA: Difficulty-Aware Routing for Cost-Effective Question Answering with Heterogeneous LLMs",
+    "abstract": "We introduce RoutEQA, a difficulty-aware routing framework for question answering (QA) that allocates queries to heterogeneous LLMs based on estimated reasoning complexity. Unlike prior routing methods that rely on logit-based confidence or fixed thresholds, RoutEQA learns a lightweight difficulty probe on top of frozen sentence-level embeddings from a small encoder, trained with a pairwise rank loss augmented by on-policy synthetic query generation. At inference, the probe outputs a complexity score, and a dynamic programming policy selects a model from a given ensemble to balance accuracy and total cost. On three QA benchmarks (GQA, HotpotQA, and StrategyQA), RoutEQA improves accuracy by up to 6.2 points over a strong single-model baseline while reducing inference cost by 41% on average, and outperforms existing routers such as FrugalGPT and RouteLLM by 3–5 points at matched cost. Ablations confirm that the on-policy augmentation and pairwise ranking both contribute to the gains. We also analyze failure cases on multi-hop and adversarially rephrased questions, identifying a robustness gap that we discuss as a limitation. Our code and data will be released.",
+    "keywords": [
+      "LLM routing",
+      "question answering",
+      "difficulty estimation",
+      "cost-effective inference",
+      "preference optimization"
+    ],
+    "primary_area": "cs.AI+cs.CL",
+    "preset_quality": "accept",
+    "author_type": "cross_area",
+    "author_profile_ids": [
+      "R0015",
+      "R0007"
+    ],
+    "generated_at": "2026-08-19T15:45:06.718037",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 7.0
+  },
+  {
+    "paper_id": "S0032",
+    "title": "Applying Genetic Programming-Based Feature Extraction to Medical Text Classification: A Preliminary Study",
+    "abstract": "In this paper, we apply a genetic programming-based feature extraction method, originally developed for binary image classification, to the task of medical text classification. Our goal is to explore whether this evolutionary approach can be directly transferred to textual data without modification. We use a small dataset of 500 clinical discharge summaries labeled for the presence of pneumonia, and we extract text features via n-grams and word embeddings, which are then fed into the GP system to evolve a feature set for a logistic regression classifier. Initial experiments show that the evolved features achieve an accuracy of 82% on a held-out test set. We do not compare against traditional feature selection methods or modern neural baselines, and we acknowledge that the dataset is small and the text preprocessing is minimal. These preliminary results suggest that GP-based feature extraction may have some potential for textual data, but significant work is needed to validate the approach on larger, more diverse medical corpora. We also note that no methodological changes were made to the original GP algorithm, so the study is an exploratory application rather than a novel method.",
+    "keywords": [
+      "genetic programming",
+      "medical text classification",
+      "feature extraction",
+      "clinical notes",
+      "evolutionary computation"
+    ],
+    "primary_area": "cs.CL+cs.LG",
+    "preset_quality": "reject",
+    "author_type": "cross_area",
+    "author_profile_ids": [
+      "R0005",
+      "R0065"
+    ],
+    "generated_at": "2026-08-19T15:45:08.036588",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 3.0
+  },
+  {
+    "paper_id": "S0072",
+    "title": "Applying Diffusion Language Models to Multi-Label Tagging of Transmission Electron Microscopy Images: A Preliminary Study",
+    "abstract": "This paper presents an initial exploration of applying a diffusion language model to multi-label tagging of transmission electron microscopy (TEM) images. We combine a pre-trained vision transformer for image feature extraction with a diffusion-based text generation model operating on the extracted features to produce tag sequences. We evaluate the pipeline on a single small dataset of 900 TEM images collected from a single facility, with manual tags from one annotator. No baseline comparisons are performed; the aim is to assess feasibility of this straightforward application in a new domain. Initial experiments show that the diffusion model generates syntactically valid tag sequences, but the tag overlap with ground truth is low (F1 < 0.3), and the model frequently outputs generic terms. We identify several limitations, including the small dataset size, domain shift from natural images, and the simplistic conditioning mechanism. Overall, this work is a preliminary report and does not yet provide a usable tagging system for TEM images. We hope that these initial results will motivate further research with larger datasets and more sophisticated domain adaptation techniques.",
+    "keywords": [
+      "diffusion language models",
+      "multi-label tagging",
+      "transmission electron microscopy",
+      "image tagging",
+      "preliminary study"
+    ],
+    "primary_area": "cs.LG+cs.CV",
+    "preset_quality": "reject",
+    "author_type": "cross_area",
+    "author_profile_ids": [
+      "R0037",
+      "R0121"
+    ],
+    "generated_at": "2026-08-19T15:45:20.645489",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 1.0
+  },
+  {
+    "paper_id": "S0099",
+    "title": "Extending Sparse Embedding Modulation to Figure-Caption Retrieval in Host-Guest Materials Literature",
+    "abstract": "Post-hoc debiasing of vision-language models has been proposed as a lightweight alternative to fine-tuning for reducing harmful correlations in general-domain embeddings. In this paper, we investigate whether Sparse Embedding Modulation (SEM), originally introduced for general vision-language debiasing, can be extended to a specialized scientific domain with minimal modifications. We propose a straightforward extension that applies SEM to figure-caption retrieval over a small corpus of host-guest materials chemistry publications. The method keeps the underlying CLIP-style encoder frozen and modulates a sparse set of embedding dimensions using a projection trained on 150 in-domain figure-caption pairs. Initial results suggest the domain-adapted SEM improves recall@5 by 4% on the curated host-guest retrieval set compared to the standard SEM baseline, while maintaining accuracy on a general-domain benchmark. However, our evaluation is limited: the curated corpus contains only 200 figure-caption pairs and three chemical classes, and we do not include comparisons against full fine-tuning, LoRA, or strong prompt-engineering baselines. We also do not ablate the choice of sparse dimension count. Overall, these preliminary findings indicate that sparse post-hoc modulation is a promising but unproven approach for adapting multimodal embeddings to niche scientific literature; substantially larger evaluation is needed before drawing strong conclusions.",
+    "keywords": [
+      "vision-language models",
+      "sparse embedding modulation",
+      "cross-modal retrieval",
+      "domain adaptation",
+      "materials science literature"
+    ],
+    "primary_area": "cs.LG+cs.AI",
+    "preset_quality": "borderline",
+    "author_type": "cross_area",
+    "author_profile_ids": [
+      "R0088",
+      "R0023"
+    ],
+    "generated_at": "2026-08-19T15:45:25.647774",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 5.0
+  },
+  {
+    "paper_id": "S0025",
+    "title": "Transferring Universal Cell Embeddings to Colorectal Histopathology Patch Classification: A Preliminary Study",
+    "abstract": "Universal Cell Embedding (UCE) is a foundation model for cell biology that maps cells into a shared representation space using large-scale single-cell data. In this work, we explore whether UCE features can be repurposed for histopathology image analysis, where tissue patches contain dense mixtures of cells. We propose a simple adaptation pipeline that splits each histopathology patch into smaller tiles, extracts UCE embeddings from each tile, and aggregates them by averaging before a linear classifier. The UCE backbone is kept frozen, and we only train the classification head. We evaluate on a single public dataset (Colorectal Cancer Tissue) restricted to six tissue types. Initial results indicate moderate classification accuracy, but we observe substantial confusion among classes with similar cellular composition. We note that no comparisons to ImageNet-initialized baselines or other medical imaging foundation models are made, and we do not ablate tile size, feature aggregation, or the effect of freezing different network layers. While the transfer is shown to be technically feasible, experiments are limited in scope and should be interpreted as preliminary. We believe this study is a first step toward understanding the reuse of cell-level foundation models in medical imaging, although substantial validation is required.",
+    "keywords": [
+      "cell embeddings",
+      "histopathology",
+      "transfer learning",
+      "foundation models",
+      "medical image classification"
+    ],
+    "primary_area": "cs.CV+cs.LG",
+    "preset_quality": "borderline",
+    "author_type": "cross_area",
+    "author_profile_ids": [
+      "R0045",
+      "R0113"
+    ],
+    "generated_at": "2026-08-19T15:45:17.808574",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0054",
+    "title": "Cross-Graph: Cross-Component Graph Reasoning for Learned Image Compression",
+    "abstract": "Learned image compression has recently benefited from cross-component priors that exploit redundancies among color channels. However, existing cross-component methods rely on fixed local or global priors that do not fully capture the structured dependencies between chroma and luma features. In this paper, we propose Cross-Graph, a learned image compression framework that formulates cross-component entropy modeling as a graph reasoning problem. We construct a graph whose nodes represent spatial positions in the latent space across the Y, Cb, and Cr channels, and whose edges encode both intra-channel spatial correlations and inter-channel dependencies. A graph attention network with multi-scale propagation is used to iteratively refine the latent representation and predict the entropy parameters for arithmetic coding. We further introduce a lightweight cross-component context module that anchors graph nodes to the most informative luma coordinates, improving compression efficiency without increasing bitrate. Experiments on the Kodak, Tecnick, and CLIC benchmarks show that Cross-Graph outperforms state-of-the-art learned codecs, including the recent local-to-global cross-component prior, achieving an average 5.2% bit-rate reduction at equivalent PSNR, and 4.1% reduction in MS-SSIM. The proposed method also demonstrates robust generalization to high-resolution images. A minor limitation is the increased decoding latency due to graph propagation, which we plan to address in future work.",
+    "keywords": [
+      "learned image compression",
+      "cross-component prior",
+      "graph neural network",
+      "entropy model",
+      "rate-distortion optimization"
+    ],
+    "primary_area": "cs.CV+cs.AI",
+    "preset_quality": "accept",
+    "author_type": "cross_area",
+    "author_profile_ids": [
+      "R0094",
+      "R0085"
+    ],
+    "generated_at": "2026-08-19T15:45:19.532380",
+    "generation_model": "llm",
+    "quality": "accept",
+    "grader_score": 7.0
+  },
+  {
+    "paper_id": "S0013",
+    "title": "Applying Causal Knowledge Graph Learning to Stress State Classification in IoT-Enabled DeFi Environments: A Preliminary Study",
+    "abstract": "We explore the application of a causal knowledge graph learning method, originally developed for brain network analysis, to the new domain of stress state classification in IoT-enabled decentralized finance (DeFi) trading environments. Using a single small dataset collected from 14 participants during stressful and non-stressful simulated trading tasks, we construct subject-level graphs from electrodermal activity and heart rate variability features, and apply the existing Causal-KG framework to learn graph representations for binary stress classification. Our initial experiments report a mean accuracy of 68% on this dataset, with no baseline comparisons conducted. We also provide preliminary observations about the importance of specific physiological features, but these remain speculative and lack statistical validation. The work is a straightforward transfer of an existing method to a new domain, with no methodological novelty introduced. We explicitly acknowledge several limitations: the dataset is small and homogeneous, no cross-validation or significance testing is performed, hyperparameters are set heuristically, and the causal claims of the framework are not independently verified. We conclude that while the approach is feasible, the results are inconclusive and should be interpreted with caution. This is an initial exploration intended to highlight the potential of cross-domain graph learning, not a mature contribution.",
+    "keywords": [
+      "stress detection",
+      "causal graph learning",
+      "IoT",
+      "decentralized finance",
+      "physiological data"
+    ],
+    "primary_area": "cs.LG+cs.AI",
+    "preset_quality": "reject",
+    "author_type": "cross_area",
+    "author_profile_ids": [
+      "R0132",
+      "R0025"
+    ],
+    "generated_at": "2026-08-19T15:45:19.615855",
+    "generation_model": "llm",
+    "quality": "reject",
+    "grader_score": 2.0
+  },
+  {
+    "paper_id": "S0026",
+    "title": "Visual Context for N-ary Relational Link Prediction: Extending Relatedness Evaluation with CLIP Embeddings",
+    "abstract": "[profile-derived reference removed] has largely focused on textual and structural features, while visual signals from associated images are rarely considered. We propose a simple extension of the relatedness evaluation framework for n-ary facts by incorporating visual context from entity images using a pre-trained CLIP model. Our method concatenates CLIP image embeddings with text-based relation embeddings and feeds them through a linear projection before scoring candidate facts. We evaluate on the Wiki People dataset using a single fixed split and compare only against the text-only baseline from the original relatedness model. In our limited experiments, visual context slightly improves link prediction for visually grounded relations such as profession but hurts performance on more abstract relations, yielding mixed overall results. We do not perform extensive hyperparameter tuning or include comparisons with recent strong baselines, and we only test one simple fusion strategy. Initial results suggest that visual context could offer marginal gains in specific settings, but substantial further investigation is required to determine its general utility. Overall, this work is an incremental extension of an existing scoring function, and the contribution is modest for the cross-modal AI and knowledge graph communities.",
+    "keywords": [
+      "link prediction",
+      "n-ary relational data",
+      "visual context",
+      "CLIP",
+      "relatedness evaluation"
+    ],
+    "primary_area": "cs.AI+cs.LG",
+    "preset_quality": "borderline",
+    "author_type": "cross_area",
+    "author_profile_ids": [
+      "R0073",
+      "R0024"
+    ],
+    "generated_at": "2026-08-19T15:45:19.154085",
+    "generation_model": "llm",
+    "quality": "borderline",
+    "grader_score": 4.0
+  },
+  {
+    "paper_id": "S0049",
+    "title": "Heavy-FL: Joint Gradient Sketching and Client Selection for Asynchronous Federated Learning",
+    "abstract": "We introduce the problem of joint gradient sketching and client selection for asynchronous federated learning under a stringent communication budget. We present Heavy-FL, the first framework that solves this problem by maintaining a count-min sketch of the smoothed gradient magnitudes across clients, simultaneously identifying (i) the top-k 'heavy-hitter' parameters that dominate the learning signal and (ii) the most informative clients whose local distributions deviate most from the global model. Heavy-FL transfers only heavy-hitter parameters from upweighted clients, and we prove it achieves the same order of convergence as full-precision FedAvg under bounded staleness. On CIFAR-10 with 100 clients and 1 Mbps wireless channels, Heavy-FL attains 94.2% top-1 accuracy, improving the prior state-of-the-art from 92.7% (async FedAvg) and 91.8% (FedProx), while reducing uplink traffic by 68.4%. On FEMNIST, it reaches 90.1% vs. 88.6% for FedAvg. On Stack Overflow Next Word Prediction, Heavy-FL cuts communication by 62.3% and achieves a perplexity of 44.1 (vs. 42.8 for full-communication FedOpt) in 1.7x less wall-clock time. These results establish Heavy-FL as the new state of the art for communication-starved asynchronous federated learning.",
+    "keywords": [
+      "asynchronous federated learning",
+      "gradient sketching",
+      "heavy hitters",
+      "client selection",
+      "communication efficiency"
+    ],
+    "primary_area": "cs.LG+cs.AI",
+    "preset_quality": "strong_accept",
+    "author_type": "cross_area",
+    "author_profile_ids": [
+      "R0064",
+      "R0076"
+    ],
+    "generated_at": "2026-08-19T15:45:41.800279",
+    "generation_model": "llm",
+    "quality": "strong_accept",
+    "grader_score": 8.0
+  }
+]

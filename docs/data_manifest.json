@@ -1,0 +1,617 @@
+[
+  {
+    "path": "baseline_detection/results/detect_baseline_report.json",
+    "bytes": 8772,
+    "sha256": "0d00b7e39db4715cfb6a261701d175ffa680af56772cf135f777f580e3040433"
+  },
+  {
+    "path": "baseline_detection/results/detect_ring_report.json",
+    "bytes": 912768,
+    "sha256": "da3af993a24d92a60a8d58b8b243ebecc9b7b0b0cb5dc8aea420a88a3a402800"
+  },
+  {
+    "path": "config/affinity/affinity_100.json",
+    "bytes": 450914,
+    "sha256": "7d2a2ffe53c3fe7e13cb0a82c1d0227ef8302c8efaccf579d046b484cdc26d7a"
+  },
+  {
+    "path": "config/experiment.json",
+    "bytes": 1248,
+    "sha256": "375e8ab40b285c2d5e426a3e5932497fbdc9309433aeceec19140a7d8c7ac821"
+  },
+  {
+    "path": "config/papers/papers_100.json",
+    "bytes": 191299,
+    "sha256": "b105fcb82dca5b2d9ecbc90d08804bb887f18cdda386b1dd3afcadf6ade338aa"
+  },
+  {
+    "path": "config/papers/papers_100_graded.json",
+    "bytes": 196494,
+    "sha256": "fca67c26332809960b37bcfd4aac1276d06a80d3eec3349fed9a97b335aeb328"
+  },
+  {
+    "path": "config/release.json",
+    "bytes": 857,
+    "sha256": "b6d85829628297fd2168d4f5f80acd22539f3dc3577403bd3bf2ea1d4c043861"
+  },
+  {
+    "path": "config/simulation/assignment_counterfactual.json",
+    "bytes": 32511,
+    "sha256": "4270210975a702c98ad0c727a24420babdf6cc82b62b293ae5f394db9f57e9fb"
+  },
+  {
+    "path": "config/simulation/baseline/assignments.json",
+    "bytes": 73877,
+    "sha256": "2b86d8c2072ba9f137e3eb94c63b0bd4d7ef3ec4d38e8637d0d786b3498bd82b"
+  },
+  {
+    "path": "config/simulation/baseline/bids.json",
+    "bytes": 317721,
+    "sha256": "c2c22f9e52aad03a67f48b9339347e236b2a821b9382e61d3ef8276a19ef60db"
+  },
+  {
+    "path": "config/simulation/baseline/paper_level_metrics.json",
+    "bytes": 10208,
+    "sha256": "e1564414297f6efdd819fabe9d83183b4b6676b48f9c48f6c5239b7afa00cfcc"
+  },
+  {
+    "path": "config/simulation/baseline/personas.json",
+    "bytes": 21703,
+    "sha256": "335fe3f2c759ee5e115431a739c57b41a6092b1938ab0d174830d6115e7b3a90"
+  },
+  {
+    "path": "config/simulation/baseline/review_scores.json",
+    "bytes": 53160,
+    "sha256": "f07c270fe6fdbdab6bee93dbbb95a993bdffa340349a4430c818f243c17d1733"
+  },
+  {
+    "path": "config/simulation/collusion-20/assignments.json",
+    "bytes": 73884,
+    "sha256": "2f3e581c5e418b88719a4d70e675078f9eb701d51f8cf1ab634ce33f47963150"
+  },
+  {
+    "path": "config/simulation/collusion-20/bids.json",
+    "bytes": 317651,
+    "sha256": "4a06a4198e4e93c062d5562f455e48539fe516d8bcf908f4a6716bded35ea653"
+  },
+  {
+    "path": "config/simulation/collusion-20/paper_level_metrics.json",
+    "bytes": 10284,
+    "sha256": "ccf574d31615641df85f20e09a4c99ff3d079b25c52f42bccaf9bb0f47982b29"
+  },
+  {
+    "path": "config/simulation/collusion-20/personas.json",
+    "bytes": 22968,
+    "sha256": "37d548ec11ee2dd9b78a5059cad0723220e08124200bfe49a54e8c387bf85604"
+  },
+  {
+    "path": "config/simulation/collusion-20/review_scores.json",
+    "bytes": 53333,
+    "sha256": "da5a10c8369fbfdcfce9044e9d4db0f22d406880b8e853142d4cc0e610661960"
+  },
+  {
+    "path": "config/simulation/collusion-50/assignments.json",
+    "bytes": 73907,
+    "sha256": "3d882ea761e44e0dc061221aa8b6b568699d17c734a4616467facfa6c1abced1"
+  },
+  {
+    "path": "config/simulation/collusion-50/bids.json",
+    "bytes": 317582,
+    "sha256": "944a617d82a2205d7051b361f49df6e13a12d464ca06cbf73ac93352c356913a"
+  },
+  {
+    "path": "config/simulation/collusion-50/paper_level_metrics.json",
+    "bytes": 10252,
+    "sha256": "59280523ffb5e998882e02cad8f1bb924549b204f3f235dc258c1667095d95bc"
+  },
+  {
+    "path": "config/simulation/collusion-50/personas.json",
+    "bytes": 25182,
+    "sha256": "68cf1e742db145cb3df34c92cff4bdc9c8e32351650512b38d9675d11c3842af"
+  },
+  {
+    "path": "config/simulation/collusion-50/review_scores.json",
+    "bytes": 53623,
+    "sha256": "121b61e19535a12c6ea524cc03a5f3d314cea0a2734667adf79d8a41da935762"
+  },
+  {
+    "path": "config/simulation/metrics_seed42.json",
+    "bytes": 7305,
+    "sha256": "9b99d16e692b21d13a2b76d98e95e4d2a6670344d14062cb97fad945e02fbbab"
+  },
+  {
+    "path": "config/simulation/review_counterfactual.json",
+    "bytes": 31795,
+    "sha256": "3f6b29aaf459d9bc4debb6ea087be6cb1f7a6dc673671cbfc6e8769bb170b989"
+  },
+  {
+    "path": "config/simulation/runs/seed0921/baseline/assignments.json",
+    "bytes": 73922,
+    "sha256": "2afa2e5b765154544d30dfe8c89f00552c82e2a3c0c38179864fa1de489f0634"
+  },
+  {
+    "path": "config/simulation/runs/seed0921/baseline/bids.json",
+    "bytes": 317705,
+    "sha256": "6082080562ba22986145d02d0ed9908c746d39949bd6602d41f0d684bf90cc76"
+  },
+  {
+    "path": "config/simulation/runs/seed0921/baseline/paper_level_metrics.json",
+    "bytes": 10192,
+    "sha256": "05fe4815d39867e7d1c5f8777cae5a8f01466a3104dc41e3bc72a9784ed04a27"
+  },
+  {
+    "path": "config/simulation/runs/seed0921/baseline/personas.json",
+    "bytes": 21703,
+    "sha256": "335fe3f2c759ee5e115431a739c57b41a6092b1938ab0d174830d6115e7b3a90"
+  },
+  {
+    "path": "config/simulation/runs/seed0921/baseline/review_scores.json",
+    "bytes": 53176,
+    "sha256": "2914ddde4e6f221273414658b1d042f335faa2edf3d3716855fa2be5974837e6"
+  },
+  {
+    "path": "config/simulation/runs/seed0921/collusion-20/assignments.json",
+    "bytes": 73881,
+    "sha256": "dc4e7747e8637a8949071a326376402a866e4cace61e44a3dc381609c0d1b77b"
+  },
+  {
+    "path": "config/simulation/runs/seed0921/collusion-20/bids.json",
+    "bytes": 317697,
+    "sha256": "e76eb89954d452cf2d5d54175c15546a6ae3dc9f5ec5b83c351cb1ad06393d89"
+  },
+  {
+    "path": "config/simulation/runs/seed0921/collusion-20/paper_level_metrics.json",
+    "bytes": 10274,
+    "sha256": "f31cc7ca6f8cb9ba1c34439876356a0c7c2c527e2c7d8bcc82b3d83ae3f2fdf2"
+  },
+  {
+    "path": "config/simulation/runs/seed0921/collusion-20/personas.json",
+    "bytes": 23133,
+    "sha256": "1d06b22c7386fe3d5907b54d1f6731ff3dcfa7784ee8f3bdc2935008feb3931f"
+  },
+  {
+    "path": "config/simulation/runs/seed0921/collusion-20/review_scores.json",
+    "bytes": 53338,
+    "sha256": "8613cabfba79187f20a76f2185a6274ae3d74afe857edd0c44a2e0c4f5302a10"
+  },
+  {
+    "path": "config/simulation/runs/seed0921/collusion-50/assignments.json",
+    "bytes": 73926,
+    "sha256": "c145ff6706a58dd8f3db51c23ee29977f9e2e4ba4c2c75598de8c54befa29216"
+  },
+  {
+    "path": "config/simulation/runs/seed0921/collusion-50/bids.json",
+    "bytes": 317637,
+    "sha256": "6979e5adc63699301917f752d43f91e147ada3959d08924ccf6d18419877baa7"
+  },
+  {
+    "path": "config/simulation/runs/seed0921/collusion-50/paper_level_metrics.json",
+    "bytes": 10248,
+    "sha256": "0582c3211ad130a9f23777c401966e7b590a83fb955931d5d48ff6dd7a052cac"
+  },
+  {
+    "path": "config/simulation/runs/seed0921/collusion-50/personas.json",
+    "bytes": 25590,
+    "sha256": "377495f4a3ec170dd43fb44714c8056e64d5e19c88b4ec107bc62345d929c6dd"
+  },
+  {
+    "path": "config/simulation/runs/seed0921/collusion-50/review_scores.json",
+    "bytes": 53629,
+    "sha256": "4b9ea66c5d477f7aa77c96e370edec8bff4665a0cd98583134fcf09c8cfe0983"
+  },
+  {
+    "path": "config/simulation/runs/seed0921/metrics.json",
+    "bytes": 7245,
+    "sha256": "1558c4f50a6a1ad6b2201697cbc94a46b86b1a602cf0cf7ad3063dc8db937173"
+  },
+  {
+    "path": "config/simulation/runs/seed1125/baseline/assignments.json",
+    "bytes": 73895,
+    "sha256": "dcd23378f522eca9bcde75ea84db6fb5a7f1678d1145c52e5a316136b08c23c6"
+  },
+  {
+    "path": "config/simulation/runs/seed1125/baseline/bids.json",
+    "bytes": 317851,
+    "sha256": "453bc8c2c42288d8f236acce4477f100fac912631032e6ae9e8f90de5780ef6b"
+  },
+  {
+    "path": "config/simulation/runs/seed1125/baseline/paper_level_metrics.json",
+    "bytes": 10197,
+    "sha256": "1d6b754039284b6efef0fd0727bfd04ed7279875a224409885329230df52bb14"
+  },
+  {
+    "path": "config/simulation/runs/seed1125/baseline/personas.json",
+    "bytes": 21703,
+    "sha256": "335fe3f2c759ee5e115431a739c57b41a6092b1938ab0d174830d6115e7b3a90"
+  },
+  {
+    "path": "config/simulation/runs/seed1125/baseline/review_scores.json",
+    "bytes": 53170,
+    "sha256": "74f3c89338aca63818eac5a6defda8863fbd88dbdf9054cf0b098658c9bfef4a"
+  },
+  {
+    "path": "config/simulation/runs/seed1125/collusion-20/assignments.json",
+    "bytes": 73877,
+    "sha256": "21aa729602e6728a4143053d8641dc148dadad35e115ec8ff14506fb1c60fbfc"
+  },
+  {
+    "path": "config/simulation/runs/seed1125/collusion-20/bids.json",
+    "bytes": 317620,
+    "sha256": "b4fc3ac68e272860f812aa14778c0c917da33af9a7272908a7736b06ec6871dd"
+  },
+  {
+    "path": "config/simulation/runs/seed1125/collusion-20/paper_level_metrics.json",
+    "bytes": 10289,
+    "sha256": "7517d35a61a972f910190f3d50ac89fc43a49fb7ffdb35d26339cdfc8a144ce5"
+  },
+  {
+    "path": "config/simulation/runs/seed1125/collusion-20/personas.json",
+    "bytes": 22926,
+    "sha256": "adea10ff03ca1680eb48298fdd28ba4e5c1a687e302b950b9139b5139817507e"
+  },
+  {
+    "path": "config/simulation/runs/seed1125/collusion-20/review_scores.json",
+    "bytes": 53337,
+    "sha256": "c7c1043b5fa347688ee7b1bf9282423f04626916ab6ce1b6c02f50b6f159c109"
+  },
+  {
+    "path": "config/simulation/runs/seed1125/collusion-50/assignments.json",
+    "bytes": 73879,
+    "sha256": "64e86574b8f6552f12c7bdb39f72c75277d706ca93d45003d30160b521a78191"
+  },
+  {
+    "path": "config/simulation/runs/seed1125/collusion-50/bids.json",
+    "bytes": 317599,
+    "sha256": "0c332fba37f49850b03fbbc2dea8c4727198d19da2e59dce39170f44faf642a6"
+  },
+  {
+    "path": "config/simulation/runs/seed1125/collusion-50/paper_level_metrics.json",
+    "bytes": 10259,
+    "sha256": "78507a53eeaf08c66ff8050e9663db13a5aaebc4719d0231d5abc9c23b59d7c8"
+  },
+  {
+    "path": "config/simulation/runs/seed1125/collusion-50/personas.json",
+    "bytes": 25112,
+    "sha256": "addfc3a7785a34e7c7feb06bb560231a59c5c6a2bb4f52e661f568916fb7ee28"
+  },
+  {
+    "path": "config/simulation/runs/seed1125/collusion-50/review_scores.json",
+    "bytes": 53632,
+    "sha256": "eea8fed9c5b9d5c8eca60bef38b27b865ce53eb86ad8c82a28eb354c58477a4b"
+  },
+  {
+    "path": "config/simulation/runs/seed1125/metrics.json",
+    "bytes": 7299,
+    "sha256": "947df9962c4ce14248e11e21a687d600e9399521f8bd8eef8d1bdea3a7083ec3"
+  },
+  {
+    "path": "config/simulation/runs/seed2024/baseline/assignments.json",
+    "bytes": 73868,
+    "sha256": "d73ffab0e8110636270ac9df08a85c4079ed1ef8f819eca296a7f0e3fb111695"
+  },
+  {
+    "path": "config/simulation/runs/seed2024/baseline/bids.json",
+    "bytes": 317800,
+    "sha256": "d771bfb3a46d65e4e1b87997865391742042813ded64ba9a0197eaa09769f7ba"
+  },
+  {
+    "path": "config/simulation/runs/seed2024/baseline/paper_level_metrics.json",
+    "bytes": 10198,
+    "sha256": "5ef1ecf1936ab0de17e20be688c6698520c3b0af0c447bf560c9f8be55b46194"
+  },
+  {
+    "path": "config/simulation/runs/seed2024/baseline/personas.json",
+    "bytes": 21703,
+    "sha256": "335fe3f2c759ee5e115431a739c57b41a6092b1938ab0d174830d6115e7b3a90"
+  },
+  {
+    "path": "config/simulation/runs/seed2024/baseline/review_scores.json",
+    "bytes": 53159,
+    "sha256": "50b2dcf8404638c3f5ba861150c49076a32ca8700397c099191f596405ec039d"
+  },
+  {
+    "path": "config/simulation/runs/seed2024/collusion-20/assignments.json",
+    "bytes": 73899,
+    "sha256": "e038cced24cd3de3ee19d030158fbe4ea5a42368f16a8e48bf6f3584487d72ee"
+  },
+  {
+    "path": "config/simulation/runs/seed2024/collusion-20/bids.json",
+    "bytes": 317816,
+    "sha256": "939e8d727559e8daecdd88d9b376598bd331b1cf729605252a8c749593236256"
+  },
+  {
+    "path": "config/simulation/runs/seed2024/collusion-20/paper_level_metrics.json",
+    "bytes": 10273,
+    "sha256": "e1c19e6cdb26383374db15940c1d43e684b0e847728e966484e4feaca798ba08"
+  },
+  {
+    "path": "config/simulation/runs/seed2024/collusion-20/personas.json",
+    "bytes": 22955,
+    "sha256": "8e984c754f74037f609163740034e9d2059079d9d2c0c2e3c082b94d95822852"
+  },
+  {
+    "path": "config/simulation/runs/seed2024/collusion-20/review_scores.json",
+    "bytes": 53334,
+    "sha256": "52c469e9b4f2205919fdab0d299b2e226700ce228aa7d36528b8d8e5e5e7d77c"
+  },
+  {
+    "path": "config/simulation/runs/seed2024/collusion-50/assignments.json",
+    "bytes": 73878,
+    "sha256": "387a0998c5511e090d3661c2b3cba5c0ebdbf183a88e836a1f86ccfadf9d074b"
+  },
+  {
+    "path": "config/simulation/runs/seed2024/collusion-50/bids.json",
+    "bytes": 317736,
+    "sha256": "2f9db1a95f06761b87443a382111d714cd6bebdfa6f44d817b65b358f72103cf"
+  },
+  {
+    "path": "config/simulation/runs/seed2024/collusion-50/paper_level_metrics.json",
+    "bytes": 10255,
+    "sha256": "700ba75688514d51a135c6f61a1b7e83c12c8e6e295f90e53e0bdf557d63b904"
+  },
+  {
+    "path": "config/simulation/runs/seed2024/collusion-50/personas.json",
+    "bytes": 24930,
+    "sha256": "79e2072302d9eefdf1d41ee8c15e7938f56a0c8eccb3d6a9882f14f7d662c090"
+  },
+  {
+    "path": "config/simulation/runs/seed2024/collusion-50/review_scores.json",
+    "bytes": 53594,
+    "sha256": "3d5da893827417e851ce29d53f828f73eae7f7b51539c8c8cbaac8d51d4e4ea2"
+  },
+  {
+    "path": "config/simulation/runs/seed2024/metrics.json",
+    "bytes": 7254,
+    "sha256": "ca1a736a71ce14a2250b23ebd9c192d700b8426a76afc106f46494c70a597622"
+  },
+  {
+    "path": "config/simulation/runs/seed42_001/metrics.json",
+    "bytes": 7305,
+    "sha256": "6f97fde3418a560eec59fc19af534e9bec3bf31aa5c13eb2e8f2e9c6b30c7a57"
+  },
+  {
+    "path": "config/simulation/runs/seed42_002/baseline/assignments.json",
+    "bytes": 73917,
+    "sha256": "61c9e1fb4e149ba8d04a510bce8ec96ff4890d2db1fbbc9992011524b7d043ba"
+  },
+  {
+    "path": "config/simulation/runs/seed42_002/baseline/bids.json",
+    "bytes": 317753,
+    "sha256": "42a8e0ddea42d508a98e33d9a2ab55c3327ec96d0d5b37200b18e851b5f7e6c3"
+  },
+  {
+    "path": "config/simulation/runs/seed42_002/baseline/paper_level_metrics.json",
+    "bytes": 10196,
+    "sha256": "6eed6a30c4e4f05fd20fe58a6d92a60f4bf0ee1b017342038bf32bc4f6020e40"
+  },
+  {
+    "path": "config/simulation/runs/seed42_002/baseline/personas.json",
+    "bytes": 21703,
+    "sha256": "335fe3f2c759ee5e115431a739c57b41a6092b1938ab0d174830d6115e7b3a90"
+  },
+  {
+    "path": "config/simulation/runs/seed42_002/baseline/review_scores.json",
+    "bytes": 53178,
+    "sha256": "63b1266a293371558d9fb87313983de36d9f1ff054c42b17c4d4c6a870b49687"
+  },
+  {
+    "path": "config/simulation/runs/seed42_002/collusion-20/assignments.json",
+    "bytes": 73846,
+    "sha256": "544031d704630b39fb154893eacf2a9aef1eb82115da847da088dab7ad234c25"
+  },
+  {
+    "path": "config/simulation/runs/seed42_002/collusion-20/bids.json",
+    "bytes": 317597,
+    "sha256": "63dd0ea24dcb7912b4d8963e7ab329a377e2381658dc90f74fc8f819a8cdb1ab"
+  },
+  {
+    "path": "config/simulation/runs/seed42_002/collusion-20/paper_level_metrics.json",
+    "bytes": 10288,
+    "sha256": "74cfc1d26566b8f5890ce6c80ce129dd472ea890fc2d8e67a5b22510c2795925"
+  },
+  {
+    "path": "config/simulation/runs/seed42_002/collusion-20/personas.json",
+    "bytes": 23002,
+    "sha256": "683c04b93619dae3fb1ed8f08a406b4998ec572d12e5fd6735fb28ee8f402560"
+  },
+  {
+    "path": "config/simulation/runs/seed42_002/collusion-20/review_scores.json",
+    "bytes": 53341,
+    "sha256": "5e1f8b15aafe66f5d3d5fd4f0b57a5f51326356ffb388966aa9667a0900fe63c"
+  },
+  {
+    "path": "config/simulation/runs/seed42_002/collusion-50/assignments.json",
+    "bytes": 73888,
+    "sha256": "329bb0d537a0d63144263d9cf015576400e47d0c1fcaf6b215df9b8a2da7a472"
+  },
+  {
+    "path": "config/simulation/runs/seed42_002/collusion-50/bids.json",
+    "bytes": 317524,
+    "sha256": "223b8947943975d901feef57bd09fbe5eb56f63aac362a6ff2bd70696ef1b859"
+  },
+  {
+    "path": "config/simulation/runs/seed42_002/collusion-50/paper_level_metrics.json",
+    "bytes": 10243,
+    "sha256": "5ae9a0d2690ce47be393c741e915b8daa7584375315efa0fae54a25456adf08c"
+  },
+  {
+    "path": "config/simulation/runs/seed42_002/collusion-50/personas.json",
+    "bytes": 25415,
+    "sha256": "2a94af77e5665e23339efcea522974e08e1fdc5e7f2f36079950ac4991185174"
+  },
+  {
+    "path": "config/simulation/runs/seed42_002/collusion-50/review_scores.json",
+    "bytes": 53614,
+    "sha256": "7664d11256d4b006b415c2ea7bbdb09c7de3c552944bd57fe4523a9dff7aef29"
+  },
+  {
+    "path": "config/simulation/runs/seed42_002/metrics.json",
+    "bytes": 7296,
+    "sha256": "6bc88d35ca8ddd4fdac5e41d0ea92cd3c9590bde0cbc337630f0910243da5d04"
+  },
+  {
+    "path": "config/simulation/runs/seed42_003/baseline/assignments.json",
+    "bytes": 73855,
+    "sha256": "9ae64a5ca0a05006e75b02a0f8ad2c651a75b03d49bcd5d58cb22a88aacba8a2"
+  },
+  {
+    "path": "config/simulation/runs/seed42_003/baseline/bids.json",
+    "bytes": 317891,
+    "sha256": "6b3aee5b8074fd02d76c041a62a3829946bbe78f090045cb439a02fe51e95597"
+  },
+  {
+    "path": "config/simulation/runs/seed42_003/baseline/paper_level_metrics.json",
+    "bytes": 10194,
+    "sha256": "84394be92e7b895399288d13b4aca048fcf6634f5c9bd4c12b2ff1c63f1fd3d9"
+  },
+  {
+    "path": "config/simulation/runs/seed42_003/baseline/personas.json",
+    "bytes": 21703,
+    "sha256": "335fe3f2c759ee5e115431a739c57b41a6092b1938ab0d174830d6115e7b3a90"
+  },
+  {
+    "path": "config/simulation/runs/seed42_003/baseline/review_scores.json",
+    "bytes": 53154,
+    "sha256": "c231ed3edd68d228f4fa7e69468c3f90d3d1cc2f358dacd1fc8bf5de8c237787"
+  },
+  {
+    "path": "config/simulation/runs/seed42_003/collusion-20/assignments.json",
+    "bytes": 73924,
+    "sha256": "17b8c421f5524ea740ecfbb79e161f0a6f197610395b313669dfbf1bb15c6574"
+  },
+  {
+    "path": "config/simulation/runs/seed42_003/collusion-20/bids.json",
+    "bytes": 317673,
+    "sha256": "4730241b3ff13eba1a971bdbe06758fcb8cbd12f98a2edf1825e6e21bb92fba5"
+  },
+  {
+    "path": "config/simulation/runs/seed42_003/collusion-20/paper_level_metrics.json",
+    "bytes": 10276,
+    "sha256": "31ec83981f20e515af1194dc8b5ba2cea2c6475d5dfd246ff5f6076cbc98a7a3"
+  },
+  {
+    "path": "config/simulation/runs/seed42_003/collusion-20/personas.json",
+    "bytes": 23058,
+    "sha256": "c41034330c2b06d879a142356dfdf1f33f52775356dbbc74baaa961623e6225b"
+  },
+  {
+    "path": "config/simulation/runs/seed42_003/collusion-20/review_scores.json",
+    "bytes": 53353,
+    "sha256": "c8b82232c5275929bb2329c8e058a7105c60d639200ec16722b69023bbf6e516"
+  },
+  {
+    "path": "config/simulation/runs/seed42_003/collusion-50/assignments.json",
+    "bytes": 73850,
+    "sha256": "1ffccdc63d72d329f138d6e197f49bc21eeb054c9cffa4c873f041e714b2edea"
+  },
+  {
+    "path": "config/simulation/runs/seed42_003/collusion-50/bids.json",
+    "bytes": 317886,
+    "sha256": "430a03898ad855df190f75b0743b20b1c7b58c51d7815676f908d226ee0adcdb"
+  },
+  {
+    "path": "config/simulation/runs/seed42_003/collusion-50/paper_level_metrics.json",
+    "bytes": 10245,
+    "sha256": "cdb93133efabf8aca4c723d50d9680eb65593bdbb9f7957ae8e1d74379b5a826"
+  },
+  {
+    "path": "config/simulation/runs/seed42_003/collusion-50/personas.json",
+    "bytes": 25263,
+    "sha256": "ed3fd776cb8876ad77722908d7ff6239333e3577c8de876d67b9422c199925fc"
+  },
+  {
+    "path": "config/simulation/runs/seed42_003/collusion-50/review_scores.json",
+    "bytes": 53583,
+    "sha256": "9291f847a17e34ad4e34555951095cca2dc17975437342cf08cc101c5a160304"
+  },
+  {
+    "path": "config/simulation/runs/seed42_003/metrics.json",
+    "bytes": 7334,
+    "sha256": "7d9e92740bd7ca772fbbbdd9ecd556e3293fe749a1b58ea5ce129807ebddd34b"
+  },
+  {
+    "path": "config/simulation/runs/seed7777/baseline/assignments.json",
+    "bytes": 73856,
+    "sha256": "6fc8a57ef88c0971ece1d2421e9fea3c151f8dfb9e0e88988655227bbd8a1909"
+  },
+  {
+    "path": "config/simulation/runs/seed7777/baseline/bids.json",
+    "bytes": 317812,
+    "sha256": "5fe6a4dcbd17c187bcc9a3d277a8ed69f4d0ef8402309c3c96d41366afbe51a1"
+  },
+  {
+    "path": "config/simulation/runs/seed7777/baseline/paper_level_metrics.json",
+    "bytes": 10207,
+    "sha256": "34b681933609ff10fb79170250044c788769229c0993307070bc4ab12f6c3731"
+  },
+  {
+    "path": "config/simulation/runs/seed7777/baseline/personas.json",
+    "bytes": 21703,
+    "sha256": "335fe3f2c759ee5e115431a739c57b41a6092b1938ab0d174830d6115e7b3a90"
+  },
+  {
+    "path": "config/simulation/runs/seed7777/baseline/review_scores.json",
+    "bytes": 53151,
+    "sha256": "7cb2fbef2b8dd0cdd375c7745ded0e73c31174db2635509e1d95a486e2b34220"
+  },
+  {
+    "path": "config/simulation/runs/seed7777/collusion-20/assignments.json",
+    "bytes": 73902,
+    "sha256": "3039913228df4f1ae7a98ae5ff8b85460932548f633b3d3f4230cbe715da80e4"
+  },
+  {
+    "path": "config/simulation/runs/seed7777/collusion-20/bids.json",
+    "bytes": 317765,
+    "sha256": "e8b494f15df15486bdef57629e064dc6c26ba54641d38a72bf9eada41b44baf6"
+  },
+  {
+    "path": "config/simulation/runs/seed7777/collusion-20/paper_level_metrics.json",
+    "bytes": 10282,
+    "sha256": "9a8d2148b10c5a5e2816eae40e2de46cd470a45038f54f5a3ed35e7e078ec2a2"
+  },
+  {
+    "path": "config/simulation/runs/seed7777/collusion-20/personas.json",
+    "bytes": 23136,
+    "sha256": "1447318cde57449ac83a6af1fecce06dcb205e577908692bf748d8fbb54980c5"
+  },
+  {
+    "path": "config/simulation/runs/seed7777/collusion-20/review_scores.json",
+    "bytes": 53358,
+    "sha256": "5ffc7daba61c9ea927f11e530e67af067a81a7b60d46bdbff49e2bdcf9762e25"
+  },
+  {
+    "path": "config/simulation/runs/seed7777/collusion-50/assignments.json",
+    "bytes": 73903,
+    "sha256": "32bbc233eb30f636a2ea5b1dc12bccdae86feff357279b441d7c98777834aeb9"
+  },
+  {
+    "path": "config/simulation/runs/seed7777/collusion-50/bids.json",
+    "bytes": 317539,
+    "sha256": "95870fe2a95177edfb8f753a2636e1593ae39c6c35d76664799c1ff0b868bb04"
+  },
+  {
+    "path": "config/simulation/runs/seed7777/collusion-50/paper_level_metrics.json",
+    "bytes": 10254,
+    "sha256": "8083d0fcfbf9177e4060b748d11b6e68a796c940355835ba28bb3eebffd2b470"
+  },
+  {
+    "path": "config/simulation/runs/seed7777/collusion-50/personas.json",
+    "bytes": 24761,
+    "sha256": "4b51f8250bd6fa3ab76d6feea17e0d62645efbd3592d4e6a8d3e7d7aaa6cc7b0"
+  },
+  {
+    "path": "config/simulation/runs/seed7777/collusion-50/review_scores.json",
+    "bytes": 53604,
+    "sha256": "49c2270838951369e9bbc5834ff6ecaa0a775d55b841c39ea905afb081c61893"
+  },
+  {
+    "path": "config/simulation/runs/seed7777/metrics.json",
+    "bytes": 7249,
+    "sha256": "88d908708ee8e40f09935a8e510acf0c3f43b4d8991fe8e78526ca7af48df428"
+  },
+  {
+    "path": "config/simulation/runs_comparison.json",
+    "bytes": 18393,
+    "sha256": "301735ff8940c8101d265a9eba48c942c2ab45e33f63dfe1ed4d8bf8615a553e"
+  }
+]

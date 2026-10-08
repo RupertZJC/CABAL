@@ -1,0 +1,508 @@
+{
+  "target_score_deviation": null,
+  "deviation_by_quality": {},
+  "n_target_papers": 0,
+  "n_nontarget_papers": 100,
+  "per_paper": {
+    "S0047": {
+      "avg_score": 7.5,
+      "is_target": false,
+      "quality": "strong_accept"
+    },
+    "S0091": {
+      "avg_score": 3.67,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0075": {
+      "avg_score": 3.67,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0023": {
+      "avg_score": 7.17,
+      "is_target": false,
+      "quality": "strong_accept"
+    },
+    "S0018": {
+      "avg_score": 6.67,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0041": {
+      "avg_score": 3.5,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0084": {
+      "avg_score": 3.67,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0020": {
+      "avg_score": 5.33,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0057": {
+      "avg_score": 6.33,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0039": {
+      "avg_score": 6.67,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0098": {
+      "avg_score": 7.0,
+      "is_target": false,
+      "quality": "strong_accept"
+    },
+    "S0024": {
+      "avg_score": 4.5,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0003": {
+      "avg_score": 6.67,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0083": {
+      "avg_score": 7.0,
+      "is_target": false,
+      "quality": "strong_accept"
+    },
+    "S0016": {
+      "avg_score": 3.17,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0007": {
+      "avg_score": 6.0,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0055": {
+      "avg_score": 3.5,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0013": {
+      "avg_score": 2.0,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0040": {
+      "avg_score": 6.0,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0019": {
+      "avg_score": 3.5,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0077": {
+      "avg_score": 7.33,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0087": {
+      "avg_score": 3.17,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0079": {
+      "avg_score": 4.33,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0035": {
+      "avg_score": 3.67,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0038": {
+      "avg_score": 3.83,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0096": {
+      "avg_score": 3.67,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0043": {
+      "avg_score": 6.83,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0067": {
+      "avg_score": 3.0,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0005": {
+      "avg_score": 4.33,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0049": {
+      "avg_score": 7.67,
+      "is_target": false,
+      "quality": "strong_accept"
+    },
+    "S0052": {
+      "avg_score": 3.33,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0069": {
+      "avg_score": 4.17,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0029": {
+      "avg_score": 3.67,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0045": {
+      "avg_score": 6.83,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0042": {
+      "avg_score": 3.0,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0082": {
+      "avg_score": 6.33,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0070": {
+      "avg_score": 7.33,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0066": {
+      "avg_score": 3.33,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0031": {
+      "avg_score": 3.17,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0054": {
+      "avg_score": 7.33,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0011": {
+      "avg_score": 2.33,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0030": {
+      "avg_score": 6.0,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0086": {
+      "avg_score": 3.17,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0074": {
+      "avg_score": 3.33,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0080": {
+      "avg_score": 3.17,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0060": {
+      "avg_score": 4.0,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0099": {
+      "avg_score": 3.17,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0021": {
+      "avg_score": 3.67,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0072": {
+      "avg_score": 2.83,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0062": {
+      "avg_score": 6.83,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0006": {
+      "avg_score": 2.17,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0022": {
+      "avg_score": 2.33,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0056": {
+      "avg_score": 6.5,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0002": {
+      "avg_score": 7.33,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0081": {
+      "avg_score": 7.83,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0036": {
+      "avg_score": 3.5,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0097": {
+      "avg_score": 4.17,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0009": {
+      "avg_score": 3.5,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0046": {
+      "avg_score": 3.5,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0073": {
+      "avg_score": 4.0,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0012": {
+      "avg_score": 7.17,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0033": {
+      "avg_score": 1.83,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0015": {
+      "avg_score": 3.33,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0068": {
+      "avg_score": 4.0,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0093": {
+      "avg_score": 3.83,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0076": {
+      "avg_score": 3.67,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0058": {
+      "avg_score": 6.67,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0044": {
+      "avg_score": 7.17,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0100": {
+      "avg_score": 2.5,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0028": {
+      "avg_score": 3.33,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0089": {
+      "avg_score": 5.83,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0037": {
+      "avg_score": 3.17,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0025": {
+      "avg_score": 3.0,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0095": {
+      "avg_score": 2.67,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0090": {
+      "avg_score": 3.17,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0048": {
+      "avg_score": 3.5,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0034": {
+      "avg_score": 4.0,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0050": {
+      "avg_score": 3.33,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0027": {
+      "avg_score": 7.0,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0059": {
+      "avg_score": 6.83,
+      "is_target": false,
+      "quality": "accept"
+    },
+    "S0061": {
+      "avg_score": 6.33,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0014": {
+      "avg_score": 3.5,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0071": {
+      "avg_score": 3.33,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0085": {
+      "avg_score": 3.83,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0092": {
+      "avg_score": 3.83,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0004": {
+      "avg_score": 3.83,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0078": {
+      "avg_score": 2.17,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0063": {
+      "avg_score": 3.67,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0026": {
+      "avg_score": 3.33,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0053": {
+      "avg_score": 3.67,
+      "is_target": false,
+      "quality": "borderline"
+    },
+    "S0001": {
+      "avg_score": 2.67,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0008": {
+      "avg_score": 3.0,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0088": {
+      "avg_score": 3.17,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0051": {
+      "avg_score": 4.33,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0032": {
+      "avg_score": 3.5,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0065": {
+      "avg_score": 3.33,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0064": {
+      "avg_score": 2.33,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0017": {
+      "avg_score": 2.83,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0010": {
+      "avg_score": 3.33,
+      "is_target": false,
+      "quality": "reject"
+    },
+    "S0094": {
+      "avg_score": 3.0,
+      "is_target": false,
+      "quality": "reject"
+    }
+  }
+}

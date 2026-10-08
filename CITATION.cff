@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use CABAL or its dataset, please cite the paper."
+title: "CABAL: Multi-Agent Simulacra for Tracing the Effects of Collusive Bidding in Peer Review"
+type: software
+version: 0.1.0
+date-released: 2026-10-08
+url: "https://github.com/RupertZJC/CABAL"
+repository-code: "https://github.com/RupertZJC/CABAL"
+license: Apache-2.0
+authors:
+  - family-names: Zhou
+    given-names: Jicheng
+  - family-names: Li
+    given-names: Kemou
+  - family-names: Wong
+    given-names: Kahim
+  - family-names: Li
+    given-names: Zheyuan
+  - family-names: Shi
+    given-names: Zhuan
+  - family-names: Li
+    given-names: Fengpeng
+  - family-names: Wu
+    given-names: Haiwei
+  - family-names: Zhou
+    given-names: Jiantao
+identifiers:
+  - type: doi
+    value: "10.48550/arXiv.2609.05227"

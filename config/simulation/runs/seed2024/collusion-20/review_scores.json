@@ -1,0 +1,2411 @@
+{
+  "review_stats": {
+    "global": {
+      "quality_score_correlation": 0.7106,
+      "mean_score": 4.41,
+      "std_score": 1.79
+    }
+  },
+  "scores": [
+    {
+      "paper_id": "S0047",
+      "reviewer_id": "R0028",
+      "score": 8.0,
+      "behavior_type": "honest",
+      "affinity": 0.5577,
+      "quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0085",
+      "reviewer_id": "R0028",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.5899,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0090",
+      "reviewer_id": "R0028",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5545,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0047",
+      "reviewer_id": "R0061",
+      "score": 8.0,
+      "behavior_type": "honest",
+      "affinity": 0.61,
+      "quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0091",
+      "reviewer_id": "R0061",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5158,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0027",
+      "reviewer_id": "R0061",
+      "score": 6.0,
+      "behavior_type": "honest",
+      "affinity": 0.6484,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0098",
+      "reviewer_id": "R0043",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.5228,
+      "quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0012",
+      "reviewer_id": "R0043",
+      "score": 7.5,
+      "behavior_type": "honest",
+      "affinity": 0.513,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0087",
+      "reviewer_id": "R0043",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.6154,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0083",
+      "reviewer_id": "R0049",
+      "score": 8.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5414,
+      "quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0049",
+      "reviewer_id": "R0049",
+      "score": 7.5,
+      "behavior_type": "collusion",
+      "affinity": 0.5005,
+      "quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0016",
+      "reviewer_id": "R0049",
+      "score": 6.5,
+      "behavior_type": "collusion",
+      "affinity": 0.5008,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0098",
+      "reviewer_id": "R0004",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.5329,
+      "quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0003",
+      "reviewer_id": "R0004",
+      "score": 6.0,
+      "behavior_type": "honest",
+      "affinity": 0.4746,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0075",
+      "reviewer_id": "R0004",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.4487,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0023",
+      "reviewer_id": "R0099",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.5867,
+      "quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0020",
+      "reviewer_id": "R0099",
+      "score": 5.0,
+      "behavior_type": "honest",
+      "affinity": 0.5919,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0003",
+      "reviewer_id": "R0099",
+      "score": 6.0,
+      "behavior_type": "honest",
+      "affinity": 0.4533,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0047",
+      "reviewer_id": "R0009",
+      "score": 8.0,
+      "behavior_type": "collusion",
+      "affinity": 0.6253,
+      "quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0091",
+      "reviewer_id": "R0009",
+      "score": 4.0,
+      "behavior_type": "collusion",
+      "affinity": 0.539,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0038",
+      "reviewer_id": "R0009",
+      "score": 7.0,
+      "behavior_type": "collusion",
+      "affinity": 0.4765,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0023",
+      "reviewer_id": "R0012",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.4529,
+      "quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0095",
+      "reviewer_id": "R0012",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5637,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0078",
+      "reviewer_id": "R0012",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.5106,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0023",
+      "reviewer_id": "R0122",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.4438,
+      "quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0045",
+      "reviewer_id": "R0122",
+      "score": 6.0,
+      "behavior_type": "honest",
+      "affinity": 0.4719,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0015",
+      "reviewer_id": "R0122",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.6477,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0098",
+      "reviewer_id": "R0059",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.5228,
+      "quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0082",
+      "reviewer_id": "R0059",
+      "score": 7.5,
+      "behavior_type": "honest",
+      "affinity": 0.5736,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0019",
+      "reviewer_id": "R0059",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.61,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0074",
+      "reviewer_id": "R0059",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5372,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0096",
+      "reviewer_id": "R0029",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.5414,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0077",
+      "reviewer_id": "R0029",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.4468,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0045",
+      "reviewer_id": "R0029",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.5031,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0083",
+      "reviewer_id": "R0010",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.6569,
+      "quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0029",
+      "reviewer_id": "R0010",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5838,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0042",
+      "reviewer_id": "R0010",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5288,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0049",
+      "reviewer_id": "R0135",
+      "score": 8.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5499,
+      "quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0029",
+      "reviewer_id": "R0135",
+      "score": 7.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5878,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0007",
+      "reviewer_id": "R0135",
+      "score": 8.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5912,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0083",
+      "reviewer_id": "R0064",
+      "score": 8.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5405,
+      "quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0029",
+      "reviewer_id": "R0064",
+      "score": 7.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5807,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0016",
+      "reviewer_id": "R0064",
+      "score": 7.0,
+      "behavior_type": "collusion",
+      "affinity": 0.6041,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0077",
+      "reviewer_id": "R0128",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.4196,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0018",
+      "reviewer_id": "R0128",
+      "score": 6.0,
+      "behavior_type": "honest",
+      "affinity": 0.5739,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0087",
+      "reviewer_id": "R0128",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5431,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0096",
+      "reviewer_id": "R0098",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.519,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0043",
+      "reviewer_id": "R0098",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.3398,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0067",
+      "reviewer_id": "R0098",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.333,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0077",
+      "reviewer_id": "R0025",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.4395,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0054",
+      "reviewer_id": "R0025",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.4819,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0033",
+      "reviewer_id": "R0025",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.4457,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0024",
+      "reviewer_id": "R0077",
+      "score": 4.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5614,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0040",
+      "reviewer_id": "R0077",
+      "score": 6.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5694,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0003",
+      "reviewer_id": "R0077",
+      "score": 5.0,
+      "behavior_type": "collusion",
+      "affinity": 0.4617,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0024",
+      "reviewer_id": "R0127",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.578,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0011",
+      "reviewer_id": "R0127",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4359,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0034",
+      "reviewer_id": "R0127",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.6081,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0043",
+      "reviewer_id": "R0076",
+      "score": 6.0,
+      "behavior_type": "honest",
+      "affinity": 0.4242,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0067",
+      "reviewer_id": "R0076",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4321,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0010",
+      "reviewer_id": "R0076",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.0,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0024",
+      "reviewer_id": "R0055",
+      "score": 4.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5225,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0027",
+      "reviewer_id": "R0055",
+      "score": 8.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5934,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0068",
+      "reviewer_id": "R0055",
+      "score": 4.0,
+      "behavior_type": "collusion",
+      "affinity": 0.6111,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0049",
+      "reviewer_id": "R0047",
+      "score": 6.5,
+      "behavior_type": "honest",
+      "affinity": 0.4603,
+      "quality": "strong_accept"
+    },
+    {
+      "paper_id": "S0052",
+      "reviewer_id": "R0047",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.4031,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0063",
+      "reviewer_id": "R0047",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.5194,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0060",
+      "reviewer_id": "R0070",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.5817,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0039",
+      "reviewer_id": "R0070",
+      "score": 7.5,
+      "behavior_type": "honest",
+      "affinity": 0.5436,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0004",
+      "reviewer_id": "R0070",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5457,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0060",
+      "reviewer_id": "R0088",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.5505,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0097",
+      "reviewer_id": "R0088",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.5354,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0081",
+      "reviewer_id": "R0088",
+      "score": 7.5,
+      "behavior_type": "honest",
+      "affinity": 0.5389,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0082",
+      "reviewer_id": "R0056",
+      "score": 7.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5786,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0040",
+      "reviewer_id": "R0056",
+      "score": 6.5,
+      "behavior_type": "collusion",
+      "affinity": 0.621,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0019",
+      "reviewer_id": "R0056",
+      "score": 4.0,
+      "behavior_type": "collusion",
+      "affinity": 0.6796,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0060",
+      "reviewer_id": "R0034",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.5366,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0062",
+      "reviewer_id": "R0034",
+      "score": 6.0,
+      "behavior_type": "honest",
+      "affinity": 0.5464,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0039",
+      "reviewer_id": "R0034",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.5061,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0021",
+      "reviewer_id": "R0034",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4846,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0082",
+      "reviewer_id": "R0072",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.6235,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0070",
+      "reviewer_id": "R0072",
+      "score": 8.0,
+      "behavior_type": "honest",
+      "affinity": 0.5574,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0066",
+      "reviewer_id": "R0072",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.6776,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0020",
+      "reviewer_id": "R0095",
+      "score": 6.0,
+      "behavior_type": "honest",
+      "affinity": 0.551,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0012",
+      "reviewer_id": "R0095",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.4687,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0079",
+      "reviewer_id": "R0095",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.3427,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0040",
+      "reviewer_id": "R0119",
+      "score": 6.0,
+      "behavior_type": "collusion",
+      "affinity": 0.6173,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0057",
+      "reviewer_id": "R0119",
+      "score": 6.5,
+      "behavior_type": "collusion",
+      "affinity": 0.6541,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0028",
+      "reviewer_id": "R0119",
+      "score": 4.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5767,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0018",
+      "reviewer_id": "R0044",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.6051,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0084",
+      "reviewer_id": "R0044",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4501,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0046",
+      "reviewer_id": "R0044",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.5014,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0070",
+      "reviewer_id": "R0002",
+      "score": 7.5,
+      "behavior_type": "honest",
+      "affinity": 0.5566,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0059",
+      "reviewer_id": "R0002",
+      "score": 6.5,
+      "behavior_type": "honest",
+      "affinity": 0.4984,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0090",
+      "reviewer_id": "R0002",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.5623,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0097",
+      "reviewer_id": "R0057",
+      "score": 5.0,
+      "behavior_type": "honest",
+      "affinity": 0.6393,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0022",
+      "reviewer_id": "R0057",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.4326,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0093",
+      "reviewer_id": "R0057",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.4581,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0062",
+      "reviewer_id": "R0048",
+      "score": 6.5,
+      "behavior_type": "honest",
+      "affinity": 0.6584,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0071",
+      "reviewer_id": "R0048",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4611,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0026",
+      "reviewer_id": "R0048",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.4517,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0096",
+      "reviewer_id": "R0039",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.5261,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0043",
+      "reviewer_id": "R0039",
+      "score": 6.0,
+      "behavior_type": "honest",
+      "affinity": 0.4153,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0030",
+      "reviewer_id": "R0039",
+      "score": 6.5,
+      "behavior_type": "honest",
+      "affinity": 0.5775,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0018",
+      "reviewer_id": "R0069",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.4867,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0009",
+      "reviewer_id": "R0069",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5031,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0067",
+      "reviewer_id": "R0069",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.4049,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0070",
+      "reviewer_id": "R0092",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.4654,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0080",
+      "reviewer_id": "R0092",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4432,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0006",
+      "reviewer_id": "R0092",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.4318,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0097",
+      "reviewer_id": "R0097",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.6628,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0042",
+      "reviewer_id": "R0097",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5051,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0007",
+      "reviewer_id": "R0097",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.714,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0062",
+      "reviewer_id": "R0018",
+      "score": 6.5,
+      "behavior_type": "honest",
+      "affinity": 0.5722,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0015",
+      "reviewer_id": "R0018",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.645,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0002",
+      "reviewer_id": "R0018",
+      "score": 6.0,
+      "behavior_type": "honest",
+      "affinity": 0.5298,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0057",
+      "reviewer_id": "R0024",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.6012,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0002",
+      "reviewer_id": "R0024",
+      "score": 8.0,
+      "behavior_type": "honest",
+      "affinity": 0.4832,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0022",
+      "reviewer_id": "R0024",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5025,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0058",
+      "reviewer_id": "R0073",
+      "score": 6.5,
+      "behavior_type": "honest",
+      "affinity": 0.586,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0048",
+      "reviewer_id": "R0073",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.5928,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0065",
+      "reviewer_id": "R0073",
+      "score": 2.5,
+      "behavior_type": "honest",
+      "affinity": 0.6364,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0037",
+      "reviewer_id": "R0073",
+      "score": 2.5,
+      "behavior_type": "honest",
+      "affinity": 0.5557,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0013",
+      "reviewer_id": "R0073",
+      "score": 2.5,
+      "behavior_type": "honest",
+      "affinity": 0.4266,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0058",
+      "reviewer_id": "R0066",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.5903,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0089",
+      "reviewer_id": "R0066",
+      "score": 6.5,
+      "behavior_type": "honest",
+      "affinity": 0.4097,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0048",
+      "reviewer_id": "R0066",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4256,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0013",
+      "reviewer_id": "R0066",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.411,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0044",
+      "reviewer_id": "R0078",
+      "score": 6.5,
+      "behavior_type": "honest",
+      "affinity": 0.5719,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0005",
+      "reviewer_id": "R0078",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.555,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0076",
+      "reviewer_id": "R0078",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5402,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0037",
+      "reviewer_id": "R0078",
+      "score": 2.5,
+      "behavior_type": "honest",
+      "affinity": 0.4984,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0030",
+      "reviewer_id": "R0131",
+      "score": 6.0,
+      "behavior_type": "honest",
+      "affinity": 0.4868,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0025",
+      "reviewer_id": "R0131",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4502,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0006",
+      "reviewer_id": "R0131",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.4417,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0030",
+      "reviewer_id": "R0050",
+      "score": 6.5,
+      "behavior_type": "honest",
+      "affinity": 0.5787,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0042",
+      "reviewer_id": "R0050",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4687,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0009",
+      "reviewer_id": "R0050",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.604,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0044",
+      "reviewer_id": "R0139",
+      "score": 6.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5257,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0075",
+      "reviewer_id": "R0139",
+      "score": 3.5,
+      "behavior_type": "collusion",
+      "affinity": 0.4846,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0081",
+      "reviewer_id": "R0139",
+      "score": 8.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5037,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0058",
+      "reviewer_id": "R0101",
+      "score": 6.0,
+      "behavior_type": "honest",
+      "affinity": 0.597,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0092",
+      "reviewer_id": "R0101",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.5266,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0080",
+      "reviewer_id": "R0101",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4351,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0037",
+      "reviewer_id": "R0101",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5373,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0044",
+      "reviewer_id": "R0108",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.5388,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0068",
+      "reviewer_id": "R0108",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4941,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0052",
+      "reviewer_id": "R0108",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.4102,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0059",
+      "reviewer_id": "R0051",
+      "score": 8.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5617,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0065",
+      "reviewer_id": "R0051",
+      "score": 3.0,
+      "behavior_type": "collusion",
+      "affinity": 0.4861,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0064",
+      "reviewer_id": "R0051",
+      "score": 2.0,
+      "behavior_type": "collusion",
+      "affinity": 0.4388,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0045",
+      "reviewer_id": "R0121",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.4289,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0084",
+      "reviewer_id": "R0121",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4528,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0035",
+      "reviewer_id": "R0121",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.3813,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0059",
+      "reviewer_id": "R0001",
+      "score": 8.0,
+      "behavior_type": "honest",
+      "affinity": 0.538,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0011",
+      "reviewer_id": "R0001",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.4756,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0090",
+      "reviewer_id": "R0001",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5114,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0020",
+      "reviewer_id": "R0006",
+      "score": 4.5,
+      "behavior_type": "honest",
+      "affinity": 0.5783,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0039",
+      "reviewer_id": "R0006",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.5305,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0057",
+      "reviewer_id": "R0006",
+      "score": 5.5,
+      "behavior_type": "honest",
+      "affinity": 0.6445,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0019",
+      "reviewer_id": "R0037",
+      "score": 5.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5099,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0091",
+      "reviewer_id": "R0037",
+      "score": 4.0,
+      "behavior_type": "collusion",
+      "affinity": 0.61,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0005",
+      "reviewer_id": "R0037",
+      "score": 4.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5888,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0027",
+      "reviewer_id": "R0023",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.6415,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0085",
+      "reviewer_id": "R0023",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.4563,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0076",
+      "reviewer_id": "R0023",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5732,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0071",
+      "reviewer_id": "R0094",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.4656,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0041",
+      "reviewer_id": "R0094",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.5099,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0002",
+      "reviewer_id": "R0094",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.4216,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0071",
+      "reviewer_id": "R0093",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.4944,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0015",
+      "reviewer_id": "R0093",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.5466,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0004",
+      "reviewer_id": "R0093",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.5346,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0041",
+      "reviewer_id": "R0080",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.4768,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0087",
+      "reviewer_id": "R0080",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.4342,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0033",
+      "reviewer_id": "R0080",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.3815,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0054",
+      "reviewer_id": "R0013",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.4671,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0026",
+      "reviewer_id": "R0013",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.4553,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0100",
+      "reviewer_id": "R0013",
+      "score": 2.5,
+      "behavior_type": "honest",
+      "affinity": 0.4325,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0068",
+      "reviewer_id": "R0046",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.3609,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0009",
+      "reviewer_id": "R0046",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.5722,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0088",
+      "reviewer_id": "R0046",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.0,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0085",
+      "reviewer_id": "R0030",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.6227,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0092",
+      "reviewer_id": "R0030",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.6216,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0001",
+      "reviewer_id": "R0030",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.0,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0054",
+      "reviewer_id": "R0110",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.3854,
+      "quality": "accept"
+    },
+    {
+      "paper_id": "S0084",
+      "reviewer_id": "R0110",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4626,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0025",
+      "reviewer_id": "R0110",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.4492,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0041",
+      "reviewer_id": "R0016",
+      "score": 3.5,
+      "behavior_type": "collusion",
+      "affinity": 0.4939,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0035",
+      "reviewer_id": "R0016",
+      "score": 4.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5571,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0004",
+      "reviewer_id": "R0016",
+      "score": 4.0,
+      "behavior_type": "collusion",
+      "affinity": 0.605,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0052",
+      "reviewer_id": "R0136",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5545,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0069",
+      "reviewer_id": "R0136",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.5706,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0056",
+      "reviewer_id": "R0136",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.5445,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0011",
+      "reviewer_id": "R0021",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4714,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0069",
+      "reviewer_id": "R0021",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.456,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0099",
+      "reviewer_id": "R0021",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.4855,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0028",
+      "reviewer_id": "R0032",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.5388,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0053",
+      "reviewer_id": "R0032",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.592,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0079",
+      "reviewer_id": "R0032",
+      "score": 4.5,
+      "behavior_type": "honest",
+      "affinity": 0.4202,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0005",
+      "reviewer_id": "R0031",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.5023,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0056",
+      "reviewer_id": "R0031",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.5649,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0099",
+      "reviewer_id": "R0031",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.5471,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0092",
+      "reviewer_id": "R0085",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.4319,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0100",
+      "reviewer_id": "R0085",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4469,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0031",
+      "reviewer_id": "R0085",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5778,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0007",
+      "reviewer_id": "R0074",
+      "score": 5.0,
+      "behavior_type": "honest",
+      "affinity": 0.605,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0086",
+      "reviewer_id": "R0074",
+      "score": 2.5,
+      "behavior_type": "honest",
+      "affinity": 0.4982,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0001",
+      "reviewer_id": "R0074",
+      "score": 2.5,
+      "behavior_type": "honest",
+      "affinity": 0.3553,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0055",
+      "reviewer_id": "R0074",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5595,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0013",
+      "reviewer_id": "R0074",
+      "score": 2.5,
+      "behavior_type": "honest",
+      "affinity": 0.4332,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0016",
+      "reviewer_id": "R0132",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.3267,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0086",
+      "reviewer_id": "R0132",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.3822,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0008",
+      "reviewer_id": "R0132",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.3108,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0076",
+      "reviewer_id": "R0033",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.336,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0061",
+      "reviewer_id": "R0033",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.3345,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0088",
+      "reviewer_id": "R0033",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.4604,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0028",
+      "reviewer_id": "R0007",
+      "score": 4.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5134,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0014",
+      "reviewer_id": "R0007",
+      "score": 3.0,
+      "behavior_type": "collusion",
+      "affinity": 0.4454,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0050",
+      "reviewer_id": "R0007",
+      "score": 6.0,
+      "behavior_type": "collusion",
+      "affinity": 0.4502,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0089",
+      "reviewer_id": "R0062",
+      "score": 6.0,
+      "behavior_type": "honest",
+      "affinity": 0.4653,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0036",
+      "reviewer_id": "R0062",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.384,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0026",
+      "reviewer_id": "R0062",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.446,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0080",
+      "reviewer_id": "R0125",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5066,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0086",
+      "reviewer_id": "R0125",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5192,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0031",
+      "reviewer_id": "R0125",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.0,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0089",
+      "reviewer_id": "R0130",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.3627,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0069",
+      "reviewer_id": "R0130",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.4563,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0100",
+      "reviewer_id": "R0130",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.4244,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0055",
+      "reviewer_id": "R0130",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4433,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0048",
+      "reviewer_id": "R0111",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.4182,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0079",
+      "reviewer_id": "R0111",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.375,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0036",
+      "reviewer_id": "R0111",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.4014,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0012",
+      "reviewer_id": "R0129",
+      "score": 7.0,
+      "behavior_type": "honest",
+      "affinity": 0.5172,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0035",
+      "reviewer_id": "R0129",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.6563,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0081",
+      "reviewer_id": "R0129",
+      "score": 8.0,
+      "behavior_type": "honest",
+      "affinity": 0.5601,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0075",
+      "reviewer_id": "R0015",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.4898,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0050",
+      "reviewer_id": "R0015",
+      "score": 2.5,
+      "behavior_type": "honest",
+      "affinity": 0.4998,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0017",
+      "reviewer_id": "R0015",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.5984,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0066",
+      "reviewer_id": "R0067",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.6568,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0038",
+      "reviewer_id": "R0067",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.514,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0014",
+      "reviewer_id": "R0067",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4854,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0036",
+      "reviewer_id": "R0126",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.5248,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0093",
+      "reviewer_id": "R0126",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.5216,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0010",
+      "reviewer_id": "R0126",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.0,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0063",
+      "reviewer_id": "R0091",
+      "score": 4.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5162,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0014",
+      "reviewer_id": "R0091",
+      "score": 3.0,
+      "behavior_type": "collusion",
+      "affinity": 0.6024,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0064",
+      "reviewer_id": "R0091",
+      "score": 3.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5976,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0066",
+      "reviewer_id": "R0040",
+      "score": 4.0,
+      "behavior_type": "collusion",
+      "affinity": 0.6769,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0034",
+      "reviewer_id": "R0040",
+      "score": 3.5,
+      "behavior_type": "collusion",
+      "affinity": 0.4761,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0064",
+      "reviewer_id": "R0040",
+      "score": 3.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5825,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0074",
+      "reviewer_id": "R0040",
+      "score": 5.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5671,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0038",
+      "reviewer_id": "R0005",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.5444,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0053",
+      "reviewer_id": "R0005",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.5055,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0061",
+      "reviewer_id": "R0005",
+      "score": 6.5,
+      "behavior_type": "honest",
+      "affinity": 0.482,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0051",
+      "reviewer_id": "R0005",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.6264,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0099",
+      "reviewer_id": "R0045",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4958,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0065",
+      "reviewer_id": "R0045",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.4145,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0017",
+      "reviewer_id": "R0045",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.4511,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0033",
+      "reviewer_id": "R0027",
+      "score": 3.0,
+      "behavior_type": "collusion",
+      "affinity": 0.397,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0095",
+      "reviewer_id": "R0027",
+      "score": 3.0,
+      "behavior_type": "collusion",
+      "affinity": 0.3711,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0050",
+      "reviewer_id": "R0027",
+      "score": 3.5,
+      "behavior_type": "collusion",
+      "affinity": 0.4048,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0053",
+      "reviewer_id": "R0008",
+      "score": 4.0,
+      "behavior_type": "collusion",
+      "affinity": 0.4847,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0056",
+      "reviewer_id": "R0008",
+      "score": 7.0,
+      "behavior_type": "collusion",
+      "affinity": 0.4819,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0025",
+      "reviewer_id": "R0008",
+      "score": 4.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5881,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0072",
+      "reviewer_id": "R0008",
+      "score": 5.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5161,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0061",
+      "reviewer_id": "R0071",
+      "score": 6.5,
+      "behavior_type": "honest",
+      "affinity": 0.4424,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0008",
+      "reviewer_id": "R0071",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.3769,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0088",
+      "reviewer_id": "R0071",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5542,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0032",
+      "reviewer_id": "R0071",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.4654,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0008",
+      "reviewer_id": "R0107",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4578,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0093",
+      "reviewer_id": "R0107",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.0,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0046",
+      "reviewer_id": "R0107",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.3754,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0021",
+      "reviewer_id": "R0003",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.5459,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0017",
+      "reviewer_id": "R0113",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5464,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0073",
+      "reviewer_id": "R0113",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.0,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0051",
+      "reviewer_id": "R0113",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.0,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0073",
+      "reviewer_id": "R0068",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.6257,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0078",
+      "reviewer_id": "R0065",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.0,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0001",
+      "reviewer_id": "R0065",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.0,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0031",
+      "reviewer_id": "R0065",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.0,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0051",
+      "reviewer_id": "R0133",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.4264,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0032",
+      "reviewer_id": "R0133",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5246,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0094",
+      "reviewer_id": "R0087",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.0,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0010",
+      "reviewer_id": "R0087",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.0,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0073",
+      "reviewer_id": "R0087",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.4151,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0021",
+      "reviewer_id": "R0075",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.4935,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0034",
+      "reviewer_id": "R0054",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5279,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0063",
+      "reviewer_id": "R0054",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.5042,
+      "quality": "borderline"
+    },
+    {
+      "paper_id": "S0006",
+      "reviewer_id": "R0054",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.477,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0032",
+      "reviewer_id": "R0063",
+      "score": 3.5,
+      "behavior_type": "honest",
+      "affinity": 0.5552,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0022",
+      "reviewer_id": "R0100",
+      "score": 4.0,
+      "behavior_type": "collusion",
+      "affinity": 0.5025,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0046",
+      "reviewer_id": "R0100",
+      "score": 5.0,
+      "behavior_type": "collusion",
+      "affinity": 0.4309,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0094",
+      "reviewer_id": "R0100",
+      "score": 3.0,
+      "behavior_type": "collusion",
+      "affinity": 0.0,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0074",
+      "reviewer_id": "R0109",
+      "score": 4.0,
+      "behavior_type": "honest",
+      "affinity": 0.657,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0055",
+      "reviewer_id": "R0104",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.6608,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0072",
+      "reviewer_id": "R0124",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5059,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0072",
+      "reviewer_id": "R0089",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5343,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0095",
+      "reviewer_id": "R0079",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.5289,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0078",
+      "reviewer_id": "R0079",
+      "score": 3.0,
+      "behavior_type": "honest",
+      "affinity": 0.448,
+      "quality": "reject"
+    },
+    {
+      "paper_id": "S0094",
+      "reviewer_id": "R0079",
+      "score": 2.0,
+      "behavior_type": "honest",
+      "affinity": 0.0,
+      "quality": "reject"
+    }
+  ]
+}

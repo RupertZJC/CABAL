@@ -1,0 +1,9 @@
+{
+  "privacy_scan": "passed",
+  "profile_snapshot_included": false,
+  "identity_map_included": false,
+  "preserved_numeric_values": 111950,
+  "public_data_files": 123,
+  "matcher_matches_experiment_source": true,
+  "note": "Checks compare all retained numerical fields against source records. Identity mapping and detailed redactions are held privately."
+}

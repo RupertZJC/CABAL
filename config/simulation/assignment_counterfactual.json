@@ -1,0 +1,1225 @@
+{
+  "labels": [
+    "seed42_001",
+    "seed42_002",
+    "seed42_003",
+    "seed0921",
+    "seed1125",
+    "seed2024",
+    "seed7777"
+  ],
+  "scenarios": [
+    "collusion-20",
+    "collusion-50"
+  ],
+  "per_run": {
+    "seed42_001": {
+      "collusion-20": {
+        "n_target_pairs": 29,
+        "n_target_papers": 21,
+        "target_pair_bids": {
+          "baseline": {
+            "n": 29,
+            "mean_excl_vl": 0.7857142857142857,
+            "pct_vl": 3.4482758620689653,
+            "pct_vh": 17.24137931034483
+          },
+          "collusive": {
+            "n": 29,
+            "mean_excl_vl": 2.0,
+            "pct_vl": 0.0,
+            "pct_vh": 100.0
+          },
+          "vh_rate_uplift_pp": 82.75862068965517,
+          "mean_uplift_excl_baseline_vl": 1.2142857142857142
+        },
+        "target_pair_assignment": {
+          "n": 29,
+          "baseline_rate": 0.20689655172413793,
+          "collusive_rate": 0.5862068965517241,
+          "uplift": 0.3793103448275862,
+          "mcnemar": {
+            "gain": 11,
+            "loss": 0,
+            "discordant": 11,
+            "p_value": 0.0009765625
+          }
+        },
+        "own_ring_paper_coverage": {
+          "n": 21,
+          "baseline_rate": 0.2857142857142857,
+          "collusive_rate": 0.6666666666666666,
+          "uplift": 0.38095238095238093,
+          "mcnemar": {
+            "gain": 8,
+            "loss": 0,
+            "discordant": 8,
+            "p_value": 0.0078125
+          }
+        },
+        "own_ring_slot_share": {
+          "n_target_slots_baseline": 63,
+          "n_target_slots_collusive": 63,
+          "baseline_n": 6,
+          "collusive_n": 17,
+          "baseline_rate": 0.09523809523809523,
+          "collusive_rate": 0.2698412698412698,
+          "uplift": 0.1746031746031746
+        }
+      },
+      "collusion-50": {
+        "n_target_pairs": 86,
+        "n_target_papers": 52,
+        "target_pair_bids": {
+          "baseline": {
+            "n": 86,
+            "mean_excl_vl": 0.6666666666666666,
+            "pct_vl": 2.3255813953488373,
+            "pct_vh": 20.930232558139537
+          },
+          "collusive": {
+            "n": 86,
+            "mean_excl_vl": 2.0,
+            "pct_vl": 0.0,
+            "pct_vh": 100.0
+          },
+          "vh_rate_uplift_pp": 79.06976744186046,
+          "mean_uplift_excl_baseline_vl": 1.3333333333333333
+        },
+        "target_pair_assignment": {
+          "n": 86,
+          "baseline_rate": 0.20930232558139536,
+          "collusive_rate": 0.627906976744186,
+          "uplift": 0.41860465116279066,
+          "mcnemar": {
+            "gain": 39,
+            "loss": 3,
+            "discordant": 42,
+            "p_value": 5.631591193377972e-09
+          }
+        },
+        "own_ring_paper_coverage": {
+          "n": 52,
+          "baseline_rate": 0.2692307692307692,
+          "collusive_rate": 0.7884615384615384,
+          "uplift": 0.5192307692307692,
+          "mcnemar": {
+            "gain": 29,
+            "loss": 2,
+            "discordant": 31,
+            "p_value": 4.628673195838928e-07
+          }
+        },
+        "own_ring_slot_share": {
+          "n_target_slots_baseline": 156,
+          "n_target_slots_collusive": 156,
+          "baseline_n": 18,
+          "collusive_n": 54,
+          "baseline_rate": 0.11538461538461539,
+          "collusive_rate": 0.34615384615384615,
+          "uplift": 0.23076923076923075
+        }
+      }
+    },
+    "seed42_002": {
+      "collusion-20": {
+        "n_target_pairs": 32,
+        "n_target_papers": 25,
+        "target_pair_bids": {
+          "baseline": {
+            "n": 32,
+            "mean_excl_vl": 1.0,
+            "pct_vl": 0.0,
+            "pct_vh": 25.0
+          },
+          "collusive": {
+            "n": 32,
+            "mean_excl_vl": 2.0,
+            "pct_vl": 0.0,
+            "pct_vh": 100.0
+          },
+          "vh_rate_uplift_pp": 75.0,
+          "mean_uplift_excl_baseline_vl": 1.0
+        },
+        "target_pair_assignment": {
+          "n": 32,
+          "baseline_rate": 0.3125,
+          "collusive_rate": 0.75,
+          "uplift": 0.4375,
+          "mcnemar": {
+            "gain": 16,
+            "loss": 2,
+            "discordant": 18,
+            "p_value": 0.001312255859375
+          }
+        },
+        "own_ring_paper_coverage": {
+          "n": 25,
+          "baseline_rate": 0.4,
+          "collusive_rate": 0.8,
+          "uplift": 0.4,
+          "mcnemar": {
+            "gain": 11,
+            "loss": 1,
+            "discordant": 12,
+            "p_value": 0.00634765625
+          }
+        },
+        "own_ring_slot_share": {
+          "n_target_slots_baseline": 75,
+          "n_target_slots_collusive": 75,
+          "baseline_n": 10,
+          "collusive_n": 24,
+          "baseline_rate": 0.13333333333333333,
+          "collusive_rate": 0.32,
+          "uplift": 0.18666666666666668
+        }
+      },
+      "collusion-50": {
+        "n_target_pairs": 95,
+        "n_target_papers": 56,
+        "target_pair_bids": {
+          "baseline": {
+            "n": 95,
+            "mean_excl_vl": 0.6666666666666666,
+            "pct_vl": 2.1052631578947367,
+            "pct_vh": 9.473684210526315
+          },
+          "collusive": {
+            "n": 95,
+            "mean_excl_vl": 2.0,
+            "pct_vl": 0.0,
+            "pct_vh": 100.0
+          },
+          "vh_rate_uplift_pp": 90.52631578947368,
+          "mean_uplift_excl_baseline_vl": 1.3333333333333333
+        },
+        "target_pair_assignment": {
+          "n": 95,
+          "baseline_rate": 0.15789473684210525,
+          "collusive_rate": 0.6105263157894737,
+          "uplift": 0.45263157894736844,
+          "mcnemar": {
+            "gain": 44,
+            "loss": 1,
+            "discordant": 45,
+            "p_value": 2.6147972675971687e-12
+          }
+        },
+        "own_ring_paper_coverage": {
+          "n": 56,
+          "baseline_rate": 0.26785714285714285,
+          "collusive_rate": 0.7678571428571429,
+          "uplift": 0.5,
+          "mcnemar": {
+            "gain": 28,
+            "loss": 0,
+            "discordant": 28,
+            "p_value": 7.450580596923828e-09
+          }
+        },
+        "own_ring_slot_share": {
+          "n_target_slots_baseline": 168,
+          "n_target_slots_collusive": 168,
+          "baseline_n": 15,
+          "collusive_n": 58,
+          "baseline_rate": 0.08928571428571429,
+          "collusive_rate": 0.34523809523809523,
+          "uplift": 0.25595238095238093
+        }
+      }
+    },
+    "seed42_003": {
+      "collusion-20": {
+        "n_target_pairs": 35,
+        "n_target_papers": 25,
+        "target_pair_bids": {
+          "baseline": {
+            "n": 35,
+            "mean_excl_vl": 0.9411764705882353,
+            "pct_vl": 2.857142857142857,
+            "pct_vh": 20.0
+          },
+          "collusive": {
+            "n": 35,
+            "mean_excl_vl": 2.0,
+            "pct_vl": 0.0,
+            "pct_vh": 100.0
+          },
+          "vh_rate_uplift_pp": 80.0,
+          "mean_uplift_excl_baseline_vl": 1.0588235294117647
+        },
+        "target_pair_assignment": {
+          "n": 35,
+          "baseline_rate": 0.2571428571428571,
+          "collusive_rate": 0.6571428571428571,
+          "uplift": 0.4,
+          "mcnemar": {
+            "gain": 15,
+            "loss": 1,
+            "discordant": 16,
+            "p_value": 0.000518798828125
+          }
+        },
+        "own_ring_paper_coverage": {
+          "n": 25,
+          "baseline_rate": 0.36,
+          "collusive_rate": 0.68,
+          "uplift": 0.32000000000000006,
+          "mcnemar": {
+            "gain": 8,
+            "loss": 0,
+            "discordant": 8,
+            "p_value": 0.0078125
+          }
+        },
+        "own_ring_slot_share": {
+          "n_target_slots_baseline": 75,
+          "n_target_slots_collusive": 75,
+          "baseline_n": 9,
+          "collusive_n": 23,
+          "baseline_rate": 0.12,
+          "collusive_rate": 0.30666666666666664,
+          "uplift": 0.18666666666666665
+        }
+      },
+      "collusion-50": {
+        "n_target_pairs": 92,
+        "n_target_papers": 55,
+        "target_pair_bids": {
+          "baseline": {
+            "n": 92,
+            "mean_excl_vl": 0.7111111111111111,
+            "pct_vl": 2.1739130434782608,
+            "pct_vh": 14.130434782608695
+          },
+          "collusive": {
+            "n": 92,
+            "mean_excl_vl": 2.0,
+            "pct_vl": 0.0,
+            "pct_vh": 100.0
+          },
+          "vh_rate_uplift_pp": 85.86956521739131,
+          "mean_uplift_excl_baseline_vl": 1.288888888888889
+        },
+        "target_pair_assignment": {
+          "n": 92,
+          "baseline_rate": 0.2391304347826087,
+          "collusive_rate": 0.6086956521739131,
+          "uplift": 0.3695652173913044,
+          "mcnemar": {
+            "gain": 38,
+            "loss": 4,
+            "discordant": 42,
+            "p_value": 5.65314621780999e-08
+          }
+        },
+        "own_ring_paper_coverage": {
+          "n": 55,
+          "baseline_rate": 0.38181818181818183,
+          "collusive_rate": 0.7636363636363637,
+          "uplift": 0.38181818181818183,
+          "mcnemar": {
+            "gain": 23,
+            "loss": 2,
+            "discordant": 25,
+            "p_value": 1.9431114196777344e-05
+          }
+        },
+        "own_ring_slot_share": {
+          "n_target_slots_baseline": 165,
+          "n_target_slots_collusive": 165,
+          "baseline_n": 22,
+          "collusive_n": 56,
+          "baseline_rate": 0.13333333333333333,
+          "collusive_rate": 0.3393939393939394,
+          "uplift": 0.20606060606060608
+        }
+      }
+    },
+    "seed0921": {
+      "collusion-20": {
+        "n_target_pairs": 35,
+        "n_target_papers": 26,
+        "target_pair_bids": {
+          "baseline": {
+            "n": 35,
+            "mean_excl_vl": 1.0909090909090908,
+            "pct_vl": 5.714285714285714,
+            "pct_vh": 22.857142857142858
+          },
+          "collusive": {
+            "n": 35,
+            "mean_excl_vl": 2.0,
+            "pct_vl": 0.0,
+            "pct_vh": 100.0
+          },
+          "vh_rate_uplift_pp": 77.14285714285714,
+          "mean_uplift_excl_baseline_vl": 0.9090909090909091
+        },
+        "target_pair_assignment": {
+          "n": 35,
+          "baseline_rate": 0.11428571428571428,
+          "collusive_rate": 0.6,
+          "uplift": 0.4857142857142857,
+          "mcnemar": {
+            "gain": 19,
+            "loss": 2,
+            "discordant": 21,
+            "p_value": 0.00022125244140625
+          }
+        },
+        "own_ring_paper_coverage": {
+          "n": 26,
+          "baseline_rate": 0.15384615384615385,
+          "collusive_rate": 0.7692307692307693,
+          "uplift": 0.6153846153846154,
+          "mcnemar": {
+            "gain": 18,
+            "loss": 2,
+            "discordant": 20,
+            "p_value": 0.0004024505615234375
+          }
+        },
+        "own_ring_slot_share": {
+          "n_target_slots_baseline": 78,
+          "n_target_slots_collusive": 78,
+          "baseline_n": 4,
+          "collusive_n": 21,
+          "baseline_rate": 0.05128205128205128,
+          "collusive_rate": 0.2692307692307692,
+          "uplift": 0.21794871794871795
+        }
+      },
+      "collusion-50": {
+        "n_target_pairs": 98,
+        "n_target_papers": 53,
+        "target_pair_bids": {
+          "baseline": {
+            "n": 98,
+            "mean_excl_vl": 0.8673469387755102,
+            "pct_vl": 0.0,
+            "pct_vh": 23.46938775510204
+          },
+          "collusive": {
+            "n": 98,
+            "mean_excl_vl": 2.0,
+            "pct_vl": 0.0,
+            "pct_vh": 100.0
+          },
+          "vh_rate_uplift_pp": 76.53061224489795,
+          "mean_uplift_excl_baseline_vl": 1.1326530612244898
+        },
+        "target_pair_assignment": {
+          "n": 98,
+          "baseline_rate": 0.1836734693877551,
+          "collusive_rate": 0.6632653061224489,
+          "uplift": 0.47959183673469385,
+          "mcnemar": {
+            "gain": 49,
+            "loss": 2,
+            "discordant": 51,
+            "p_value": 1.1786127629420662e-12
+          }
+        },
+        "own_ring_paper_coverage": {
+          "n": 53,
+          "baseline_rate": 0.32075471698113206,
+          "collusive_rate": 0.8867924528301887,
+          "uplift": 0.5660377358490567,
+          "mcnemar": {
+            "gain": 31,
+            "loss": 1,
+            "discordant": 32,
+            "p_value": 1.5366822481155396e-08
+          }
+        },
+        "own_ring_slot_share": {
+          "n_target_slots_baseline": 159,
+          "n_target_slots_collusive": 159,
+          "baseline_n": 18,
+          "collusive_n": 65,
+          "baseline_rate": 0.11320754716981132,
+          "collusive_rate": 0.4088050314465409,
+          "uplift": 0.2955974842767296
+        }
+      }
+    },
+    "seed1125": {
+      "collusion-20": {
+        "n_target_pairs": 27,
+        "n_target_papers": 20,
+        "target_pair_bids": {
+          "baseline": {
+            "n": 27,
+            "mean_excl_vl": 0.041666666666666664,
+            "pct_vl": 11.11111111111111,
+            "pct_vh": 3.7037037037037037
+          },
+          "collusive": {
+            "n": 27,
+            "mean_excl_vl": 2.0,
+            "pct_vl": 0.0,
+            "pct_vh": 100.0
+          },
+          "vh_rate_uplift_pp": 96.29629629629629,
+          "mean_uplift_excl_baseline_vl": 1.9583333333333333
+        },
+        "target_pair_assignment": {
+          "n": 27,
+          "baseline_rate": 0.14814814814814814,
+          "collusive_rate": 0.6296296296296297,
+          "uplift": 0.4814814814814815,
+          "mcnemar": {
+            "gain": 15,
+            "loss": 2,
+            "discordant": 17,
+            "p_value": 0.002349853515625
+          }
+        },
+        "own_ring_paper_coverage": {
+          "n": 20,
+          "baseline_rate": 0.2,
+          "collusive_rate": 0.65,
+          "uplift": 0.45,
+          "mcnemar": {
+            "gain": 11,
+            "loss": 2,
+            "discordant": 13,
+            "p_value": 0.0224609375
+          }
+        },
+        "own_ring_slot_share": {
+          "n_target_slots_baseline": 60,
+          "n_target_slots_collusive": 60,
+          "baseline_n": 4,
+          "collusive_n": 17,
+          "baseline_rate": 0.06666666666666667,
+          "collusive_rate": 0.2833333333333333,
+          "uplift": 0.21666666666666667
+        }
+      },
+      "collusion-50": {
+        "n_target_pairs": 81,
+        "n_target_papers": 56,
+        "target_pair_bids": {
+          "baseline": {
+            "n": 81,
+            "mean_excl_vl": 0.6923076923076923,
+            "pct_vl": 3.7037037037037037,
+            "pct_vh": 19.753086419753085
+          },
+          "collusive": {
+            "n": 81,
+            "mean_excl_vl": 2.0,
+            "pct_vl": 0.0,
+            "pct_vh": 100.0
+          },
+          "vh_rate_uplift_pp": 80.24691358024691,
+          "mean_uplift_excl_baseline_vl": 1.3076923076923077
+        },
+        "target_pair_assignment": {
+          "n": 81,
+          "baseline_rate": 0.19753086419753085,
+          "collusive_rate": 0.6666666666666666,
+          "uplift": 0.4691358024691358,
+          "mcnemar": {
+            "gain": 39,
+            "loss": 1,
+            "discordant": 40,
+            "p_value": 7.457856554538012e-11
+          }
+        },
+        "own_ring_paper_coverage": {
+          "n": 56,
+          "baseline_rate": 0.2857142857142857,
+          "collusive_rate": 0.7857142857142857,
+          "uplift": 0.5,
+          "mcnemar": {
+            "gain": 29,
+            "loss": 1,
+            "discordant": 30,
+            "p_value": 5.774199962615967e-08
+          }
+        },
+        "own_ring_slot_share": {
+          "n_target_slots_baseline": 168,
+          "n_target_slots_collusive": 168,
+          "baseline_n": 16,
+          "collusive_n": 54,
+          "baseline_rate": 0.09523809523809523,
+          "collusive_rate": 0.32142857142857145,
+          "uplift": 0.22619047619047622
+        }
+      }
+    },
+    "seed2024": {
+      "collusion-20": {
+        "n_target_pairs": 30,
+        "n_target_papers": 20,
+        "target_pair_bids": {
+          "baseline": {
+            "n": 30,
+            "mean_excl_vl": 1.0357142857142858,
+            "pct_vl": 6.666666666666667,
+            "pct_vh": 20.0
+          },
+          "collusive": {
+            "n": 30,
+            "mean_excl_vl": 2.0,
+            "pct_vl": 0.0,
+            "pct_vh": 100.0
+          },
+          "vh_rate_uplift_pp": 80.0,
+          "mean_uplift_excl_baseline_vl": 0.9642857142857143
+        },
+        "target_pair_assignment": {
+          "n": 30,
+          "baseline_rate": 0.3,
+          "collusive_rate": 0.6,
+          "uplift": 0.3,
+          "mcnemar": {
+            "gain": 11,
+            "loss": 2,
+            "discordant": 13,
+            "p_value": 0.0224609375
+          }
+        },
+        "own_ring_paper_coverage": {
+          "n": 20,
+          "baseline_rate": 0.35,
+          "collusive_rate": 0.7,
+          "uplift": 0.35,
+          "mcnemar": {
+            "gain": 9,
+            "loss": 2,
+            "discordant": 11,
+            "p_value": 0.0654296875
+          }
+        },
+        "own_ring_slot_share": {
+          "n_target_slots_baseline": 60,
+          "n_target_slots_collusive": 60,
+          "baseline_n": 9,
+          "collusive_n": 18,
+          "baseline_rate": 0.15,
+          "collusive_rate": 0.3,
+          "uplift": 0.15
+        }
+      },
+      "collusion-50": {
+        "n_target_pairs": 75,
+        "n_target_papers": 46,
+        "target_pair_bids": {
+          "baseline": {
+            "n": 75,
+            "mean_excl_vl": 0.4794520547945205,
+            "pct_vl": 2.6666666666666665,
+            "pct_vh": 5.333333333333333
+          },
+          "collusive": {
+            "n": 75,
+            "mean_excl_vl": 2.0,
+            "pct_vl": 0.0,
+            "pct_vh": 100.0
+          },
+          "vh_rate_uplift_pp": 94.66666666666667,
+          "mean_uplift_excl_baseline_vl": 1.5205479452054795
+        },
+        "target_pair_assignment": {
+          "n": 75,
+          "baseline_rate": 0.12,
+          "collusive_rate": 0.56,
+          "uplift": 0.44000000000000006,
+          "mcnemar": {
+            "gain": 34,
+            "loss": 1,
+            "discordant": 35,
+            "p_value": 2.0954757928848267e-09
+          }
+        },
+        "own_ring_paper_coverage": {
+          "n": 46,
+          "baseline_rate": 0.1956521739130435,
+          "collusive_rate": 0.6739130434782609,
+          "uplift": 0.4782608695652174,
+          "mcnemar": {
+            "gain": 22,
+            "loss": 0,
+            "discordant": 22,
+            "p_value": 4.76837158203125e-07
+          }
+        },
+        "own_ring_slot_share": {
+          "n_target_slots_baseline": 138,
+          "n_target_slots_collusive": 138,
+          "baseline_n": 9,
+          "collusive_n": 42,
+          "baseline_rate": 0.06521739130434782,
+          "collusive_rate": 0.30434782608695654,
+          "uplift": 0.2391304347826087
+        }
+      }
+    },
+    "seed7777": {
+      "collusion-20": {
+        "n_target_pairs": 36,
+        "n_target_papers": 25,
+        "target_pair_bids": {
+          "baseline": {
+            "n": 36,
+            "mean_excl_vl": 0.7428571428571429,
+            "pct_vl": 2.7777777777777777,
+            "pct_vh": 19.444444444444443
+          },
+          "collusive": {
+            "n": 36,
+            "mean_excl_vl": 2.0,
+            "pct_vl": 0.0,
+            "pct_vh": 100.0
+          },
+          "vh_rate_uplift_pp": 80.55555555555556,
+          "mean_uplift_excl_baseline_vl": 1.2571428571428571
+        },
+        "target_pair_assignment": {
+          "n": 36,
+          "baseline_rate": 0.25,
+          "collusive_rate": 0.6666666666666666,
+          "uplift": 0.41666666666666663,
+          "mcnemar": {
+            "gain": 16,
+            "loss": 1,
+            "discordant": 17,
+            "p_value": 0.000274658203125
+          }
+        },
+        "own_ring_paper_coverage": {
+          "n": 25,
+          "baseline_rate": 0.32,
+          "collusive_rate": 0.76,
+          "uplift": 0.44,
+          "mcnemar": {
+            "gain": 11,
+            "loss": 0,
+            "discordant": 11,
+            "p_value": 0.0009765625
+          }
+        },
+        "own_ring_slot_share": {
+          "n_target_slots_baseline": 75,
+          "n_target_slots_collusive": 75,
+          "baseline_n": 9,
+          "collusive_n": 24,
+          "baseline_rate": 0.12,
+          "collusive_rate": 0.32,
+          "uplift": 0.2
+        }
+      },
+      "collusion-50": {
+        "n_target_pairs": 70,
+        "n_target_papers": 50,
+        "target_pair_bids": {
+          "baseline": {
+            "n": 70,
+            "mean_excl_vl": 0.6,
+            "pct_vl": 0.0,
+            "pct_vh": 17.142857142857142
+          },
+          "collusive": {
+            "n": 70,
+            "mean_excl_vl": 2.0,
+            "pct_vl": 0.0,
+            "pct_vh": 100.0
+          },
+          "vh_rate_uplift_pp": 82.85714285714286,
+          "mean_uplift_excl_baseline_vl": 1.4
+        },
+        "target_pair_assignment": {
+          "n": 70,
+          "baseline_rate": 0.17142857142857143,
+          "collusive_rate": 0.6285714285714286,
+          "uplift": 0.45714285714285713,
+          "mcnemar": {
+            "gain": 35,
+            "loss": 3,
+            "discordant": 38,
+            "p_value": 6.677873898297548e-08
+          }
+        },
+        "own_ring_paper_coverage": {
+          "n": 50,
+          "baseline_rate": 0.24,
+          "collusive_rate": 0.72,
+          "uplift": 0.48,
+          "mcnemar": {
+            "gain": 25,
+            "loss": 1,
+            "discordant": 26,
+            "p_value": 8.046627044677734e-07
+          }
+        },
+        "own_ring_slot_share": {
+          "n_target_slots_baseline": 150,
+          "n_target_slots_collusive": 150,
+          "baseline_n": 12,
+          "collusive_n": 44,
+          "baseline_rate": 0.08,
+          "collusive_rate": 0.29333333333333333,
+          "uplift": 0.21333333333333332
+        }
+      }
+    }
+  },
+  "summary": {
+    "collusion-20": {
+      "bid_base_mean": {
+        "mean": 0.8054339917785296,
+        "std": 0.3334778325989179,
+        "values": [
+          0.7857142857142857,
+          1.0,
+          0.9411764705882353,
+          1.0909090909090908,
+          0.041666666666666664,
+          1.0357142857142858,
+          0.7428571428571429
+        ]
+      },
+      "bid_base_vl": {
+        "mean": 4.653608569864728,
+        "std": 3.310841667947635,
+        "values": [
+          3.4482758620689653,
+          0.0,
+          2.857142857142857,
+          5.714285714285714,
+          11.11111111111111,
+          6.666666666666667,
+          2.7777777777777777
+        ]
+      },
+      "bid_base_vh": {
+        "mean": 18.320952902233692,
+        "std": 6.402195764756726,
+        "values": [
+          17.24137931034483,
+          25.0,
+          20.0,
+          22.857142857142858,
+          3.7037037037037037,
+          20.0,
+          19.444444444444443
+        ]
+      },
+      "bid_attack_mean": {
+        "mean": 2.0,
+        "std": 0.0,
+        "values": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ]
+      },
+      "bid_attack_vh": {
+        "mean": 100.0,
+        "std": 0.0,
+        "values": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ]
+      },
+      "bid_vh_uplift_pp": {
+        "mean": 81.67904709776631,
+        "std": 6.402195764756725,
+        "values": [
+          82.75862068965517,
+          75.0,
+          80.0,
+          77.14285714285714,
+          96.29629629629629,
+          80.0,
+          80.55555555555556
+        ]
+      },
+      "pair_base": {
+        "mean": 0.2269961816144082,
+        "std": 0.06907874917368118,
+        "values": [
+          0.20689655172413793,
+          0.3125,
+          0.2571428571428571,
+          0.11428571428571428,
+          0.14814814814814814,
+          0.3,
+          0.25
+        ]
+      },
+      "pair_attack": {
+        "mean": 0.6413780071415539,
+        "std": 0.052498896446322524,
+        "values": [
+          0.5862068965517241,
+          0.75,
+          0.6571428571428571,
+          0.6,
+          0.6296296296296297,
+          0.6,
+          0.6666666666666666
+        ]
+      },
+      "pair_uplift": {
+        "mean": 0.4143818255271457,
+        "std": 0.059342109681797706,
+        "values": [
+          0.3793103448275862,
+          0.4375,
+          0.4,
+          0.4857142857142857,
+          0.4814814814814815,
+          0.3,
+          0.41666666666666663
+        ]
+      },
+      "coverage_base": {
+        "mean": 0.295651491365777,
+        "std": 0.08274976192181704,
+        "values": [
+          0.2857142857142857,
+          0.4,
+          0.36,
+          0.15384615384615385,
+          0.2,
+          0.35,
+          0.32
+        ]
+      },
+      "coverage_attack": {
+        "mean": 0.717985347985348,
+        "std": 0.05363860726368744,
+        "values": [
+          0.6666666666666666,
+          0.8,
+          0.68,
+          0.7692307692307693,
+          0.65,
+          0.7,
+          0.76
+        ]
+      },
+      "coverage_uplift": {
+        "mean": 0.42233385661957096,
+        "std": 0.0896514969002885,
+        "values": [
+          0.38095238095238093,
+          0.4,
+          0.32000000000000006,
+          0.6153846153846154,
+          0.45,
+          0.35,
+          0.44
+        ]
+      },
+      "slots_base": {
+        "mean": 0.10521716378859235,
+        "std": 0.033226076034363984,
+        "values": [
+          0.09523809523809523,
+          0.13333333333333333,
+          0.12,
+          0.05128205128205128,
+          0.06666666666666667,
+          0.15,
+          0.12
+        ]
+      },
+      "slots_attack": {
+        "mean": 0.29558171986743415,
+        "std": 0.02014897513817202,
+        "values": [
+          0.2698412698412698,
+          0.32,
+          0.30666666666666664,
+          0.2692307692307692,
+          0.2833333333333333,
+          0.3,
+          0.32
+        ]
+      },
+      "slots_uplift": {
+        "mean": 0.19036455607884178,
+        "std": 0.02220230391091464,
+        "values": [
+          0.1746031746031746,
+          0.18666666666666668,
+          0.18666666666666665,
+          0.21794871794871795,
+          0.21666666666666667,
+          0.15,
+          0.2
+        ]
+      },
+      "n_target_pairs": {
+        "mean": 32.0,
+        "std": 3.2071349029490928,
+        "values": [
+          29,
+          32,
+          35,
+          35,
+          27,
+          30,
+          36
+        ]
+      },
+      "n_target_papers": {
+        "mean": 23.142857142857142,
+        "std": 2.474358296526968,
+        "values": [
+          21,
+          25,
+          25,
+          26,
+          20,
+          20,
+          25
+        ]
+      },
+      "pair_mcnemar_significant_runs": 7,
+      "coverage_mcnemar_significant_runs": 6
+    },
+    "collusion-50": {
+      "bid_base_mean": {
+        "mean": 0.6690787329031667,
+        "std": 0.10846880483066908,
+        "values": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.7111111111111111,
+          0.8673469387755102,
+          0.6923076923076923,
+          0.4794520547945205,
+          0.6
+        ]
+      },
+      "bid_base_vl": {
+        "mean": 1.8535897095846006,
+        "std": 1.273035083490332,
+        "values": [
+          2.3255813953488373,
+          2.1052631578947367,
+          2.1739130434782608,
+          0.0,
+          3.7037037037037037,
+          2.6666666666666665,
+          0.0
+        ]
+      },
+      "bid_base_vh": {
+        "mean": 15.747573743188592,
+        "std": 6.03454984940193,
+        "values": [
+          20.930232558139537,
+          9.473684210526315,
+          14.130434782608695,
+          23.46938775510204,
+          19.753086419753085,
+          5.333333333333333,
+          17.142857142857142
+        ]
+      },
+      "bid_attack_mean": {
+        "mean": 2.0,
+        "std": 0.0,
+        "values": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ]
+      },
+      "bid_attack_vh": {
+        "mean": 100.0,
+        "std": 0.0,
+        "values": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ]
+      },
+      "bid_vh_uplift_pp": {
+        "mean": 84.2524262568114,
+        "std": 6.034549849401933,
+        "values": [
+          79.06976744186046,
+          90.52631578947368,
+          85.86956521739131,
+          76.53061224489795,
+          80.24691358024691,
+          94.66666666666667,
+          82.85714285714286
+        ]
+      },
+      "pair_base": {
+        "mean": 0.18270862888856665,
+        "std": 0.035429236378925644,
+        "values": [
+          0.20930232558139536,
+          0.15789473684210525,
+          0.2391304347826087,
+          0.1836734693877551,
+          0.19753086419753085,
+          0.12,
+          0.17142857142857143
+        ]
+      },
+      "pair_attack": {
+        "mean": 0.6236617637240166,
+        "std": 0.03361405645163396,
+        "values": [
+          0.627906976744186,
+          0.6105263157894737,
+          0.6086956521739131,
+          0.6632653061224489,
+          0.6666666666666666,
+          0.56,
+          0.6285714285714286
+        ]
+      },
+      "pair_uplift": {
+        "mean": 0.44095313483545,
+        "std": 0.03439747322565882,
+        "values": [
+          0.41860465116279066,
+          0.45263157894736844,
+          0.3695652173913044,
+          0.47959183673469385,
+          0.4691358024691358,
+          0.44000000000000006,
+          0.45714285714285713
+        ]
+      },
+      "coverage_base": {
+        "mean": 0.2801467529306507,
+        "std": 0.05482227452386049,
+        "values": [
+          0.2692307692307692,
+          0.26785714285714285,
+          0.38181818181818183,
+          0.32075471698113206,
+          0.2857142857142857,
+          0.1956521739130435,
+          0.24
+        ]
+      },
+      "coverage_attack": {
+        "mean": 0.7694821181396829,
+        "std": 0.06094981275341457,
+        "values": [
+          0.7884615384615384,
+          0.7678571428571429,
+          0.7636363636363637,
+          0.8867924528301887,
+          0.7857142857142857,
+          0.6739130434782609,
+          0.72
+        ]
+      },
+      "coverage_uplift": {
+        "mean": 0.48933536520903215,
+        "std": 0.0517882997480052,
+        "values": [
+          0.5192307692307692,
+          0.5,
+          0.38181818181818183,
+          0.5660377358490567,
+          0.5,
+          0.4782608695652174,
+          0.48
+        ]
+      },
+      "slots_base": {
+        "mean": 0.0988095281022739,
+        "std": 0.021579149207097293,
+        "values": [
+          0.11538461538461539,
+          0.08928571428571429,
+          0.13333333333333333,
+          0.11320754716981132,
+          0.09523809523809523,
+          0.06521739130434782,
+          0.08
+        ]
+      },
+      "slots_attack": {
+        "mean": 0.3369572347258975,
+        "std": 0.03490548754262946,
+        "values": [
+          0.34615384615384615,
+          0.34523809523809523,
+          0.3393939393939394,
+          0.4088050314465409,
+          0.32142857142857145,
+          0.30434782608695654,
+          0.29333333333333333
+        ]
+      },
+      "slots_uplift": {
+        "mean": 0.23814770662362367,
+        "std": 0.027931552933338426,
+        "values": [
+          0.23076923076923075,
+          0.25595238095238093,
+          0.20606060606060608,
+          0.2955974842767296,
+          0.22619047619047622,
+          0.2391304347826087,
+          0.21333333333333332
+        ]
+      },
+      "n_target_pairs": {
+        "mean": 85.28571428571429,
+        "std": 9.705878715121731,
+        "values": [
+          86,
+          95,
+          92,
+          98,
+          81,
+          75,
+          70
+        ]
+      },
+      "n_target_papers": {
+        "mean": 52.57142857142857,
+        "std": 3.374574803147919,
+        "values": [
+          52,
+          56,
+          55,
+          53,
+          56,
+          46,
+          50
+        ]
+      },
+      "pair_mcnemar_significant_runs": 7,
+      "coverage_mcnemar_significant_runs": 7
+    }
+  }
+}
