@@ -70,10 +70,25 @@ require new reviewer profiles and additional generation components. The supplied
 snapshot through Semantic Scholar; recollection does not reconstruct the
 original experimental profiles.
 
+## Citation
+
+```bibtex
+@misc{zhou2026cabal,
+  title = {CABAL: Multi-Agent Simulacra for Tracing the Effects of
+           Collusive Bidding in Peer Review},
+  author = {Jicheng Zhou and Kemou Li and Kahim Wong and Zheyuan Li
+            and Zhuan Shi and Fengpeng Li and Haiwei Wu and Jiantao Zhou},
+  year = {2026},
+  eprint = {2609.05227},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.AI},
+  url = {https://arxiv.org/abs/2609.05227}
+}
+```
+
 ## 📄 License and attribution
 
 Code is released under [Apache 2.0](LICENSE); the de-identified dataset under
 [CC BY 4.0](DATA_LICENSE.md). Detector methods draw on the malicious-bidding and
 reviewer-author collusion studies of Jecmen et al.; source attribution and
 implementation details are provided in [the acknowledgments](NOTICE).
-Citation metadata is available in [CITATION.cff](CITATION.cff).
